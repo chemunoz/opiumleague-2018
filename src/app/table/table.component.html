@@ -1,0 +1,166 @@
+<div class="h3 text-center my-3">CLASIFICACIONES</div>
+
+<!-- Tabs -->
+<ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="current-table-tab" data-toggle="tab" href="#current-table" role="tab" aria-controls="current-table" aria-selected="true">
+      <span><i class="fas fa-table"></i></span>
+      <span class="d-none d-md-inline"> Clasificación General</span>
+      <span class="d-sm-inline d-md-none">Cla. Gral.</span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="hist-total-table-tab" data-toggle="tab" href="#hist-total-table" role="tab" aria-controls="hist-total-table" aria-selected="false">
+      <span class="icon is-small"><i class="far fa-clock"></i></span>
+      <span class="d-none d-md-inline"> Histórico General</span>
+      <span class="d-sm-inline d-md-none">His. Gral.</span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="hist-jornada-table-tab" data-toggle="tab" href="#hist-jornada-table" role="tab" aria-controls="hist-jornada-table" aria-selected="false">
+      <span class="icon is-small"><i class="far fa-clock"></i></span>
+      <span class="d-none d-md-inline"> Histórico Jornadas</span>
+      <span class="d-sm-inline d-md-none">His. Jor.</span>
+    </a>
+  </li>
+</ul>
+
+
+
+<!-- TABLES -->
+<div class="tab-content" id="myTabContent">
+  <!-- General Table -->
+  <div class="tab-pane fade show active" id="current-table" role="tabpanel" aria-labelledby="current-table-tab">
+    <section class="table-responsive">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+            <th class="text-center align-middle"><abbr title="Sube/baja posición">#####</abbr></th>
+            <th class="text-center align-middle">Equipo</th>
+            <th class="text-center align-middle d-none d-md-table-cell">Jugador</th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
+            <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Peor Jornada">Peor</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Media Puntos/Jornada">Media</abbr></th>
+          </tr>
+        </thead>
+        <tfoot class="thead-light">
+          <tr>
+            <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+            <th class="text-center align-middle"><abbr title="Sube/baja posición">#####</abbr></th>
+            <th class="text-center align-middle">Equipo</th>
+            <th class="text-center align-middle d-none d-md-table-cell">Jugador</th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
+            <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Peor Jornada">Peor</abbr></th>
+            <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Media Puntos/Jornada">Media</abbr></th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr class ="fila" *ngFor="let player of general_table, index as i" [ngClass]="{'champions': player.position_general < 5,
+                                                                      'uefa': (player.position_general == 5 || player.position_general == 6),
+                                                                      'intertoto': player.position_general == 7,
+                                                                      'descenso': player.position_general > general_table.length - 3}">
+
+            <td class="text-center align-middle">{{player.position_general}}</td>
+            <td class="text-center align-middle"><img src="/assets/img/{{player.updown}}" class="arrow" /> <span class="align-middle">{{player.updown_num}}</span></td>
+            <td class="text-left align-middle">
+              <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': player.position_general <= general_table.length - 3,
+                                                                 'text-white': player.position_general > general_table.length - 3}">
+                <img src="/assets/img/shields/150/{{player.shield}}" class="table-shield" /> {{player.team}}
+              </a>
+            </td>
+            <td class="text-left align-middle d-none d-md-table-cell">
+              <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': player.position_general <= general_table.length - 3,
+                                                                 'text-white': player.position_general > general_table.length - 3}">
+                <img src="/assets/img/players/{{player.image}}" class="table-foto" /> {{player.name}}
+              </a>
+            </td>
+            <td class="text-center align-middle d-none d-sm-table-cell">{{player.num_jornadas}}</td>
+            <td class="text-center align-middle font-weight-bold">{{player.score_general}}</td>
+            <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_best}}</td>
+            <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_worst}}</td>
+            <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_average}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <!-- Hictoric General Tables -->
+  <div class="tab-pane fade" id="hist-total-table" role="tabpanel" aria-labelledby="hist-total-table-tab">
+    <section class="table-responsive text-center">
+      <div class="text-center">HISTÓRICO GENERAL</div>
+      <span class="historic_table" *ngFor="let jornada of historic_general, index as i">
+        <div class="my-3 title">
+          <i class="fas fa-futbol"></i> {{jornada.jor_name}}
+        </div>
+        <table class="table mt-3">
+          <thead class="thead-light">
+            <tr>
+              <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+              <th class="text-center align-middle">Equipo</th>
+              <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let player_jornada of jornada, index as i">
+           <tr [ngClass]="{'champions': player_jornada.position_general < 5,
+                       'uefa': (player_jornada.position_general == 5 || player_jornada.position_general == 6),
+                       'intertoto': player_jornada.position_general == 7,
+                       'descenso': player_jornada.position_general > jornada.length - 3}">
+              <td class="text-center align-middle">{{player_jornada.position_general}}</td>
+              <td class="text-left align-middle">
+                <a [routerLink]="['/profile', '']" [ngClass]="{
+                          'text-dark': player_jornada.position_general <= general_table.length - 3,
+                          'text-white': player_jornada.position_general > general_table.length - 3}">
+                  <img src="/assets/img/shields/150/{{player_jornada.shield}}" class="table-shield" /> {{player_jornada.team}}
+                </a>
+              </td>
+              <td class="text-center align-middle font-weight-bold">{{player_jornada.score_general}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </span>
+    </section>
+  </div>
+
+
+  <!-- Match-day Tables -->
+  <div class="tab-pane fade" id="hist-jornada-table" role="tabpanel" aria-labelledby="hist-jornada-table-tab">
+    <section class="table-responsive text-center">
+      <div class="text-center">HISTÓRICO DE JORNADAS</div>
+      <span class="historic_table" *ngFor="let jornada of historic_jornada, index as i">
+        <div class="my-3 title">
+          <i class="fas fa-futbol"></i> {{jornada.jor_name}}
+        </div>
+        <table class="table mt-3">
+          <thead class="thead-light">
+            <tr>
+              <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+              <th class="text-center align-middle">Equipo</th>
+              <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let player_jornada of jornada, index as i">
+            <tr [ngClass]="{'champions': player_jornada.position_jornada == 1,
+                           'descenso': player_jornada.position_jornada == jornada.length}">
+              <td class="text-center align-middle">{{player_jornada.position_jornada}}</td>
+              <td class="text-left align-middle">
+                <a [routerLink]="['/profile', '']" [ngClass]="{
+                          'text-dark': player_jornada.position_jornada <= jornada.length - 1,
+                          'text-white': player_jornada.position_jornada == jornada.length}">
+                  <img src="/assets/img/shields/150/{{player_jornada.shield}}" class="table-shield" /> {{player_jornada.team}}
+                </a>
+              </td>
+              <td class="text-center align-middle font-weight-bold">{{player_jornada.score_jornada}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </span>
+    </section>
+  </div>
+
+</div>

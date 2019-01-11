@@ -1,0 +1,26 @@
+header{
+  background-color: #FFF;
+}
+
+#cabecera{
+  width: 95%;
+  background-color: none;
+  text-align: left;
+  margin: 0px auto;
+  padding: 10px 0;
+}
+
+#opium-logo{
+  height: 55px;
+}
+
+.apps-icons {
+  float: right;
+  width: 35%;
+  padding-top: 3px;
+  text-align: right;
+}
+.apps-icons img{
+  width: 120px;
+  /*height: 35px;*/
+}

@@ -1,0 +1,76 @@
+<section id="profile" class="section">
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container-fluid px-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2><strong>{{player.team}}</strong></h2>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 0px;">
+        <div class="col-sm-3 text-center">
+          <a href="#"> <img class="" src="assets/img/shields/300/{{player.shield}}" title={{player.team}} alt={{player.team}} ></a>
+        </div>
+
+        <div class="col-sm-9 col-lg-6">
+          <h6>RESUMEN TEMPORADA</h6>
+          <div class="row">
+            <div class="col-md-3 col-6 puntajes"><div class="numero">{{player.score_general}}</div> <span>pts total</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero">{{player.score_best}}</div> <span>pts max</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/cups/copa_liga_negra.png" style="height: 30px; position: relative; top: -4px;"> {{player.top_clasificacion}}</div> <span>jor. líder</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><i class="fas fa-medal"></i> {{player.top_jornada}}</div> <span>jor. ganadas</span></div>
+          </div>
+            <div class="row">
+            <div class="col-md-3 offset-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/arrow_up.png" class="arrow" style="position: relative; top: -4px;" /> {{player.positions_general_differences_max}}</div> <span>max subida</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/arrow_down.png" class="arrow" style="position: relative; top: -4px;"/> {{player.positions_general_differences_min}}</div> <span>max caída</span></div>
+          </div>
+          <div class="row my-3">
+            <div class="col">
+              <h6>PARTICIPACIONES</h6>
+              <span *ngFor="let temporada of player.seasons, index as i" style="text-align: center;">
+                <div class="temporada">{{temporada}}</div>
+              </span>
+            </div>
+          </div>
+          <div class="row mt-3" ng-if="player.trophies.length > 0">
+            <div class="col">
+              <h6>PALMARÉS</h6>
+              <span *ngFor="let trofeo of player.trophies, index as i" style="text-align: center;">
+                <img src="assets/img/cups/{{trofeo}}" class="profile-trophy" title="" alt="" >
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 d-none d-lg-block">
+          <img class="rounded-circle text-center" src="assets/img/players/{{player.image}}" title={{player.name}} alt={{player.name}} >
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- GRAFICOS Y BIO -->
+  <div class="container-fluid">
+    <!-- <div class="row mb-3">
+      <div class="col-sm-12">
+        <div class="card card-block text-xs-left p-3">
+          <h5><i class="fa fa-user fa-fw"></i>Biography</h5>
+            <p>Rick Sanchez C-137 is the father of Beth Smith, and the grandfather of Morty and Summer Smith. Aged 60 years old, he is said to have been away from the family for around fourteen years prior to the events of the show's first episode, "Pilot". He frequently travels on adventures through space and other planets and dimensions with his grandson Morty.</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 mb-3">
+        <div class="card card-block">
+          <span class="text-center"><div [chart]="points_chart"></div></span>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 mb-3">
+        <div class="card card-block">
+          <span class="text-center"><div [chart]="positions_chart"></div></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

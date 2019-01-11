@@ -1,0 +1,57 @@
+#profile img{
+  max-width:100%
+}
+
+#profile .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#profile .header {
+  padding: 10px 0;
+  border-top: 3px solid #3AAA64;
+  /* background-image: url(../img/banner.jpeg);
+  background-repeat: no-repeat, repeat;
+  background-size: 69%; */
+}
+
+#positions_chart,
+#points_chart{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.temporada{
+  float: left;
+  border: 1px solid;
+  margin: 5px 5px 0 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  background: #000;
+  color: #FFF;
+  font-size: 0.7rem;
+}
+
+.puntajes{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.puntajes .numero{
+  font-size: 2rem;
+  border: 1px solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.profile-trophy{
+  height: 30px;
+  margin-right: 10px;
+}

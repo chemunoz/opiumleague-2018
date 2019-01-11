@@ -1,0 +1,83 @@
+a {
+  color: #000;
+  text-decoration: none !important; }
+  
+/* CLASIFICACIONES */
+.table td {
+  padding: .4rem !important;
+  vertical-align: middle; }
+
+tr.champions {
+  background-color: #FFFF00;
+  color: #000; }
+
+tr.uefa {
+  background-color: #FFC000;
+  color: #000; }
+
+tr.intertoto {
+  background-color: #E26B0A;
+  color: #000; }
+
+tr.resto {
+  background-color: #FFF;
+  color: #000; }
+
+tr.descenso {
+  background-color: #FF5555;
+  color: #FFF; }
+
+tbody tr.fila:hover {
+  background-color: #0F0 !important;
+  color: #000 !important; }
+tbody tr:hover a {
+  color: #000 !important; }
+tbody tr.fila th:hover {
+  background-color: #FFF !important;
+  color: #000 !important; }
+
+.historic_table {
+  font-size: 1rem; }
+  .historic_table .title {
+    font-size: 1.2rem; }
+
+img.table-foto {
+  width: 2rem;
+  height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: middle; }
+
+img.table-shield {
+  width: 2.3rem;
+  height: 2.3rem;
+  vertical-align: middle; }
+
+img.arrow {
+  width: 2rem; }
+
+@media (min-width: 576px) {
+  .historic_table {
+    display: inline-block;
+    margin: 1px 3px 10px 3px;
+    border: 1px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; } }
+@media (min-width: 992px) {
+  img.table-foto {
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle; }
+
+  img.table-shield {
+    width: 2.8rem;
+    height: 2.8rem;
+    vertical-align: middle; } }

@@ -1,0 +1,89 @@
+<div class="h3 text-center my-3">OTRAS COMPETICIONES</div>
+
+<div class="row container-fluid mx-auto mb-3">
+  <div class="col-12 col-">
+
+    <div class="card-deck mb-3">
+      <!-- FO-CUP -->
+      <div class="card">
+        <a [routerLink]="['/cup']">
+          <img class="card-img-top" src="assets/img/cups/banner_fo_cup.png" alt="FO Cup">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">FO CUP</h4>
+          <p class="card-text">Competición bajo el soporte de Futmondo en su modo Copa, que enfrentará a los participantes de la Opium League mediante eliminatorias directas a ida y vuelta.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-FOCup"></span>
+          </small>
+          <br>
+          <small class="text-muted">
+            <i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup"></span>
+          </small>
+          <br>
+          <small class="text-muted">
+            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 8 hasta Jor. 17
+          </small>
+          <span class="float-right">
+            <a [routerLink]="['/focup']"><i class="fas fa-angle-double-right"></i></a>
+          </span>
+        </div>
+      </div>
+
+      <!-- CHAMPIONS -->
+      <div class="card">
+        <a [routerLink]="['/champions']">
+          <img class="card-img-top" src="assets/img/cups/banner_champions_league.jpg" alt="Opium Champions League">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">OPIUM CHAMPIONS LEAGUE</h4>
+          <p class="card-text">Competición donde los participantes se enfrentarán siguiendo un formato similar al de la Liga de Campeones, contando con una primera fase de liguilla, para pasar a la fase de eliminatorias a ida y vuelta, salvo la final que será a partido único.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions"></span>
+          </small>
+          <br>
+          <small class="text-muted">
+            <i class="far fa-clock"></i> Inicio: <span id="countdown-Champions"></span>
+          </small>
+          <br>
+          <small class="text-muted">
+            <i class="fas fa-table"></i> (liguilla) Desde Jor. 18 hasta Jor. 23
+          </small><br>
+          <small class="text-muted">
+            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 24 hasta Jor. 30
+          </small>
+          <span class="float-right">
+            <a [routerLink]="['/champions']"><i class="fas fa-angle-double-right"></i></a>
+          </span>
+        </div>
+      </div>
+
+      <!-- EUROPA LEAGUE -->
+      <div class="card">
+        <a [routerLink]="['/uefa']">
+          <img class="card-img-top" src="assets/img/cups/banner_europa_league.jpg" alt="Opium Europa League">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">OPIUM EUROPA LEAGUE</h4>
+          <p class="card-text">Competición en la que participarán los equipos que hayan quedado eliminados en la fase de liguilla de la "OPIUM CHAMPIONS LEAGUE" y se jugará a eliminatorias a ida y vuelta, salvo la final que será a partido único.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <i class="far fa-clock"></i> Inicio: <span id="countdown-EuropaLeague"></span>
+          </small>
+          <br>
+          <small class="text-muted">
+            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 24 hasta Jor. 30
+          </small>
+          <span class="float-right">
+            <a [routerLink]="['/uefa']"><i class="fas fa-angle-double-right"></i></a>
+          </span>
+        </div>
+      </div>
+
+    </div><!--end card-deck-->
+  </div>
+</div>

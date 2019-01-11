@@ -1,0 +1,32 @@
+a {
+  color: #000 !important;
+  text-decoration: none !important; }
+
+/*GRAFICOS*/
+#contenedor-graficos {
+  width: 95%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 5px; }
+
+.fa-exchange-alt {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.fa-trophy-down {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg); }
+
+img.charts-foto {
+  width: 200px;
+  vertical-align: middle; }

@@ -1,0 +1,14 @@
+<!-- Shields -->
+<div class="jumbotron">
+  <section class="container-fluid">
+    <div class="trans-background">X OPIUM INFICAN VIAJES</div>
+    <!-- <div class="trans-background" style="color: #000;"><i class="far fa-clock"></i> <span id="countdown"></span></div> -->
+    <div class="trans-background mt-3 text-center">
+      <span *ngFor="let player of homePlayers, index as i">
+        <a [routerLink]="['/profile', i]">
+          <img class="shield" src="assets/img/shields/150/{{player.shield}}" alt="{{player.team}}"/>
+        </a>
+      </span>
+    </div>
+  </section>
+</div>
