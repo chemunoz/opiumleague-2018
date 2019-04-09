@@ -8,10 +8,24 @@ import { DataService } from './../data.service';
 })
 export class GalleryComponent implements OnInit {
 
-  players:any[] = [];
+  galleryPlayers:any[] = [];
 
   constructor(private _servicio:DataService) {
-    this.players = _servicio.readPlayers();
+    this.galleryPlayers = _servicio.readPlayers();
+
+    // Comparison function
+    const cmp = (x, y) => {
+      return (x > y) ? 1 : (x < y) ? -1 : 0;
+    };
+    
+    // Sort
+    this.galleryPlayers.sort(function(a, b){
+      //note the minus before -cmp, for descending order
+      return cmp(
+        [cmp(a.name, b.name)],
+        [cmp(b.name, a.name)]
+      );
+    });
   }
 
   ngOnInit() {
