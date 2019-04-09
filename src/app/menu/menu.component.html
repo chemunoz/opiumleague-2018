@@ -2,53 +2,48 @@
   <a class="navbar-brand d-lg-none d-block" [routerLink]="['/']">
     <img src="./assets/banner_opium.png" height="40" alt="">
   </a>
-  <span style="text-align: right;">
-    <span id="menu-fullscreen" class="d-lg-none d-inline">
-      <i class="fas fa-window-maximize fa-2x" style="margin-right: 10px; top: 5px; position: relative; color: #7C7C7D;"></i>
-    </span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav nav-fill w-100">
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/']">
           <span><i class="fas fa-home"></i></span>
           <span> Home <span class="sr-only">(current)</span></span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/table']">
           <span><i class="fas fa-table"></i></span>
           <span> Clasificación</span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/charts']">
           <span><i class="fas fa-chart-area"></i></span>
           <span> Gráficos</span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/competitions']">
           <span><i class="fas fa-trophy"></i></span>
           <span> Competiciones</span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/rules']">
           <span><i class="fas fa-file-alt"></i></span>
           <span> Reglamento</span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/gallery']">
           <span><i class="fas fa-user-circle"></i></span>
           <span> Participantes</span>
         </a>
       </li>
-      <li class="nav-item" routerLinkAtive="active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkAtive="active">
         <a class="nav-link" style="font-size: 1.1em;" [routerLink]="['/history']">
           <span><i class="fas fa-university"></i></span>
           <span> Historia</span>
@@ -57,49 +52,3 @@
     </ul>
   </div>
 </nav>
-
-<script type="text/javascript">
-  let fullscreen_state = false;
-  $('#menu-fullscreen').on('click', ()=>{
-    console.log(fullscreen_state);
-    if (fullscreen_state) {
-      $('#menu-fullscreen').html(`
-        <i id="menu-fullscreen" class="fas fa-window-maximize fa-2x" style="margin-right: 10px; top: 5px; position: relative; color: #7C7C7D;"></i>`);
-      closeFullscreen();
-      fullscreen_state = false;
-    }else{
-      $('#menu-fullscreen').html(`
-        <i id="menu-fullscreen" class="far fa-window-restore fa-2x" style="margin-right: 10px; top: 5px; position: relative; color: #7C7C7D;"></i>`);
-      openFullscreen();
-      fullscreen_state = true;
-    }
-  });
-
-  function openFullscreen() {
-    let elem = document.documentElement;
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.mozRequestFullScreen) { /* Firefox */
-      elem.mozRequestFullScreen();
-    } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE/Edge */
-      elem.msRequestFullscreen();
-    }
-    $('.navbar-collapse').collapse('hide');
-  }
-
-
-  function closeFullscreen() {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.mozCancelFullScreen) { /* Firefox */
-      document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-      document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) { /* IE/Edge */
-      document.msExitFullscreen();
-    }
-    $('.navbar-collapse').collapse('hide');
-  }
-</script>
