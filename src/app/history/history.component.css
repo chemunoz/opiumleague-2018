@@ -7,10 +7,15 @@ p{
   text-align: justify;
 }
 
-.histo-img, {
+.histo-img{
   width: 90%;
   vertical-align: middle;
 }
+
+.table td {
+  padding: 0.5rem 0.1rem !important;
+  vertical-align: middle !important;
+  font-size: 0.9rem; }
 
 .text-marked{
   font-weight: bold;
@@ -128,7 +133,7 @@ p{
 .tag{
   background: #000;
   color: #FFF;
-  font-size: 0.75em;
+  font-size: 0.7em;
   padding: 5px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
