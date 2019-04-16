@@ -8,16 +8,16 @@ import { DataService } from './../data.service';
 })
 export class HomeComponent implements OnInit {
 
-  homePlayers: any[] = [];
+  homePlayers:any[] = [];
 
   constructor(private _servicio:DataService) {
-    this.homePlayers = _servicio.readPlayers();
-
     // Comparison function
     const cmp = (x: any, y: any) => {
       return (x > y) ? 1 : (x < y) ? -1 : 0;
     };
 
+    this.homePlayers = this._servicio.readPlayers();
+      
     // Sort
     this.homePlayers.sort(function(a, b) {
       // note the minus before -cmp, for descending order
@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
     console.log('HOME', this.homePlayers);
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import {} from 'jquery';
-declare var $: any;
 import { DataService } from './../data.service';
+declare var $: any;
 
 @Component({
   selector: 'app-table',
@@ -9,7 +8,6 @@ import { DataService } from './../data.service';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-
   tablePlayers: any[] = [];
   tables: any;
   general_table: any;
