@@ -3,7 +3,7 @@ Opium League is a championship of some friends over Fantasy football (soccer) ga
 
 Is an ANGULAR project with statistics, tables and charts for represent that competition. 
 The project is online here:
-http://fantasticaliga.freehostia.com/
+http://opiumleague.com
 
 ### NOTES:
 By the moment I don't use any database to store data, just a JSON data which has the game scores of each team in each round of spanish league "La Liga".
