@@ -113,7 +113,7 @@
                        'descenso': player_jornada.position_general > jornada.length - 3}">
               <td class="text-center align-middle">{{player_jornada.position_general}}</td>
               <td class="text-left align-middle">
-                <a [routerLink]="['/profile', '']" [ngClass]="{
+                <a [routerLink]="['/profile', player_jornada.id]" [ngClass]="{
                           'text-dark': player_jornada.position_general <= general_table.length - 3,
                           'text-white': player_jornada.position_general > general_table.length - 3}">
                   <img src="/assets/img/shields/150/{{player_jornada.shield}}" class="table-shield" /> {{player_jornada.team}}
@@ -149,7 +149,7 @@
                            'descenso': player_jornada.position_jornada == jornada.length}">
               <td class="text-center align-middle">{{player_jornada.position_jornada}}</td>
               <td class="text-left align-middle">
-                <a [routerLink]="['/profile', '']" [ngClass]="{
+                <a [routerLink]="['/profile', player_jornada.id]" [ngClass]="{
                           'text-dark': player_jornada.position_jornada <= jornada.length - 1,
                           'text-white': player_jornada.position_jornada == jornada.length}">
                   <img src="/assets/img/shields/150/{{player_jornada.shield}}" class="table-shield" /> {{player_jornada.team}}
