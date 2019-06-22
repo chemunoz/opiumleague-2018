@@ -1,6 +1,9 @@
 a {
   color: #000;
   text-decoration: none !important; }
+
+.nav-link {
+  padding: .5rem .2rem; }
   
 /* CLASIFICACIONES */
 .table td {
