@@ -1,14 +1,16 @@
 <!-- Shields -->
 <div class="jumbotron">
   <section class="container-fluid">
-    <div class="trans-background">X OPIUM INFICAN VIAJES</div>
-    <!-- <div class="trans-background" style="color: #000;"><i class="far fa-clock"></i> <span id="countdown"></span></div> -->
+    <div class="trans-background">XI OPIUM INFICAN VIAJES</div>
+    <div class="trans-background mt-3" style="color: #000;"><i class="far fa-clock"></i> <span id="countdown"></span></div>
     <div class="trans-background mt-3 text-center">
-      <span *ngFor="let player of homePlayers, index as i">
+      <div style="font-size: 0.5em;">EQUIPOS PENDIENTES DE CONFIRMAR...</div>
+      <img class="shield" src="assets/img/shields/300/logo_opium_icono.png" alt="Opium League"/>
+      <!-- <span *ngFor="let player of homePlayers, index as i">
         <a [routerLink]="['/profile', player.id]">
           <img class="shield" src="assets/img/shields/150/{{player.shield}}" alt="{{player.team}}"/>
         </a>
-      </span>
+      </span> -->
     </div>
   </section>
 </div>
