@@ -6,7 +6,14 @@ a {
   padding: .5rem .2rem; }
   
 /* CLASIFICACIONES */
-.table td {
+.fa-exchange-alt {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.table td, .table th {
   padding: 0.5rem 0.1rem !important;
   vertical-align: middle !important;
   font-size: 0.9rem; }
