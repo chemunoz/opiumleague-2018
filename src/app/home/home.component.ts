@@ -52,10 +52,9 @@ export class HomeComponent implements OnInit {
       let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+      
       // Output the result in an element with id="demo"
-      document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
+      document.getElementById("countdown") ? document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s` : null;
     
       // If the count down is over, write some text
       if (distance < 0) {

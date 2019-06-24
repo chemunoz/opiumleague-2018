@@ -1,8 +1,8 @@
 /* INDEX */
 .trans-background {
-  color: #FFF;
+  color: #000;
   font-size: 1.5em;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.5);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -21,14 +21,14 @@
 }
 
 #countdown{
+  color: #000;
   text-align: center;
   font-size: 1.5rem;
   margin: 0 0 0 5px;
-  color: #FFF;
 }
 
 i.fa-clock{
-  color: #FFF;
+  color: #000;
 }
 
 img.shield {
