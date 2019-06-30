@@ -22,6 +22,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { CupComponent } from './cup/cup.component';
 import { ChampionsComponent } from './champions/champions.component';
 import { UefaComponent } from './uefa/uefa.component';
+import { NewsComponent } from './news/news.component';
 
 // Routes
 const routes: Routes = [
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path: 'cup', component: CupComponent },
   { path: 'champions', component: ChampionsComponent },
   { path: 'uefa', component: UefaComponent },
+  { path: 'news', component: NewsComponent },
   { path: 'rules', component: RulesComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'history', component: HistoryComponent },
@@ -54,7 +56,8 @@ const routes: Routes = [
     ProfileComponent,
     CupComponent,
     ChampionsComponent,
-    UefaComponent
+    UefaComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
