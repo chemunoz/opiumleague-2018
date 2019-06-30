@@ -11,7 +11,7 @@ export class CupComponent implements OnInit {
     const FOCup = [
       // SORTEO
       {
-        deadline: new Date('Sep 28, 2018 22:30:00').getTime(),
+        deadline: new Date('Sep 28, 2019 22:30:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -23,7 +23,7 @@ export class CupComponent implements OnInit {
       },
       // COMIENZO
       {
-      deadline: new Date('Oct 05, 2018 21:00:00').getTime(),
+      deadline: new Date('Oct 05, 2019 21:00:00').getTime(),
       date: {
         days: 0,
         hours: 0,

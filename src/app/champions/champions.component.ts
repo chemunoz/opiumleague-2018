@@ -11,7 +11,7 @@ export class ChampionsComponent implements OnInit {
     const Champions = [
       // SORTEO
       {
-        deadline: new Date('Dec 22, 2018 22:30:00').getTime(),
+        deadline: new Date('Dec 22, 2019 22:30:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -23,7 +23,7 @@ export class ChampionsComponent implements OnInit {
       },
       // COMIENZO
       {
-        deadline: new Date('Jan 04, 2019 19:00:00').getTime(),
+        deadline: new Date('Jan 04, 2020 19:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,

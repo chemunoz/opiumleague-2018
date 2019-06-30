@@ -14,7 +14,7 @@ export class CompetitionsComponent implements OnInit {
     const FOCup = [
       // SORTEO
       {
-        deadline: new Date('Sep 28, 2018 22:30:00').getTime(),
+        deadline: new Date('Sep 28, 2019 22:30:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -26,7 +26,7 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-      deadline: new Date('Oct 05, 2018 21:00:00').getTime(),
+      deadline: new Date('Oct 05, 2019 21:00:00').getTime(),
       date: {
         days: 0,
         hours: 0,
@@ -41,7 +41,7 @@ export class CompetitionsComponent implements OnInit {
     const Champions = [
       // SORTEO
       {
-        deadline: new Date('Dec 22, 2018 22:30:00').getTime(),
+        deadline: new Date('Dec 22, 2019 22:30:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -53,7 +53,7 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-        deadline: new Date('Jan 04, 2019 19:00:00').getTime(),
+        deadline: new Date('Jan 04, 2020 19:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -66,7 +66,7 @@ export class CompetitionsComponent implements OnInit {
     ];
 
     const EuropaLeague = {
-      deadline: new Date('Feb 17, 2019 20:00:00').getTime(),
+      deadline: new Date('Feb 17, 2020 20:00:00').getTime(),
       date: {
         days: 0,
         hours: 0,
