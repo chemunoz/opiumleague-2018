@@ -309,7 +309,95 @@ export class DataService {
                  null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
       "trophies": []
-    }
+    },
+    {
+      "id": 27,
+      "name": "Dani G.",
+      "team": "Caracas FC",
+      "shield": "daniel_gonzalez.png",
+      "image": "daniel_gonzalez.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2018-2019", "2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 28,
+      "name": "Jose C.",
+      "team": "Autos Esprilla",
+      "shield": "jose_cagigas.png",
+      "image": "jose_cagigas.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 29,
+      "name": "David M.",
+      "team": "New Tikis",
+      "shield": "david_munoz.png",
+      "image": "david_munoz.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 30,
+      "name": "Angel C.",
+      "team": "Tikis de la Valle",
+      "shield": "angel_cuesta.png",
+      "image": "angel_cuesta.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 31,
+      "name": "Dani L.",
+      "team": "New Team",
+      "shield": "dani_lozano.png",
+      "image": "icono_masculino.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 32,
+      "name": "Javichu",
+      "team": "Racing Hoznayo",
+      "shield": "logo_opium_icono.png",
+      "image": "javichu.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 33,
+      "name": "Mario",
+      "team": "Mario's Eleven",
+      "shield": "mario.png",
+      "image": "mario.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
+      "trophies": []
+    },
+    {
+      "id": 34,
+      "name": "Paloma",
+      "team": "Super Palomba",
+      "shield": "paloma.png",
+      "image": "paloma.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
+      "trophies": []
+    },
   ];
 
   calculatePlayers() {
