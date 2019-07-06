@@ -170,9 +170,9 @@ export class DataService {
     {
       "id": 14,
       "name": "Lorea",
-      "team": "Lorea Team",
+      "team": "Jambo jambo",
       "shield": "logo_opium_icono.png",
-      "image": "icono_femenino.jpg",
+      "image": "lorea.jpg",
       "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                  null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       "seasons": ["2019-2020"],
@@ -214,9 +214,9 @@ export class DataService {
     {
       "id": 18,
       "name": "Ezequiel",
-      "team": "Eze Team",
-      "shield": "logo_opium_icono.png",
-      "image": "icono_masculino.jpg",
+      "team": "Guardia Imperial",
+      "shield": "ezequiel.png",
+      "image": "ezequiel.jpg",
       "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                  null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       "seasons": ["2019-2020"],
@@ -359,7 +359,7 @@ export class DataService {
       "name": "Dani L.",
       "team": "New Team",
       "shield": "dani_lozano.png",
-      "image": "icono_masculino.jpg",
+      "image": "dani_lozano.jpg",
       "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                  null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       "seasons": ["2019-2020"],
@@ -398,6 +398,17 @@ export class DataService {
       "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
       "trophies": []
     },
+    {
+      "id": 35,
+      "name": "Dani S.",
+      "team": "Wiki Team",
+      "shield": "danilo.png",
+      "image": "danilo.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2009-2010",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020"],
+      "trophies": []
+    }
   ];
 
   calculatePlayers() {
