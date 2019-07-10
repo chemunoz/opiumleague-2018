@@ -408,6 +408,17 @@ export class DataService {
                  null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
       "seasons": ["2009-2010",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020"],
       "trophies": []
+    },
+    {
+      "id": 36,
+      "name": "Dani R.",
+      "team": "Racing de Santander",
+      "shield": "dani_negro.png",
+      "image": "dani_negro.jpg",
+      "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
+      "trophies": []
     }
   ];
 
