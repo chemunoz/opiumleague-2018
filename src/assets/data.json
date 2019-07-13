@@ -8,7 +8,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 1,
@@ -19,7 +19,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_liga_azul.png", "copa_liga_azul.png"]
+    "trophies": {
+      "liga_marca": ["2012-2013", "2013-2014"],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 2,
@@ -30,7 +38,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_liga_verde.png"]
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": ["2018-2019"],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 3,
@@ -41,7 +57,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 4,
@@ -52,7 +68,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 5,
@@ -63,7 +79,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011", "2012-2013", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 6,
@@ -74,7 +90,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 7,
@@ -85,7 +101,16 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_liga_verde.png", "copa_uefa_negra.png"]
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": ["2017-2018"],
+      "champions": [],
+      "europa_league": ["2018-2019"],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
+    
   },
   {
     "id": 8,
@@ -96,7 +121,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 9,
@@ -107,7 +132,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 10,
@@ -118,7 +143,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_champions_negra.png"]
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": ["2017-2018"],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 11,
@@ -129,7 +162,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 12,
@@ -140,7 +173,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 13,
@@ -151,7 +184,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_liga_azul.png"]
+    "trophies": {
+      "liga_marca": ["2015-2016"],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 14,
@@ -162,7 +203,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 15,
@@ -173,7 +214,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 16,
@@ -184,7 +225,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 17,
@@ -195,7 +236,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 18,
@@ -206,7 +247,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 19,
@@ -217,7 +258,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 20,
@@ -228,7 +269,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 21,
@@ -239,7 +280,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 22,
@@ -250,7 +291,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_champions_negra.png"]
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": ["2018-2019"],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 23,
@@ -261,7 +310,15 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": ["copa_facup_negra.png"]
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": ["2018-2019"],
+      "supercopa_europa": [],
+      "supercopa_espana": []
+    }
   },
   {
     "id": 24,
@@ -272,7 +329,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 25,
@@ -283,7 +340,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2012-2013", "2013-2014", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 26,
@@ -294,7 +351,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 27,
@@ -305,7 +362,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 28,
@@ -316,7 +373,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 29,
@@ -327,7 +384,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 30,
@@ -338,7 +395,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 31,
@@ -349,7 +406,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 32,
@@ -360,7 +417,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 33,
@@ -371,7 +428,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 34,
@@ -382,7 +439,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 35,
@@ -393,7 +450,7 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
     "id": 36,
@@ -404,6 +461,6 @@
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": []
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   }
 ]
