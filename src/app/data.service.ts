@@ -38,6 +38,10 @@ export class DataService {
       player.positions_jornada = [];
       player.positions_general = [];
       player.score_average_jornada = [];
+      player.score_best = 0;
+      player.score_worst = 0;
+      player.score_average = 0;
+      player.num_jornadas = 0;
 
       // Create each jornada Object
       player.points.filter((value: any) => value !== null).forEach((score: any, index) => {
@@ -81,10 +85,10 @@ export class DataService {
 
         points_average.push(team.score_jornada);
 
-        player[0].score_best = Math.max.apply(null, player[0].points.filter((value) => value !== null));
-        player[0].score_worst = Math.min.apply(null, player[0].points.filter((value) => value !== null));
-        player[0].score_average = average.apply(null, player[0].points.filter((value) => value !== null));
-        player[0].num_jornadas = player[0].points.filter((value) => value !== null).length;
+        player[0].score_best = Math.max.apply(null, player[0].points.filter(value => value !== null));
+        player[0].score_worst = Math.min.apply(null, player[0].points.filter(value => value !== null));
+        player[0].score_average = average.apply(null, player[0].points.filter(value => value !== null));
+        player[0].num_jornadas = player[0].points.filter(value => value !== null).length;
       });
       calculate_jornadas[jornada].score_average = average.apply(null, points_average);
 
