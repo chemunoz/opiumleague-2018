@@ -27,11 +27,11 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     console.log('SELECCIONADO', this.player);
     const mijugador = this.player;
-    mijugador.positions_general_differences = mijugador.positions_general.map(function(value: any, index) {
+    mijugador.positions_general_differences = mijugador.positions_general.map((value:any, index:number) => {
       return (index === 0) ? 0 : mijugador.positions_general[index - 1] - value;
     });
-    mijugador.positions_general_differences_max = Math.max.apply(null, mijugador.positions_general_differences.filter((value)=>{return !isNaN(value);}));
-    mijugador.positions_general_differences_min = Math.abs(Math.min.apply(null, mijugador.positions_general_differences.filter((value)=>{return !isNaN(value);})));
+    mijugador.positions_general_differences_max = mijugador.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value)));
+    mijugador.positions_general_differences_min = mijugador.positions_general_differences.length === 0 ? 0 : Math.abs(Math.min.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value))));
 
     const ejes = {
       XJornada: [],
@@ -50,6 +50,21 @@ export class ProfileComponent implements OnInit {
         ejes.YPosicionesJornada.push(mijugador['positions_jornada'][i]);
       // }
     }
+    
+    // Trophies
+    let total_trophies = 0;
+    let trophies_profile = [];
+    Object.keys(mijugador.trophies).filter((value) => mijugador.trophies[value].length > 0)
+    .forEach((trophy, index) => {
+      total_trophies += mijugador.trophies[trophy].length;
+      mijugador.trophies[trophy].forEach(season => {
+        trophies_profile.push(`${trophy}.png`)
+      });
+    });
+    mijugador.trophies_profile = trophies_profile;
+    mijugador.trophies.total = total_trophies;
+
+    
 
 
 
