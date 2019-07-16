@@ -7,6 +7,10 @@ a {
   padding: .4rem !important;
   vertical-align: middle; }
 
+th.text-left{
+  font-size: 0.8rem;
+}
+
 tr.champions {
   background-color: #FFFF00;
   color: #000; }
@@ -95,7 +99,7 @@ img.table-shield {
   display: block; }
 
 .nav-link {
-  padding: .5rem .2rem; }
+  padding: .5rem .1rem; }
 
 .homeaway-result {
   background-color: #000;
