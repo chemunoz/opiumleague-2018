@@ -2,6 +2,9 @@ a {
   color: #000 !important;
   text-decoration: none !important; }
 
+th.text-left{
+  font-size: 0.8rem;
+}
 
 img.table-shield {
   width: 2.3rem;
@@ -57,7 +60,7 @@ img.table-shield {
   display: block; }
 
 .nav-link {
-  padding: .5rem .5rem; }
+  padding: .5rem .3rem; }
 
 .homeaway-result {
   background-color: #000;
