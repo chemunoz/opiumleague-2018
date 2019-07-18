@@ -3,9 +3,13 @@ a {
   text-decoration: none !important; }
   
 /*COMPETITIONS*/
-.table td {
+/* .table td {
   padding: .4rem !important;
-  vertical-align: middle; }
+  vertical-align: middle; } */
+
+th.text-left{
+  font-size: 0.8rem;
+}
 
 tr.champions {
   background-color: #FFFF00;
@@ -27,7 +31,7 @@ tr.descenso {
   background-color: #FF5555;
   color: #FFF; }
 
-  .fila-par {
+.fila-par {
   background: #EEE; }
 
 .fila-impar {
@@ -72,7 +76,8 @@ img.table-shield {
     vertical-align: middle;
     padding: 0; }
   .cup-table th {
-    text-align: left !important; }
+    /* text-align: left !important;  */
+  }
 
 .cup-difference {
   font-size: 0.8rem;
@@ -95,7 +100,7 @@ img.table-shield {
   display: block; }
 
 .nav-link {
-  padding: .5rem .5rem; }
+  padding: .5rem .3rem; }
 
 .homeaway-result {
   background-color: #000;
