@@ -30,3 +30,9 @@ a {
 img.charts-foto {
   width: 200px;
   vertical-align: middle; }
+
+@media (max-width: 576px) {
+  .fa-trophy-down {
+    margin-top: 25px;
+  }
+}
