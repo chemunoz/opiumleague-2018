@@ -32,12 +32,13 @@ export class HomeComponent implements OnInit {
     console.log('HOME', this.homePlayers);
     
     // Call to countdown timer
-    this.countdown();
+    this.countdown("Aug 16, 2019 21:00:00", "countdown");
+    this.countdown("Aug 11, 2019 21:00:00", "countdown-money");
   }
 
-  countdown = () => {
+  countdown = (fecha, elemento_id) => {
     // Set the date we're counting down to
-    let countDownDate = new Date("Aug 16, 2019 21:00:00").getTime();
+    let countDownDate = new Date(fecha).getTime();
 
     // Update the count down every 1 second
     let x = setInterval(function() {
@@ -54,12 +55,12 @@ export class HomeComponent implements OnInit {
       let seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
       // Output the result in an element with id="demo"
-      document.getElementById("countdown") ? document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s` : null;
+      document.getElementById(elemento_id) ? document.getElementById(elemento_id).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s` : null;
     
       // If the count down is over, write some text
       if (distance < 0) {
           clearInterval(x);
-          document.getElementById("countdown").innerHTML = "EXPIRED";
+          document.getElementById(elemento_id).innerHTML = "EXPIRED";
       }
     }, 1000);
   }

@@ -20,15 +20,16 @@
   padding: 15px 0 0 0;
 }
 
-#countdown{
+.cuenta-atras{
   color: #000;
   text-align: center;
   font-size: 1.5rem;
   margin: 0 0 0 5px;
 }
 
-i.fa-clock{
+i.far{
   color: #000;
+  margin-right: 5px;
 }
 
 img.shield {
