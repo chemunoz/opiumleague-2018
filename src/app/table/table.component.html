@@ -62,7 +62,7 @@
         <tbody>
           <tr class ="fila" *ngFor="let player of general_table, index as i" [ngClass]="{'champions': player.position_general < 5,
                                                                       'uefa': (player.position_general == 5 || player.position_general == 6),
-                                                                      'intertoto': player.position_general == 7,
+                                                                      'intertoto': (player.position_general == 7 || player.position_general == 8 || player.position_general == 9),
                                                                       'descenso': player.position_general > general_table.length - 3}">
 
             <td class="text-center align-middle">{{player.position_general}}</td>
