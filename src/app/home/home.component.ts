@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './../data.service';
+import { element } from '@angular/core/src/render3/instructions';
 
 @Component({
   selector: 'app-home',
@@ -32,14 +33,31 @@ export class HomeComponent implements OnInit {
     console.log('HOME', this.homePlayers);
     
     // Call to countdown timer
-    this.countdown("Aug 16, 2019 21:00:00", "countdown");
-    this.countdown("Aug 11, 2019 21:00:00", "countdown-money");
+    const countdowns = {
+      payment: {
+        date: "Aug 16, 2019 21:00:00",
+        element: "countdown-money"
+      },
+      start: {
+        date: "Aug 11, 2019 21:00:00",
+        element: "countdown"
+      }
+    };
+    if (new Date(countdowns.payment.date).getTime() > new Date().getTime()){
+      this.countdown(countdowns.payment.date, countdowns.payment.element);
+    }else{
+      this.countdown(countdowns.start.date, countdowns.start.element);
+    }
   }
 
   countdown = (fecha, elemento_id) => {
     // Set the date we're counting down to
     let countDownDate = new Date(fecha).getTime();
 
+    if (countDownDate - new Date().getTime() > 0){
+      let periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.6em;">PLAZO DE INSCRIPCIÓN: <br> 01 JULIO HASTA EL 11 AGOSTO</div>` : `<div style="font-size: 0.6em;">LA LIGA COMIENZA EN...</div>`;
+      document.getElementById('countdowns').innerHTML = `<div>${periodo}<i class="far ${elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt'}"></i> <span id="${elemento_id}" class="cuenta-atras"></span></div>`;
+    }
     // Update the count down every 1 second
     let x = setInterval(function() {
       // Get todays date and time
@@ -59,8 +77,9 @@ export class HomeComponent implements OnInit {
     
       // If the count down is over, write some text
       if (distance < 0) {
-          clearInterval(x);
-          document.getElementById(elemento_id).innerHTML = "EXPIRED";
+        clearInterval(x);
+        // document.getElementById(elemento_id).innerHTML = "EXPIRED";
+        document.getElementById('countdowns').style.display = 'none';
       }
     }, 1000);
   }
