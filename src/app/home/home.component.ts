@@ -35,11 +35,11 @@ export class HomeComponent implements OnInit {
     // Call to countdown timer
     const countdowns = {
       payment: {
-        date: "Aug 16, 2019 21:00:00",
+        date: "Aug 11, 2019 21:00:00",
         element: "countdown-money"
       },
       start: {
-        date: "Aug 11, 2019 21:00:00",
+        date: "Aug 16, 2019 21:00:00",
         element: "countdown"
       }
     };
