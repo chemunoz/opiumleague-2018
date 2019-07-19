@@ -14,7 +14,7 @@ export class CompetitionsComponent implements OnInit {
     const FOCup = [
       // SORTEO
       {
-        deadline: new Date('Sep 28, 2019 22:30:00').getTime(),
+        deadline: new Date('Sep 21, 2019 21:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -26,22 +26,22 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-      deadline: new Date('Oct 05, 2019 21:00:00').getTime(),
-      date: {
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
-      },
-      distance: 0,
-      text: ''
-    }
+        deadline: new Date('Sep 24, 2019 21:00:00').getTime(),
+        date: {
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0
+        },
+        distance: 0,
+        text: ''
+      }
     ];
 
     const Champions = [
       // SORTEO
       {
-        deadline: new Date('Dec 22, 2019 22:30:00').getTime(),
+        deadline: new Date('Dec 21, 2019 22:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -53,7 +53,7 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-        deadline: new Date('Jan 04, 2020 19:00:00').getTime(),
+        deadline: new Date('Jan 04, 2020 17:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -66,7 +66,7 @@ export class CompetitionsComponent implements OnInit {
     ];
 
     const EuropaLeague = {
-      deadline: new Date('Feb 17, 2020 20:00:00').getTime(),
+      deadline: new Date('Mar 07, 2020 17:00:00').getTime(),
       date: {
         days: 0,
         hours: 0,
@@ -77,7 +77,31 @@ export class CompetitionsComponent implements OnInit {
       text: ''
     };
 
-    const Competitions = [FOCup[0], FOCup[1], Champions[0], Champions[1], EuropaLeague];
+    const SupercupEuropa = {
+      deadline: new Date('Aug 16, 2019 21:00:00').getTime(),
+      date: {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0
+      },
+      distance: 0,
+      text: ''
+    };
+
+    const SupercupSpain = {
+      deadline: new Date('Aug 30, 2019 21:00:00').getTime(),
+      date: {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0
+      },
+      distance: 0,
+      text: ''
+    };
+
+    const Competitions = [FOCup[0], FOCup[1], Champions[0], Champions[1], EuropaLeague, SupercupEuropa, SupercupSpain];
 
     // Update the count down every 1 second
     setInterval(function() {
@@ -109,6 +133,8 @@ export class CompetitionsComponent implements OnInit {
       document.getElementById('countdown-draw-Champions') !== null ? document.getElementById('countdown-draw-Champions').innerHTML = Champions[0].text : null;
       document.getElementById('countdown-Champions') !== null ? document.getElementById('countdown-Champions').innerHTML = Champions[1].text : null;
       document.getElementById('countdown-EuropaLeague') !== null ? document.getElementById('countdown-EuropaLeague').innerHTML = EuropaLeague.text : null;
+      document.getElementById('countdown-SupercupEuropa') !== null ? document.getElementById('countdown-SupercupEuropa').innerHTML = SupercupEuropa.text : null;
+      document.getElementById('countdown-SupercupSpain') !== null ? document.getElementById('countdown-SupercupSpain').innerHTML = SupercupSpain.text : null;
     }, 1000);
   }
 

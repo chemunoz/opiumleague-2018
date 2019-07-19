@@ -23,6 +23,8 @@ import { CupComponent } from './cup/cup.component';
 import { ChampionsComponent } from './champions/champions.component';
 import { UefaComponent } from './uefa/uefa.component';
 import { NewsComponent } from './news/news.component';
+import { SupercupEuropaComponent } from './supercup-europa/supercup-europa.component';
+import { SupercupSpainComponent } from './supercup-spain/supercup-spain.component';
 
 // Routes
 const routes: Routes = [
@@ -38,6 +40,8 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'profile/:id', component: ProfileComponent },
+  { path: 'supercup-europa', component: SupercupEuropaComponent },
+  { path: 'supercup-spain', component: SupercupSpainComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' } //404 future
 ];
 
@@ -57,7 +61,9 @@ const routes: Routes = [
     CupComponent,
     ChampionsComponent,
     UefaComponent,
-    NewsComponent
+    NewsComponent,
+    SupercupEuropaComponent,
+    SupercupSpainComponent
   ],
   imports: [
     BrowserModule,
