@@ -1,0 +1,93 @@
+a {
+  color: #000 !important;
+  text-decoration: none !important; }
+  
+
+th.text-left{
+  font-size: 0.8rem;
+}
+
+tbody tr.fila:hover {
+  background-color: #0F0 !important;
+  color: #000 !important; }
+tbody tr:hover a {
+  color: #000 !important; }
+tbody tr.fila th:hover {
+  background-color: #FFF !important;
+  color: #000 !important; }
+
+img.table-shield {
+  width: 2.3rem;
+  height: 2.3rem;
+  vertical-align: middle; }
+
+.cruces-img {
+  width: 90%;
+  vertical-align: middle; }
+
+.tab-pane {
+  text-align: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%; }
+
+.cup-table {
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  table-layout: fixed; }
+  .cup-table .equipo {
+    width: 40%;
+    vertical-align: middle;
+    padding: 0.25rem 0.50rem 0.25rem 0.25rem; }
+  .cup-table .resultado {
+    width: 20%;
+    vertical-align: middle;
+    padding: 0; }
+  .cup-table th {
+    /* text-align: left !important;  */
+  }
+
+.cup-difference {
+  font-size: 0.8rem;
+  top: -5px;
+  position: relative; }
+
+.cup-score {
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+.cup-win-pre {
+  background-color: #F2FBEF; }
+
+.cup-lose-pre {
+  background-color: #F8E0E0; }
+
+#tab_container .container_item {
+  display: none; }
+#tab_container .container_item.is-active {
+  display: block; }
+
+.nav-link {
+  padding: .5rem .3rem; }
+
+.homeaway-result {
+  background-color: #000;
+  padding: 3px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.6rem; }
+
+@media (min-width: 576px) {
+  .cruces-img {
+    width: 70%;
+    vertical-align: middle; } }
+@media (min-width: 992px) {
+  .cruces-img {
+    width: 65%;
+    vertical-align: middle; }
+  img.table-shield {
+    width: 2.8rem;
+    height: 2.8rem;
+    vertical-align: middle; } }
