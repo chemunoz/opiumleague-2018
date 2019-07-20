@@ -26,7 +26,7 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-        deadline: new Date('Sep 24, 2019 21:00:00').getTime(),
+        deadline: new Date('Sep 29, 2019 17:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -41,7 +41,7 @@ export class CompetitionsComponent implements OnInit {
     const Champions = [
       // SORTEO
       {
-        deadline: new Date('Dec 21, 2019 22:00:00').getTime(),
+        deadline: new Date('Dec 21, 2019 21:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -53,7 +53,7 @@ export class CompetitionsComponent implements OnInit {
       },
       // COMIENZO
       {
-        deadline: new Date('Jan 04, 2020 17:00:00').getTime(),
+        deadline: new Date('Jan 05, 2020 17:00:00').getTime(),
         date: {
           days: 0,
           hours: 0,
@@ -66,7 +66,7 @@ export class CompetitionsComponent implements OnInit {
     ];
 
     const EuropaLeague = {
-      deadline: new Date('Mar 07, 2020 17:00:00').getTime(),
+      deadline: new Date('Mar 08, 2020 17:00:00').getTime(),
       date: {
         days: 0,
         hours: 0,
