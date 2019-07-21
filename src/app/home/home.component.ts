@@ -56,27 +56,28 @@ export class HomeComponent implements OnInit {
   }
 
   timer(fecha: string, elemento_id: string) {
-    const now = new Date().getTime();
-    let countDownDate = new Date(fecha).getTime();
+    let now = new Date().getTime();
+    const countDownDate = new Date(fecha).getTime();
     let distance = countDownDate - now;
 
-    // If the count down is over, write some text
     if (distance < 0) {
       document.getElementById('countdowns').style.display = 'none';
     }else{
-      if (countDownDate - now > 0){
-        let periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.6em;">PLAZO DE INSCRIPCIÓN: <br> 01 JULIO HASTA EL 11 AGOSTO</div>` : `<div style="font-size: 0.6em;">LA LIGA COMIENZA EN...</div>`;
-        document.getElementById('countdowns').innerHTML = `<div>${periodo}<i class="far ${elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt'}"></i> <span id="${elemento_id}" class="cuenta-atras"></span></div>`;
-      }
+      let periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.8rem;">PLAZO DE INSCRIPCIÓN: <br> 01 JULIO HASTA EL 11 AGOSTO</div>` : `<div style="font-size: 0.8rem;">LA LIGA COMIENZA EN...</div>`;
+      document.getElementById('countdowns').innerHTML = `<div>${periodo}<i class="far ${elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt'}"></i> <span id="${elemento_id}" class="countdowns">0d 0h 0m 0s</span></div>`;
+
       // Update the count down every 1 second
       setInterval(() => {
+        now = new Date().getTime();
+        distance = countDownDate - now;
+
         // Time calculations for days, hours, minutes and seconds
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-        // Output the result in an element with id="demo"
+
+        // Output the result
         document.getElementById(elemento_id) ? document.getElementById(elemento_id).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s` : null;
       }, 1000);
     }
