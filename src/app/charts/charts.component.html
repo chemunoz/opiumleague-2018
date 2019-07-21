@@ -1,6 +1,11 @@
 <div class="h3 text-center my-3">GRÁFICOS</div>
 
-<div class="container-fluid">
+<div *ngIf="players_chart[0].points[0] === null" class="my-3">
+    <div class="h6 text-center mt-3"><i class="fas fa-table"></i> DATOS AÚN NO DISPONIBLES</div>
+    <div><img src="/assets/img/no_data.gif" alt="Not Available" width="100%"></div>
+</div>
+
+<div *ngIf="players_chart[0].points[0] !== null " class="container-fluid">
     <div class="card-deck">
         <div class="card">
             <div class="card-header text-left"><i class="fas fa-medal fa-2x align-middle"></i> <span class="h5 align-middle"> GANADORES DE JORNADA</span></div>
@@ -112,4 +117,4 @@
       </div>
     </div>
 
-  </div>
+</div>
