@@ -1,8 +1,8 @@
 <div class="h3 text-center my-3">GRÁFICOS</div>
 
-<div *ngIf="players_chart[0].points[0] === null" class="my-3">
-    <div class="h6 text-center mt-3"><i class="fas fa-table"></i> DATOS AÚN NO DISPONIBLES</div>
-    <div><img src="/assets/img/no_data.gif" alt="Not Available" width="100%"></div>
+<div *ngIf="players_chart[0].points[0] === null" class="mt-3 mb-5">
+  <div class="h6 text-center mt-3"><i class="fas fa-table"></i> DATOS AÚN NO DISPONIBLES</div>
+  <div class="no-data"><img src="/assets/img/no_data.gif" alt="Not Available" width="100%"></div>
 </div>
 
 <div *ngIf="players_chart[0].points[0] !== null " class="container-fluid">
