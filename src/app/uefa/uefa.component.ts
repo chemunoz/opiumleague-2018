@@ -9,45 +9,40 @@ export class UefaComponent implements OnInit {
 
   constructor() {
     const EuropaLeague = {
-      deadline: new Date('Mar 08, 2020 17:00:00').getTime(),
-      date: {
-        days: 0,
-        hours: 0,
-        minutes: 0,
-        seconds: 0
-      },
-      distance: 0,
-      text: ''
+      deadline: 'Mar 08, 2020 17:00:00',
+      element: 'countdown-EuropaLeague'
     };
 
     const Competitions = [EuropaLeague];
 
     // Update the count down every 1 second
-    setInterval(function() {
-      // console.log('seconddd');
+    let x = setInterval(() => {
       // Get todays date and time
       const now = new Date().getTime();
 
-      Competitions.forEach((competition)=>{
+      Competitions.length === 0 ? clearInterval(x) : null;
+      Competitions.forEach((competition, index)=>{
         // Find the distance between now an the count down date
-        competition.distance = competition.deadline - now;
-        // Time calculations for days, hours, minutes and seconds
-        competition.date.days = Math.floor(competition.distance / (1000 * 60 * 60 * 24));
-        competition.date.hours = Math.floor((competition.distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        competition.date.minutes = Math.floor((competition.distance % (1000 * 60 * 60)) / (1000 * 60));
-        competition.date.seconds = Math.floor((competition.distance % (1000 * 60)) / 1000);
-        // If the count down is over, write some text
-        if (competition.distance < 0) {
-          clearInterval();
-          competition.text = 'COMENZADA!!';
-        } else {
-          competition.text = `${competition.date.days}d ${competition.date.hours}h 
-                              ${competition.date.minutes}m ${competition.date.seconds}s`;
-        }
-      });
+        let countDownDate = new Date(competition.deadline).getTime();
+        let distance = countDownDate - now;
+        let text = '';
 
-      // Output the result validating that the element exists
-      document.getElementById('countdown-EuropaLeague') !== null ? document.getElementById('countdown-EuropaLeague').innerHTML = EuropaLeague.text : null;
+        if (distance < 0) {
+          // If the count down is over, write some text
+          text = 'COMENZADA!!';
+          Competitions.splice(index, 1);
+        } else {
+          // Time calculations for days, hours, minutes and seconds
+          let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          text = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        // Output the result validating that the element exists
+        document.getElementById(competition.element) !== null ? document.getElementById(competition.element).innerHTML = text : null;
+      });
     }, 1000);
   }
 

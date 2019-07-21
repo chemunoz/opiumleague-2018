@@ -2,6 +2,11 @@ a {
   color: #000 !important;
   text-decoration: none !important; }
 
+.no-data {
+  width: 30%;
+  margin: 0 auto;
+}
+
 /*GRAFICOS*/
 #contenedor-graficos {
   width: 95%;
@@ -34,5 +39,16 @@ img.charts-foto {
 @media (max-width: 576px) {
   .fa-trophy-down {
     margin-top: 25px;
+  }
+  .no-data {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {  
+  .no-data {
+    width: 20%;
+    margin: 0 auto;
   }
 }
