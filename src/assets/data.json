@@ -84,7 +84,7 @@
   {
     "id": 6,
     "name": "Adolfo",
-    "team": "Galizano 18-19",
+    "team": "Galizano 19-20",
     "shield": "adolfo.png",
     "image": "adolfo.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -126,7 +126,7 @@
   {
     "id": 9,
     "name": "Nando",
-    "team": "Infican Viajes",
+    "team": "InFiCaN ViAjEs",
     "shield": "nandelas.png",
     "image": "nandelas.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -197,7 +197,7 @@
   {
     "id": 14,
     "name": "Lorea",
-    "team": "Jambo jambo",
+    "team": "Jambo Jambo",
     "shield": "logo_opium_icono.png",
     "image": "lorea.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -230,7 +230,7 @@
   {
     "id": 17,
     "name": "Luis R.",
-    "team": "Mompys CF",
+    "team": "MOMPY'S CF",
     "shield": "luis_roll.png",
     "image": "luis_roll.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -400,7 +400,7 @@
   {
     "id": 31,
     "name": "Dani L.",
-    "team": "New Team",
+    "team": "NewTeam",
     "shield": "dani_lozano.png",
     "image": "dani_lozano.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
@@ -444,7 +444,7 @@
   {
     "id": 35,
     "name": "Dani S.",
-    "team": "Wiki Team",
+    "team": "WikiTeam",
     "shield": "danilo.png",
     "image": "danilo.jpg",
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
