@@ -1,6 +1,7 @@
 a {
   color: #000 !important;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+}
 
 .no-data {
   width: 30%;
@@ -8,16 +9,6 @@ a {
 }
 
 /*GRAFICOS*/
-#contenedor-graficos {
-  width: 95%;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  border-radius: 15px;
-  margin: 0px auto;
-  text-align: center;
-  padding: 5px; }
-
 .fa-exchange-alt {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -40,6 +31,9 @@ img.charts-foto {
   .fa-trophy-down {
     margin-top: 25px;
   }
+}
+
+@media (min-width: 576px) {
   .no-data {
     width: 40%;
     margin: 0 auto;
