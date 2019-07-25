@@ -1,14 +1,15 @@
 a {
   color: #000;
-  text-decoration: none !important; }
-
-.nav-link {
-  padding: .5rem .2rem;
+  text-decoration: none !important;
 }
 
 .no-data {
   width: 30%;
   margin: 0 auto;
+}
+
+.nav-link {
+  padding: .5rem .2rem;
 }
 
 /* CLASIFICACIONES */
