@@ -34,7 +34,7 @@ export class HistoryComponent implements OnInit {
         useHTML: true,
         x: -10,
         y: 8,
-        text: 'RESUMEN'
+        text: 'RESUMEN GRÁFICO'
       },
       credits: {
         enabled: false
