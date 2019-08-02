@@ -388,17 +388,6 @@
   },
   {
     "id": 30,
-    "name": "Angel C.",
-    "team": "Tikis de la Valle",
-    "shield": "angel_cuesta.png",
-    "image": "angel_cuesta.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-               null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
-    "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
-  },
-  {
-    "id": 31,
     "name": "Dani L.",
     "team": "NewTeam",
     "shield": "dani_lozano.png",
@@ -409,7 +398,7 @@
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Javichu",
     "team": "Racing Hoznayo",
     "shield": "javichu.png",
@@ -420,7 +409,7 @@
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "Mario",
     "team": "Mario's Eleven",
     "shield": "mario.png",
@@ -431,7 +420,7 @@
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "Paloma",
     "team": "Super Palomba",
     "shield": "paloma.png",
@@ -442,7 +431,7 @@
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "Dani S.",
     "team": "WikiTeam",
     "shield": "danilo.png",
@@ -453,7 +442,7 @@
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "Dani R.",
     "team": "Racing de Santander",
     "shield": "dani_negro.png",
