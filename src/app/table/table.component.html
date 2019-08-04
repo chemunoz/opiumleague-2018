@@ -45,6 +45,7 @@
                 <th class="text-center align-middle"><abbr title="Sube/baja posición"><i class="fas fa-exchange-alt align-middle"></i></abbr></th>
                 <th class="align-middle"><i class="fas fa-shield-alt"></i> Equipo</th>
                 <th class="align-middle d-none d-md-table-cell"><i class="fas fa-user-shield"></i> Jugador</th>
+                <th class="text-center align-middle d-none d-md-table-cell"><i class="fas fa-chart-line"></i> Racha</th>
                 <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
                 <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
                 <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
@@ -58,6 +59,7 @@
                 <th class="text-center align-middle"><abbr title="Sube/baja posición"><i class="fas fa-exchange-alt align-middle"></i></abbr></th>
                 <th class="align-middle"><i class="fas fa-shield-alt"></i> Equipo</th>
                 <th class="align-middle d-none d-md-table-cell"><i class="fas fa-user-shield"></i> Jugador</th>
+                <th class="text-center align-middle d-none d-md-table-cell"><i class="fas fa-chart-line"></i> Racha</th>
                 <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
                 <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
                 <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
@@ -84,6 +86,14 @@
                                                                     'text-white': (i+1) > general_table.length - 3}">
                     <img src="/assets/img/players/{{player.image}}" class="table-foto" /> {{player.name}}
                   </a>
+                </td>
+                <td class="text-left align-middle d-none d-md-table-cell">
+                  <span class="racha" *ngFor="let position of player.positions_jornada, index as i2" 
+                    [ngClass]="{'winner': (position >= 1 && position < 10),
+                                'blue': (position >= 10 && position < general_table.length - 2),
+                                'ultimo': position >= general_table.length - 2}">
+                    {{position}}
+                  </span>
                 </td>
                 <td class="text-center align-middle d-none d-sm-table-cell">{{player.num_jornadas}}</td>
                 <td class="text-center align-middle font-weight-bold">{{player.score_general}}</td>

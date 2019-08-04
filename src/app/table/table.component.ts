@@ -28,8 +28,24 @@ export class TableComponent implements OnInit {
     console.log('JORNADAS', this.tables);
 
     // CLASIFICACION ACTUAL (los datos YA vienen ordenados de lo anterior)
-    this.general_table = this.tables[`jornada_${Object.values(this.tables).length - 3}`];
-    console.log('Ult. Clasificacion', this.general_table);
+    if (Object.values(this.tables).length > 0){
+      this.general_table = this.tables[`jornada_${Object.values(this.tables).length - 3}`];
+    
+      // Added 'positions_jornada' positions to calculate column 'Racha' in the view
+      this.tablePlayers.forEach((player, index) => {
+        const myplayer = $.grep(this.general_table, (e) => e.id === player.id );
+        if (myplayer[0] !== undefined){
+          if (player.positions_jornada.length > 5){
+            player.positions_jornada.splice(0, -5); //lo hago en 2 líneas porque splice devuelve el array descartado
+            myplayer[0].positions_jornada = player.positions_jornada;
+          }else{
+            myplayer[0].positions_jornada = player.positions_jornada;
+          }
+        }
+      })
+      console.log('Ult. Clasificacion', this.general_table);
+    }
+    
 
 
     // CLASIFICACIONES HISTORICAS

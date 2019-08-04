@@ -74,7 +74,31 @@ img.table-shield {
   vertical-align: middle; }
 
 img.arrow {
-  width: 2rem; }
+  width: 2rem;
+}
+
+
+.racha{
+  margin: 0 1px;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  width: 30px;
+  text-align: center;
+}
+
+.winner {
+  background-color: #50ad55 !important;
+  color: #FFF; }
+
+.blue {
+  background-color: #2b98f0 !important;
+  color: #FFF; }
+
+.ultimo {
+  background-color: #f1453d !important;
+  color: #FFF; }
+
 
 @media (min-width: 576px) {
   .historic_table {
