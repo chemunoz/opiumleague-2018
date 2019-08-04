@@ -18,11 +18,13 @@
           <div class="row">
             <div class="col-md-3 col-6 puntajes"><div class="numero">{{player.score_general}}</div> <span>pts total</span></div>
             <div class="col-md-3 col-6 puntajes"><div class="numero">{{player.score_best}}</div> <span>pts max</span></div>
-            <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/cups/liga.png" style="height: 30px; position: relative; top: -4px;"> {{player.top_clasificacion}}</div> <span>jor. líder</span></div>
-            <div class="col-md-3 col-6 puntajes"><div class="numero"><i class="fas fa-medal"></i> {{player.top_jornada}}</div> <span>jor. ganadas</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/cups/liga.png" style="height: 30px; position: relative; top: -4px;"> {{player.top_clasificacion}}</div> <span>jor líder</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><i class="fas fa-medal"></i> {{player.top_jornada}}</div> <span>jor ganadas</span></div>
           </div>
-            <div class="row">
-            <div class="col-md-3 offset-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/arrow_up.png" class="arrow" style="position: relative; top: -4px;" /> {{player.positions_general_differences_max}}</div> <span>max subida</span></div>
+          <div class="row">
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><i class="fas fa-upload"></i> {{player.positions_general_min}}</div> <span>mejor pos</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><i class="fas fa-download"></i> {{player.positions_general_max}}</div> <span>peor pos</span></div>
+            <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/arrow_up.png" class="arrow" style="position: relative; top: -4px;" /> {{player.positions_general_differences_max}}</div> <span>max subida</span></div>
             <div class="col-md-3 col-6 puntajes"><div class="numero"><img src="assets/img/arrow_down.png" class="arrow" style="position: relative; top: -4px;"/> {{player.positions_general_differences_min}}</div> <span>max caída</span></div>
           </div>
           <div class="row my-3">
@@ -51,8 +53,11 @@
 
   <!-- GRAFICOS Y BIO -->
   <div class="container-fluid">
-    <!-- <div class="row mb-3">
-      <div class="col-sm-12">
+    <!-- <div class="row my-3">
+      <div class="col-md-12 col-lg-6 text-center mb-3">
+        <img class="stadium" src="https://www.abc.net.au/news/image/10882646-3x2-700x467.jpg" alt="">
+      </div>
+      <div class="col-md-12 col-lg-6">
         <div class="card card-block text-xs-left p-3">
           <h5><i class="fa fa-user fa-fw"></i>Biography</h5>
             <p>Rick Sanchez C-137 is the father of Beth Smith, and the grandfather of Morty and Summer Smith. Aged 60 years old, he is said to have been away from the family for around fourteen years prior to the events of the show's first episode, "Pilot". He frequently travels on adventures through space and other planets and dimensions with his grandson Morty.</p>
