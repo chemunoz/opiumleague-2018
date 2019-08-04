@@ -1,5 +1,5 @@
 #profile img{
-  max-width:100%
+  max-width:100%;
 }
 
 #profile .card {
@@ -54,4 +54,14 @@
 .profile-trophy{
   height: 30px;
   margin-right: 10px;
+}
+
+.fa-upload,
+.fa-download{
+  color: #00F;
+}
+
+.stadium{
+  border-radius: 10px;
+  width: 90%;
 }

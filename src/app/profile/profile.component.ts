@@ -17,7 +17,6 @@ export class ProfileComponent implements OnInit {
 
   constructor(private URI: ActivatedRoute, private _servicio: DataService) {
     this.URI.params.subscribe(params => {
-      // console.log(params['id']);
       this.player = _servicio.getPlayer(params['id']);
     });
 
@@ -64,7 +63,9 @@ export class ProfileComponent implements OnInit {
     mijugador.trophies_profile = trophies_profile;
     mijugador.trophies.total = total_trophies;
 
-    
+    // Best and Worst Positions in Season
+    mijugador.positions_general_max = mijugador.positions_general.length === 0 ? 0 : Math.max.apply(null, mijugador.positions_general.filter(value => !isNaN(value)));
+    mijugador.positions_general_min = mijugador.positions_general.length === 0 ? 0 : Math.abs(Math.min.apply(null, mijugador.positions_general.filter(value => !isNaN(value))));
 
 
 
