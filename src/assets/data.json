@@ -451,5 +451,27 @@
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+  },
+  {
+    "id": 36,
+    "name": "Richard",
+    "team": "La Familia",
+    "shield": "richard.png",
+    "image": "icono_masculino.jpg",
+    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+               null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "seasons": ["2019-2020"],
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+  },
+  {
+    "id": 37,
+    "name": "Daniel",
+    "team": "Buena FC",
+    "shield": "dani_boltana.png",
+    "image": "dani_boltana.jpg",
+    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+               null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "seasons": ["2019-2020"],
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   }
 ]
