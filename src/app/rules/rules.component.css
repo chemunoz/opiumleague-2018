@@ -1,3 +1,7 @@
+p{
+ margin-bottom: 0.5rem !important;
+}
+
 #contenedor-reglas{
   width: 95%;
   height: 100%;
@@ -31,6 +35,7 @@
   font-weight: bold;
   font-style: italic;
   color: #000 !important;
+  text-align: left !important;
   margin: 10px 1px 1px 1px;
 }
 
