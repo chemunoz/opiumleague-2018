@@ -5,6 +5,7 @@ p{
 #contenedor-reglas{
   width: 95%;
   height: 100%;
+  color: #FFF;
   background-color: #2FB101;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -16,7 +17,6 @@ p{
 
 #contenedor-reglas p{
   /*margin: 1px 1px 15px 1px;*/
-  color: #FFF;
   text-align: justify;
 }
 
