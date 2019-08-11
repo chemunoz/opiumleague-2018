@@ -6,115 +6,107 @@
 </div>
 
 <div *ngIf="players_chart[0].points[0] !== null " class="container-fluid">
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-header text-left"><i class="fas fa-medal fa-2x align-middle"></i> <span class="h5 align-middle"> GANADORES DE JORNADA</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_jornada_winner" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header text-left"><img src="/assets/img/cups/liga.png" style="height: 32px;"> <span class="h5 align-middle"> JORNADAS COMO LÍDER</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_leader" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-header text-left"><img src="/assets/img/cups/champions.png" style="height: 32px;"> <span class="h5 align-middle"> JORNADAS EN CHAMPIONS</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_champions" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header text-left"><img src="/assets/img/cups/europa_league.png" style="height: 32px;"> <span class="h5 align-middle"> JORNADAS EN UEFA</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_uefa" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-    </div>
-
-
-    <br>
-
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-header text-left"><img src="/assets/img/cups/copa_intertoto_negra.png" style="height: 32px;"> <span class="h5 align-middle"> JORNADAS EN INTERTOTO</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_intertoto" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header text-left"><i class="fas fa-fire fa-2x align-middle" style="color: #FF5555;"></i> <span class="h5 align-middle"> JORNADAS EN DESCENSO</span></div>
-            <div class="card-block text-center">
-              <div [chart]="chart_descenso" style="width:100%; height:300px;"></div>
-            </div>
-            <div class="card-footer text-center">
-            </div>
-        </div>
-    </div>
-
-    <br>
-
-    <!-- <div class="card-deck">
-      <div class="card">
-        <div class="card-header text-left"><i class="fas fa-chart-line fa-2x align-middle"></i> <span class="h5 align-middle"> EVOLUCIÓN DE POSICIONES EN LA GENERAL</span></div>
-        <div class="card-block text-center">
-          <div id="chart_position_evolution" style="width:100%; height:600px;"></div>
-        </div>
-        <div class="card-footer text-center"></div>
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><i class="fas fa-medal fa-2x align-middle"></i> <span class="h5 align-middle"> GANADORES DE JORNADA</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_jornada_winner" style="width:100%; height:300px;"></div>
       </div>
+      <div class="card-footer text-center">Equipos que han ganado alguna jornada</div>
     </div>
-
-    <br>
-
-    <div class="card-deck">
-      <div class="card">
-        <div class="card-header text-left"><i class="fas fa-chart-line fa-2x align-middle"></i> <span class="h5 align-middle"> EVOLUCIÓN DE POSICIONES EN LA JORNADA</span></div>
-        <div class="card-block text-center">
-          <div id="chart_score_evolution" style="width:100%; height:600px;"></div>
-        </div>
-        <div class="card-footer text-center"></div>
+    <div class="card">
+      <div class="card-header text-left"><img src="/assets/img/cups/liga.png" style="height: 32px;"> <span class="h5 align-middle"> JORNADAS COMO LÍDER</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_leader" style="width:100%; height:300px;"></div>
       </div>
-    </div> -->
+      <div class="card-footer text-center">Equipos que han estado alguna jornada como líder</div>
+    </div>
+  </div>
 
-    <br>
+  <br>
 
-    <div class="card-deck">
-      <div class="card">
-        <div class="card-header text-left"><i class="fas fa-exchange-alt fa-2x align-middle"></i> <span class="h5 align-middle"> MEJOR / PEOR JORNADA DE LA LIGA</span></div>
-        <div class="card-block text-center">
-          <section class="text-center" ng-controller="TableController as table">
-            <div class="row my-3">
-              <div class="col-sm-6">
-                <div><i class="fas fa-trophy" aria-hidden="true"></i> MEJOR JORNADA </div>
-                <img src="/assets/img/shields/300/{{jornadas.score_best.shield}}" class="charts-foto" />
-                <div>{{jornadas.score_best.team}}: {{jornadas.score_best.score}} puntos</div>
-              </div>
-              <div class="col-sm-6">
-                <div><i class="fas fa-trophy fa-trophy-down" aria-hidden="true"></i> PEOR JORNADA </div>
-                <img src="/assets/img/shields/300/{{jornadas.score_worst.shield}}" class="charts-foto" />
-                <div>{{jornadas.score_worst.team}}: {{jornadas.score_worst.score}} puntos</div>
-              </div>
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><img src="/assets/img/cups/champions.png" style="height: 32px;"> <span class="h5 align-middle"> PODIUM CHAMPIONS</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_champions" style="width:100%; height:300px;"></div>
+      </div>
+      <div class="card-footer text-center">Equipos que han estado alguna jornada entre los 3 primeros</div>
+    </div>
+    <div class="card">
+      <div class="card-header text-left"><img src="/assets/img/cups/europa_league.png" style="height: 32px;"> <span class="h5 align-middle"> PREMIUM EUROPA LEAGUE</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_uefa" style="width:100%; height:300px;"></div>
+      </div>
+      <div class="card-footer text-center">Equipos que han estado alguna jornada en los puestos 4 o 5</div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><img src="/assets/img/cups/infican.png" style="height: 32px;"> <span class="h5 align-middle"> ZONA INFICAN</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_intertoto" style="width:100%; height:300px;"></div>
+      </div>
+      <div class="card-footer text-center">Equipos que han estado alguna jornada entre los puestos 6 y 10</div>
+    </div>
+    <div class="card">
+      <div class="card-header text-left"><i class="fas fa-fire fa-2x align-middle" style="color: #FF5555;"></i> <span class="h5 align-middle"> DESCENSO</span></div>
+      <div class="card-block text-center">
+        <div [chart]="chart_descenso" style="width:100%; height:300px;"></div>
+      </div>
+      <div class="card-footer text-center">Equipos que han estado alguna jornada entre los 4 últimos</div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><i class="fas fa-chart-line fa-2x align-middle"></i> <span class="h5 align-middle"> EVOLUCIÓN DE POSICIONES EN LA GENERAL</span></div>
+      <div class="card-block text-center">
+        <div id="chart_position_evolution" style="width:100%; height:600px;"></div>
+      </div>
+      <div class="card-footer text-center"></div></div>
+  </div>
+
+  <br>
+
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><i class="fas fa-chart-line fa-2x align-middle"></i> <span class="h5 align-middle"> EVOLUCIÓN DE POSICIONES EN LA JORNADA</span></div>
+      <div class="card-block text-center">
+        <div id="chart_score_evolution" style="width:100%; height:600px;"></div>
+      </div>
+      <div class="card-footer text-center"></div>
+    </div>
+  </div>
+
+  <br> -->
+
+  <div class="card-deck">
+    <div class="card">
+      <div class="card-header text-left"><i class="fas fa-exchange-alt fa-2x align-middle"></i> <span class="h5 align-middle"> MEJOR / PEOR JORNADA DE LA LIGA</span></div>
+      <div class="card-block text-center">
+        <section class="text-center" ng-controller="TableController as table">
+          <div class="row my-3">
+            <div class="col-sm-6">
+              <div><i class="fas fa-trophy" aria-hidden="true"></i> MEJOR JORNADA </div>
+              <img src="/assets/img/shields/300/{{jornadas.score_best.shield}}" class="charts-foto" />
+              <div>{{jornadas.score_best.team}}: {{jornadas.score_best.score}} puntos</div>
             </div>
-          </section>
-        </div>
-        <div class="card-footer text-center"></div>
+            <div class="col-sm-6">
+              <div><i class="fas fa-trophy fa-trophy-down" aria-hidden="true"></i> PEOR JORNADA </div>
+              <img src="/assets/img/shields/300/{{jornadas.score_worst.shield}}" class="charts-foto" />
+              <div>{{jornadas.score_worst.team}}: {{jornadas.score_worst.score}} puntos</div>
+            </div>
+          </div>
+        </section>
       </div>
+      <div class="card-footer text-center"></div>
     </div>
+  </div>
 
 </div>

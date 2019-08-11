@@ -68,31 +68,31 @@ export class ChartsComponent implements OnInit {
         });
       }
       // Jornadas CHAMPIONS
-      if (player.positions_general.filter((position: any) => position <= 4).length > 0) {
+      if (player.positions_general.filter((position: any) => position <= 3).length > 0) {
         position_series.champions.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => position <= 4).length})`,
-            y: player.positions_general.filter((position: any) => position <= 4).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => position <= 3).length})`,
+            y: player.positions_general.filter((position: any) => position <= 3).length
         });
       }
       // Jornadas UEFA
-      if (player.positions_general.filter((position: any) => (position > 4 && position < 7)).length > 0) {
+      if (player.positions_general.filter((position: any) => (position > 3 && position < 6)).length > 0) {
         position_series.uefa.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => (position > 4 && position < 7)).length})`,
-            y: player.positions_general.filter((position: any) => (position > 4 && position < 7)).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => (position > 3 && position < 6)).length})`,
+            y: player.positions_general.filter((position: any) => (position > 3 && position < 6)).length
         });
       }
       // Jornadas INTERTOTO
-      if (player.positions_general.filter((position: any) => position > 6 && position < 10).length > 0) {
+      if (player.positions_general.filter((position: any) => position > 5 && position < 11).length > 0) {
         position_series.intertoto.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => position > 6 && position < 10).length})`,
-            y: player.positions_general.filter((position: any) => position > 6 && position < 10).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => position > 5 && position < 11).length})`,
+            y: player.positions_general.filter((position: any) => position > 5 && position < 11).length
         });
       }
       // Jornadas DESCENSO
-      if (player.positions_general.filter((position: any) => position >= filter_players.length-3 && position <= filter_players.length).length > 0) {
+      if (player.positions_general.filter((position: any) => position >= filter_players.length-4 && position <= filter_players.length).length > 0) {
         position_series.descenso.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-3)).length})`,
-            y: player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-3)).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-4)).length})`,
+            y: player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-4)).length
         });
       }
 
@@ -158,7 +158,7 @@ export class ChartsComponent implements OnInit {
         text: null // 'GANADORES DE JORNADA'
       },
       subtitle: {
-        text: '(Número de Jornadas ganadas)'
+        text: '(Obtendrán el Premio CERVECERÍA MOMPYS)'
       },
       credits: {
         enabled: false
