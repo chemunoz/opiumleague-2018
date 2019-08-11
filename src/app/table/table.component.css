@@ -25,23 +25,23 @@ a {
   vertical-align: middle !important;
   font-size: 0.9rem; }
 
-tr.champions {
+.champions {
   background-color: #FFFF00;
   color: #000; }
 
-tr.uefa {
+.uefa {
   background-color: #FFC000;
   color: #000; }
 
-tr.intertoto {
+.intertoto {
   background-color: #E26B0A;
   color: #000; }
 
-tr.resto {
+.resto {
   background-color: #FFF;
   color: #000; }
 
-tr.descenso {
+.descenso {
   background-color: #FF5555;
   color: #FFF; }
 
@@ -57,7 +57,7 @@ tbody tr.fila th:hover {
 .historic_table {
   font-size: 1rem; }
   .historic_table .title {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
 
 img.table-foto {
   width: 2rem;
@@ -87,18 +87,24 @@ img.arrow {
   text-align: center;
 }
 
-.winner {
+.top-positions {
   background-color: #50ad55 !important;
   color: #FFF; }
 
-.blue {
+.mid-positions {
   background-color: #2b98f0 !important;
   color: #FFF; }
 
-.ultimo {
+.last-positions {
   background-color: #f1453d !important;
   color: #FFF; }
 
+
+.legend{
+  padding: 2px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
 
 @media (min-width: 576px) {
   .historic_table {
