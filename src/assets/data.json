@@ -484,5 +484,16 @@
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
     "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+  },
+  {
+    "id": 39,
+    "name": "Pedro",
+    "team": "Pedreña City",
+    "shield": "pedro_cuesta.png",
+    "image": "pedro_cuesta.jpg",
+    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+               null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "seasons": ["2019-2020"],
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
   }
 ]
