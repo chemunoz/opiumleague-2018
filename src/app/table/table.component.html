@@ -90,8 +90,8 @@
               <td class="text-left align-middle d-none d-md-table-cell">
                 <span class="racha" *ngFor="let position of player.positions_jornada, index as i2" 
                   [ngClass]="{'top-positions': (position >= 1 && position < 11),
-                              'mid-positions': (position >= 11 && position < general_table.length - 2),
-                              'last-positions': position >= general_table.length - 2}">
+                              'mid-positions': (position >= 11 && position < general_table.length - 3),
+                              'last-positions': position >= general_table.length - 3}">
                   {{position}}
                 </span>
               </td>
