@@ -37,9 +37,17 @@
           </div>
           <div class="row mt-3" *ngIf="player.trophies.total > 0">
             <div class="col">
-              <h6>PALMARÉS: {{player.trophies.total}} Títulos</h6>
+              <h6>TROFEOS: {{player.trophies.total}} Títulos</h6>
               <span *ngFor="let trofeo of player.trophies_profile, index as i" style="text-align: center;">
                 <img src="assets/img/cups/{{trofeo}}" class="profile-trophy" title="" alt="" >
+              </span>
+            </div>
+          </div>
+          <div class="row mt-3" *ngIf="player.awards.total > 0">
+            <div class="col">
+              <h6>PREMIOS: {{player.awards.total}} Distinciones</h6>
+              <span *ngFor="let premio of player.awards_profile, index as i" style="text-align: center;">
+                <i class="{{premio}} fa-2x mr-2"></i>
               </span>
             </div>
           </div>
