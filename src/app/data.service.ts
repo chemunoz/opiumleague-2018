@@ -279,20 +279,20 @@ export class DataService {
 
           if (player2[0].position > team.position_general) {
             // console.log(`${player2[0].team} GANÓ = (ANTES: ${player2[0].position} > AHORA: ${team.position_general}`);
-            team.updown = 'arrow_up.png';
+            team.updown = 'fas fa-chevron-up';
           }
           if (player2[0].position < team.position_general) {
             // console.log(`${player2[0].team} PERDIÓ = (ANTES: ${player2[0].position} > AHORA: ${team.position_general}`);
-            team.updown = 'arrow_down.png';
+            team.updown = 'fas fa-chevron-down';
           }
           if (player2[0].position === team.position_general) {
             // console.log(`${player2[0].team} IGUALÓ = (ANTES: ${player2[0].position} > AHORA: ${team.position_general}`);
-            team.updown = 'arrow_equal.png';
+            team.updown = 'fas fa-equals';
           }
           team.updown_num = Math.abs(player2[0].position - team.position_general);
         } else {
           // When there only 1 jornada there is not "penultima"
-          team.updown = 'arrow_equal.png';
+          team.updown = 'fas fa-equals';
           team.updown_num = 0;
         }
 

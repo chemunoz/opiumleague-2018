@@ -74,7 +74,7 @@
                                                                         'descenso': (i+1) > general_table.length - 4}">
   
               <td class="text-center align-middle">{{player.position_general}}</td>
-              <td class="text-center align-middle"><img src="/assets/img/{{player.updown}}" class="arrow" /> <span class="align-middle">{{player.updown_num}}</span></td>
+              <td class="text-center align-middle"><i class="{{player.updown}} fa-2x align-middle mr-1" [ngClass]="{'arrow-green': player.updown == 'fas fa-chevron-up', 'arrow-red': (player.updown == 'fas fa-chevron-down')}"></i> <span class="align-middle">{{player.updown_num}}</span></td>
               <td class="text-left align-middle">
                 <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i+1) <= general_table.length - 4,
                                                                   'text-white': (i+1) > general_table.length - 4}">
