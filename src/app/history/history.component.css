@@ -134,6 +134,22 @@ p{
   top: 3rem;
 }
 
+#records .card-rounds-regularity{
+  color: #FFF;
+  position: absolute;
+  bottom: 0.5rem;
+  /* right: 5.5rem; */
+  font-size: 1.2rem;
+}
+
+#records .card-round-top{
+  color: #FFF;
+  position: absolute;
+  bottom: 0.5rem;
+  /* right: 1rem; */
+  font-size: 1.2rem;
+}
+
 .tag{
   background: #000;
   color: #FFF;
@@ -165,7 +181,7 @@ img.table-shield {
 
 #historyTabContent .table td,
 #historyTabContent .table th {
-  padding: .5rem !important;
+  padding: .1rem !important;
 }
 
 .num_participaciones{

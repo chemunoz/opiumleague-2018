@@ -73,10 +73,13 @@ img.table-shield {
   height: 2.3rem;
   vertical-align: middle; }
 
-img.arrow {
-  width: 2rem;
+.arrow-green {
+  color: #019700;
 }
 
+.arrow-red {
+  color: #BE1501;
+}
 
 .racha{
   margin: 0 1px;

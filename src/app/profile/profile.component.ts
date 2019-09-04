@@ -63,6 +63,23 @@ export class ProfileComponent implements OnInit {
     mijugador.trophies_profile = trophies_profile;
     mijugador.trophies.total = total_trophies;
 
+    // Awards
+    let total_awards = 0;
+    let awards_profile = [];
+    Object.keys(mijugador.awards).filter((value) => mijugador.awards[value].length > 0)
+    .forEach((award, index) => {
+      total_awards += mijugador.awards[award].length;
+      mijugador.awards[award].forEach(season => {
+        if (award === 'round_top'){
+          awards_profile.push(`fas fa-award`)
+        }else{
+          awards_profile.push(`fab fa-think-peaks`)
+        }
+      });
+    });
+    mijugador.awards_profile = awards_profile;
+    mijugador.awards.total = total_awards;
+
     // Best and Worst Positions in Season
     mijugador.positions_general_max = mijugador.positions_general.length === 0 ? 0 : Math.max.apply(null, mijugador.positions_general.filter(value => !isNaN(value)));
     mijugador.positions_general_min = mijugador.positions_general.length === 0 ? 0 : Math.abs(Math.min.apply(null, mijugador.positions_general.filter(value => !isNaN(value))));

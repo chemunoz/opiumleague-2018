@@ -5,10 +5,11 @@
     "team": "Frente Popular",
     "shield": "jc.png",
     "image": "jc.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [45, 52, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": ["2012-2013"], "rounds_regularity": []}
   },
   {
     "id": 1,
@@ -16,7 +17,7 @@
     "team": "Amunt Che",
     "shield": "che.png",
     "image": "che.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [54, 49, 70, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -27,7 +28,8 @@
       "fo_cup": [],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": ["2009-2010", "2012-2013", "2013-2014", "2015-2016", "2018-2019"], "rounds_regularity": ["2012-2013", "2013-2014"]}
   },
   {
     "id": 2,
@@ -35,7 +37,7 @@
     "team": "David Valcan",
     "shield": "ortega.png",
     "image": "ortega.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [62, 60, 75, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -46,7 +48,8 @@
       "fo_cup": [],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": [], "rounds_regularity": ["2009-2010"]}
   },
   {
     "id": 3,
@@ -54,10 +57,11 @@
     "team": "Porrua City",
     "shield": "luis.png",
     "image": "luis.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [44, 79, 60, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": ["2016-2017"], "rounds_regularity": []}
   },
   {
     "id": 4,
@@ -65,10 +69,11 @@
     "team": "C.D. Monte",
     "shield": "javi_monte.png",
     "image": "javi_monte.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [53, 67, 50, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 5,
@@ -76,10 +81,11 @@
     "team": "Sito Miñanco",
     "shield": "javi_bsh.png",
     "image": "javi_bsh.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [46, 63, 56, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011", "2012-2013", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 6,
@@ -87,10 +93,11 @@
     "team": "Galizano 19-20",
     "shield": "adolfo.png",
     "image": "adolfo.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [54, 52, 38, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": ["2010-2011"], "rounds_regularity": []}
   },
   {
     "id": 7,
@@ -98,7 +105,7 @@
     "team": "Rino's Boys",
     "shield": "fran.png",
     "image": "fran.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [47, 55, 46, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -109,8 +116,8 @@
       "fo_cup": [],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
-    
+    },
+    "awards": {"round_top": [], "rounds_regularity": ["2018-2019"]}
   },
   {
     "id": 8,
@@ -118,10 +125,11 @@
     "team": "Capitán Tsubasa",
     "shield": "ines.png",
     "image": "ines.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [49, 42, 37, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 9,
@@ -129,10 +137,11 @@
     "team": "InFiCaN ViAjEs",
     "shield": "nandelas.png",
     "image": "nandelas.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [51, 48, 43, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 10,
@@ -140,7 +149,7 @@
     "team": "Williessous",
     "shield": "will.png",
     "image": "will.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [64, 59, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -151,7 +160,8 @@
       "fo_cup": [],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 11,
@@ -159,10 +169,11 @@
     "team": "Jabulani FC",
     "shield": "javi_nieto.png",
     "image": "javi_nieto.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [44, 67, 35, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 12,
@@ -170,10 +181,11 @@
     "team": "Lábaro FC",
     "shield": "pablo_fernandez.png",
     "image": "pablo_fernandez.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [57, 64, 38, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 13,
@@ -181,7 +193,7 @@
     "team": "Bierzo Power",
     "shield": "borja_ramos.png",
     "image": "borja_ramos.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [60, 55, 59, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -192,7 +204,8 @@
       "fo_cup": [],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": [], "rounds_regularity": ["2015-2016", "2017-2018"]}
   },
   {
     "id": 14,
@@ -200,10 +213,11 @@
     "team": "Jambo Jambo",
     "shield": "lorea.png",
     "image": "lorea.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [54, 51, 66, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 15,
@@ -211,10 +225,11 @@
     "team": "Balompédica Porrua",
     "shield": "juanan.png",
     "image": "juanan.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [50, 68, 54, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 16,
@@ -222,10 +237,11 @@
     "team": "Ovi Dan",
     "shield": "ovidiu.png",
     "image": "ovidiu.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [41, 57, 61, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": ["2017-2018"], "rounds_regularity": []}
   },
   {
     "id": 17,
@@ -233,10 +249,11 @@
     "team": "MOMPY'S CF",
     "shield": "luis_roll.png",
     "image": "luis_roll.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [53, 62, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 18,
@@ -244,10 +261,11 @@
     "team": "La Guardia Imperial",
     "shield": "ezequiel.png",
     "image": "ezequiel.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [55, 55, 48, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 19,
@@ -255,10 +273,11 @@
     "team": "CaZuVeNe",
     "shield": "mayfex.png",
     "image": "mayfex.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [49, 49, 42, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 20,
@@ -266,10 +285,11 @@
     "team": "Old Tikis",
     "shield": "felipe.png",
     "image": "felipe.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [68, 64, 54, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": ["2018-2019"]}
   },
   {
     "id": 21,
@@ -277,10 +297,11 @@
     "team": "Zea 1+8 FC",
     "shield": "zea.png",
     "image": "zea.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [78, 82, 64, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 22,
@@ -288,7 +309,7 @@
     "team": "Yellow Storm F.C.",
     "shield": "ekaitz.png",
     "image": "ekaitz.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [47, 61, 33, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -297,9 +318,10 @@
       "champions": ["2018-2019"],
       "europa_league": [],
       "fo_cup": [],
-      "supercopa_europa": [],
+      "supercopa_europa": ["2019-2020"],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 23,
@@ -307,7 +329,7 @@
     "team": "Orgullo de Runner",
     "shield": "diego.png",
     "image": "diego.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [76, 43, 60, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020"],
     "trophies": {
@@ -318,7 +340,8 @@
       "fo_cup": ["2018-2019"],
       "supercopa_europa": [],
       "supercopa_espana": []
-    }
+    },
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 24,
@@ -326,10 +349,11 @@
     "team": "Steaua no Beberé",
     "shield": "nuria.png",
     "image": "nuria.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [36, 64, 72, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 25,
@@ -337,10 +361,11 @@
     "team": "Dojo Cobra KAI",
     "shield": "raul.png",
     "image": "raul.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [44, 61, 63, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2012-2013", "2013-2014", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 26,
@@ -348,10 +373,11 @@
     "team": "Meneillos",
     "shield": "serious.png",
     "image": "serious.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [51, 63, 83, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 27,
@@ -359,10 +385,11 @@
     "team": "Caracas FC",
     "shield": "daniel_gonzalez.png",
     "image": "daniel_gonzalez.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [44, 64, 71, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 28,
@@ -370,10 +397,11 @@
     "team": "Autos Esprilla",
     "shield": "jose_cagigas.png",
     "image": "jose_cagigas.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [41, 67, 48, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 29,
@@ -381,10 +409,11 @@
     "team": "New Tikis",
     "shield": "david_munoz.png",
     "image": "david_munoz.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [70, 54, 56, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 30,
@@ -392,10 +421,11 @@
     "team": "NewTeam",
     "shield": "dani_lozano.png",
     "image": "dani_lozano.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [54, 47, 33, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 31,
@@ -403,10 +433,11 @@
     "team": "Racing Hoznayo",
     "shield": "javichu.png",
     "image": "javichu.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [42, 40, 27, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 32,
@@ -414,10 +445,11 @@
     "team": "Mario's Eleven",
     "shield": "mario.png",
     "image": "mario.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [61, 74, 43, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 33,
@@ -425,10 +457,11 @@
     "team": "Super Palomba",
     "shield": "paloma.png",
     "image": "paloma.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [45, 35, 52, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010", "2010-2011",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 34,
@@ -436,10 +469,11 @@
     "team": "WikiTeam",
     "shield": "danilo.png",
     "image": "danilo.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [27, 80, 25, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2009-2010",	"2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 35,
@@ -447,10 +481,11 @@
     "team": "Gotham de Cantabria",
     "shield": "dani_negro.png",
     "image": "dani_negro.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [53, 72, 71, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 36,
@@ -458,10 +493,11 @@
     "team": "La Familia",
     "shield": "richard.png",
     "image": "richard.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [68, 76, 51, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 37,
@@ -469,10 +505,11 @@
     "team": "Buena FC",
     "shield": "dani_boltana.png",
     "image": "dani_boltana.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [73, 41, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 38,
@@ -480,10 +517,11 @@
     "team": "Vieja Escuela FC",
     "shield": "hector.png",
     "image": "hector.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [44, 54, 72, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   },
   {
     "id": 39,
@@ -491,9 +529,10 @@
     "team": "Pedreña City",
     "shield": "pedro_cuesta.png",
     "image": "pedro_cuesta.jpg",
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [59, 68, 64, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     "seasons": ["2019-2020"],
-    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []}
+    "trophies": {"liga_marca": [], "liga_futmondo": [], "champions": [], "europa_league": [], "fo_cup": [], "supercopa_europa": [], "supercopa_espana": []},
+    "awards": {"round_top": [], "rounds_regularity": []}
   }
 ]

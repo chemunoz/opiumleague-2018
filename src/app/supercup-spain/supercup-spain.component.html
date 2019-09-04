@@ -10,7 +10,7 @@
 </div> -->
 
 <!-- CRUCES -->
-<div class="text-center"><img id="cruces-supercup-spain" class="cruces-img" src="/assets/img/supercup_spain_cruces.png" alt=""></div>
+<div class="text-center"><img id="cruces-supercup-spain" class="cruces-img" src="/assets/img/supercup_spain_cruces.jpg" alt=""></div>
 
 <!-- RESULTADOS -->
 <div class="h4 text-center mt-3">RESULTADOS</div>
@@ -18,14 +18,14 @@
 <!-- TABS -->
 <ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
+    <a class="nav-link" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
       <span><i class="fas fa-expand-arrows-alt"></i></span>
       <span class="d-none d-md-inline"> SEMIFINALES</span>
       <span class="d-sm-inline d-md-none"> SEMIFINALES</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
+    <a class="nav-link active" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
       <span><i class="fas fa-expand-arrows-alt"></i></span>
       <span class="d-none d-md-inline"> FINAL</span>
       <span class="d-sm-inline d-md-none"> FINAL</span>
@@ -37,7 +37,7 @@
 <div class="container tab-content mb-5" id="myTabContent">
 
   <!-- SEMIS -->
-  <div class="tab-pane fade show active" id="A" role="tabpanel" aria-labelledby="tab-A">
+  <div class="tab-pane fade" id="A" role="tabpanel" aria-labelledby="tab-A">
     <div class="h5 text-center mt-3"> SEMIFINALES</div>
     <!-- Resultados -->
     <table class="table cup-table">
@@ -51,19 +51,20 @@
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo"><a [routerLink]="['/profile', 23]"><img src="/assets/img/shields/150/diego.png" class="table-shield" alt="Orgullo de Runner"> <div>Orgullo de Runner</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">-</div></td>
+        <td class="text-center resultado"><div class="cup-score"><small>60 - 70</small></div></td>
         <td class="text-center equipo"><a [routerLink]="['/profile', 1]"><img src="/assets/img/shields/150/che.png" class="table-shield" alt="Amunt Che"> <div>Amunt Che</div></a></td>
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">-</div></td>
+        <td class="text-center resultado"><div class="cup-score"><small>75 - 61</small></div></td>
         <td class="text-center equipo"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
       </tr>
     </table>
+    <div><small>(Entre paréntesis = nº jugadores restan de puntuar)</small></div>
   </div>
 
   <!-- FINAL -->
-  <div class="tab-pane fade" id="B" role="tabpanel" aria-labelledby="tab-B">
+  <div class="tab-pane fade show active" id="B" role="tabpanel" aria-labelledby="tab-B">
     <div class="h5 text-center my-3"> FINAL</div>
     <!-- Resultados -->
     <table class="table cup-table">
@@ -76,9 +77,9 @@
         <th>EQUIPO</th>
       </tr>
       <tr class="fila fila-impar">
-          <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
-          <td class="text-center resultado"><div class="cup-score">-</div></td>
-          <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+          <td class="text-center equipo"><a [routerLink]="['/profile', 1]"><img src="/assets/img/shields/150/che.png" class="table-shield" alt="Amunt Che"> <div>Amunt Che</div></a></td>
+          <td class="text-center resultado"><div class="cup-score"><small>-</small></div></td>
+          <td class="text-center equipo"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
         </tr>
     </table>
   </div>
