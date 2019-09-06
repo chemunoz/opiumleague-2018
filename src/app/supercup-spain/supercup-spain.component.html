@@ -1,7 +1,7 @@
 <div class="h5 text-center my-3"><img src="/assets/img/cups/supercopa_espana.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> SUPERCOPA ESPAÑA OPIUM</div>
 <hr>
 
-<div class="text-center mb-2"><i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupSpain"></span></div>
+<div class="text-center mb-2" *ngIf="SupercupSpain[0].distance > 0"><i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupSpain">0d 0h 0m 0s</span></div>
 
 <!-- CABECERA -->
 <!-- <div class="text-center my-3">
@@ -33,7 +33,7 @@
   </li>
 </ul>
 
-<!-- RESULTADOS -->
+<!-- RONDAS -->
 <div class="container tab-content mb-5" id="myTabContent">
 
   <!-- SEMIS -->

@@ -14,14 +14,16 @@
           <p class="card-text">Competición bajo el soporte de Futmondo en su modo Copa, que enfrentará a los participantes de la Opium League mediante eliminatorias directas a ida y vuelta, incluída la final.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">
-            <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-FOCup"></span>
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup"></span>
-          </small>
-          <br>
+          <div *ngIf="FOCup[0].distance > 0">
+            <small class="text-muted">
+              <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-FOCup">0d 0h 0m 0s</span>
+            </small>
+          </div>
+          <div *ngIf="FOCup[1].distance > 0">
+            <small class="text-muted">
+              <i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup">0d 0h 0m 0s</span>
+            </small>
+          </div>
           <small class="text-muted">
             <i class="fas fa-expand-arrows-alt"></i> (ronda previa) Jor. 7 y Jor. 8
           </small>
@@ -45,14 +47,16 @@
           <p class="card-text">Competición donde los participantes se enfrentarán siguiendo un formato similar al de la Liga de Campeones, contando con una primera fase de liguilla, para pasar a la fase de eliminatorias a ida y vuelta, salvo la final que será a partido único.</p>
         </div>
         <div class="card-footer">
+          <div *ngIf="Champions[0].distance > 0">
+            <small class="text-muted">
+              <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions">0d 0h 0m 0s</span>
+            </small>
+          </div>
+          <div *ngIf="Champions[1].distance > 0">
           <small class="text-muted">
-            <i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions"></span>
+            <i class="far fa-clock"></i> Inicio: <span id="countdown-Champions">0d 0h 0m 0s</span>
           </small>
-          <br>
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-Champions"></span>
-          </small>
-          <br>
+          </div>
           <small class="text-muted">
             <i class="fas fa-expand-arrows-alt"></i> (ronda previa) Jor. 19 y Jor. 20
           </small>
@@ -80,13 +84,16 @@
           <p class="card-text">Competición en la que participarán los equipos que hayan quedado eliminados tanto en la ronda previa como en la fase de liguilla de la "OPIUM CHAMPIONS LEAGUE" y se jugará a eliminatorias a ida y vuelta, salvo la final que será a partido único.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-EuropaLeague"></span>
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 27 hasta Jor. 33
-          </small>
+          <div *ngIf="EuropaLeague[0].distance > 0">
+            <small class="text-muted">
+              <i class="far fa-clock"></i> Inicio: <span id="countdown-EuropaLeague">0d 0h 0m 0s</span>
+            </small>
+          </div>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 27 hasta Jor. 33
+            </small>
+          </div>
           <span class="float-right">
             <a [routerLink]="['/uefa']"><i class="fas fa-angle-double-right"></i></a>
           </span>
@@ -112,13 +119,16 @@
           <p class="card-text">Competición en la que participarán los campeones de Champions y Europa League de la temporada anterior a partido único.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupEuropa"></span>
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="fas fa-arrows-alt-h"></i> Jor. 1
-          </small>
+          <div *ngIf="SupercupEuropa[0].distance > 0">
+            <small class="text-muted">
+              <i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupEuropa">0d 0h 0m 0s</span>
+            </small>
+          </div>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-arrows-alt-h"></i> Jor. 1
+            </small>
+          </div>
           <span class="float-right">
             <a [routerLink]="['/supercup-europa']"><i class="fas fa-angle-double-right"></i></a>
           </span>
@@ -135,13 +145,16 @@
           <p class="card-text">Competición en la que participarán los dos equipos finalistas de la FO Cup y el campeón y subcampeón de la Opium League de la temporada anterior.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupSpain"></span>
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="fas fa-expand-arrows-alt"></i> Jor. 3 y Jor. 4
-          </small>
+          <div *ngIf="SupercupSpain[0].distance > 0">
+            <small class="text-muted">
+              <i class="far fa-clock"></i> Inicio: <span id="countdown-SupercupSpain">0d 0h 0m 0s</span>
+            </small>
+          </div>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-expand-arrows-alt"></i> Jor. 3 y Jor. 4
+            </small>
+          </div>
           <span class="float-right">
             <a [routerLink]="['/supercup-spain']"><i class="fas fa-angle-double-right"></i></a>
           </span>

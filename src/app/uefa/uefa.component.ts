@@ -6,14 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./uefa.component.css']
 })
 export class UefaComponent implements OnInit {
+  EuropaLeague = [];
 
   constructor() {
-    const EuropaLeague = {
-      deadline: 'Mar 08, 2020 17:00:00',
-      element: 'countdown-EuropaLeague'
-    };
+    this.EuropaLeague = [
+      {
+        deadline: 'Mar 08, 2020 17:00:00',
+        element: 'countdown-EuropaLeague',
+        distance: 0
+      }
+  ];
 
-    const Competitions = [EuropaLeague];
+    const Competitions = [this.EuropaLeague[0]];
 
     // Update the count down every 1 second
     let x = setInterval(() => {
@@ -27,6 +31,7 @@ export class UefaComponent implements OnInit {
         let distance = countDownDate - now;
         let text = '';
 
+        competition.distance = distance;
         if (distance < 0) {
           // If the count down is over, write some text
           text = 'COMENZADA!!';

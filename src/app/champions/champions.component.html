@@ -1,20 +1,25 @@
 <div class="h5 text-center my-3"><img src="/assets/img/cups/champions.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> OPIUM CHAMPIONS LEAGUE</div>
 <hr>
 
-<div class="text-center mb-2"><i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions"></span></div>
-<div class="text-center mb-2"><i class="far fa-clock"></i> Inicio: <span id="countdown-Champions"></span></div>
+<div class="text-center mb-2" *ngIf="Champions[0].distance > 0"><i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions">0d 0h 0m 0s</span></div>
+<div class="text-center mb-2" *ngIf="Champions[1].distance > 0"><i class="far fa-clock"></i> Inicio: <span id="countdown-Champions">0d 0h 0m 0s</span></div>
 <div class="text-center mb-2"><a href="https://www.youtube.com/watch?v=75YBsqOKHBg" target="_blank"><i class="fab fa-youtube" style="color: #FF0001;"></i> VER EL SORTEO 2018-2019!!!</a></div>
 
 <!-- CABECERA -->
 <!-- <div class="text-center my-3">
+  <div class="mx-1 text-center my-2"><i class="fas fa-exclamation-circle"></i> NOTA: El sorteo se realizará la noche del Viernes 28, una vez comenzada la Jornada 7</div>
   <div class="h4">CAMPEÓN 2019-2020</div>
   <a [routerLink]="['/profile', 11]"><img src="/assets/img/shields/150/ekaitz.png" class="foto" alt="Yellow Storm F.C."> <h3>Yellow Storm F.C.</h3></a>
 </div> -->
 
+<!-- BOMBOS y CRUCES -->
 <div class="text-center"><img class="cruces-img" src="/assets/img/cups/banner_champions_league.jpg" alt=""></div>
 <!-- <div class="text-center"><img class="cruces-img" src="/assets/img/champions_sorteo.png" alt=""></div> -->
 <!-- <div class="text-center"><img class="cruces-img" src="/assets/img/champions_grupos.png" alt=""></div> -->
 <!-- <div class="text-center"><img class="cruces-img mt-3" src="/assets/img/champions_cruces.png" alt=""></div> -->
+
+<!-- RESULTADOS -->
+<div class="h4 text-center mt-3">RESULTADOS</div>
 
 <!-- TABS -->
 <ul class="nav nav-tabs nav-fill my-3" id="ChampionsFasesTab" role="tablist">
@@ -41,7 +46,7 @@
   </li>
 </ul>
 
-
+<!-- RONDAS -->
 <div class="tab-content mb-5" id="ChampionsFasesTabContent">
 
   <!-- RONDA PREVIA -->

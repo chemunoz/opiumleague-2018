@@ -6,14 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./supercup-spain.component.css']
 })
 export class SupercupSpainComponent implements OnInit {
+  SupercupSpain = [];
 
   constructor() {
-    const SupercupSpain = {
+    this.SupercupSpain = [
+      {
       deadline: 'Aug 30, 2019 21:00:00',
-      element: 'countdown-SupercupSpain'
-    };
+      element: 'countdown-SupercupSpain',
+      distance: 0
+      }
+    ];
 
-    const Competitions = [SupercupSpain];
+    const Competitions = [this.SupercupSpain[0]];
 
     // Update the count down every 1 second
     let x = setInterval(() => {
@@ -27,6 +31,7 @@ export class SupercupSpainComponent implements OnInit {
         let distance = countDownDate - now;
         let text = '';
 
+        competition.distance = distance;
         if (distance < 0) {
           // If the count down is over, write some text
           text = 'COMENZADA!!';
