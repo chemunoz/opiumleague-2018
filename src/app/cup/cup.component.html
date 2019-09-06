@@ -1,15 +1,15 @@
 <div class="h3 text-center my-3"><img src="/assets/img/cups/fo_cup.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> FO CUP</div>
 <hr>
-<div class="text-center"><i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-FOCup"></span></div>
-<div class="text-center"><i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup"></span></div>
+
+<div class="text-center mb-2" *ngIf="FOCup[0].distance > 0"><i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-FOCup">0d 0h 0m 0s</span></div>
+<div class="text-center mb-2" *ngIf="FOCup[1].distance > 0"><i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup">0d 0h 0m 0s</span></div>
 
 <!-- CABECERA -->
 <!-- <div class="text-center my-3">
+  <div class="mx-1 text-center my-2"><i class="fas fa-exclamation-circle"></i> NOTA: El sorteo se realizará la noche del Viernes 28, una vez comenzada la Jornada 7</div>
   <div class="h4">CAMPEÓN 2019-2020</div>
   <a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/diego.png" class="foto" alt="Orgullo de Runner"> <h3>Orgullo de Runner</h3></a>
 </div> -->
-
-<!-- <div class="mx-1 text-center my-2"><i class="fas fa-exclamation-circle"></i> NOTA: El sorteo se realizará la noche del Viernes 28, una vez comenzada la Jornada 7</div> -->
   
 <!-- CRUCES -->
 <div class="text-center"><img id="cruces-focup" class="cruces-img" src="/assets/img/focup_cruces.png" alt=""></div>

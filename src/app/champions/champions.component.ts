@@ -6,20 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./champions.component.css']
 })
 export class ChampionsComponent implements OnInit {
+  Champions = [];
 
   constructor() {
-    const Champions = [
+    this.Champions = [
       { // SORTEO
         deadline: 'Dec 21, 2019 21:00:00',
-        element: 'countdown-draw-Champions'
+        element: 'countdown-draw-Champions',
+        distance: 0
       },
       { // COMIENZO
         deadline: 'Jan 05, 2020 17:00:00',
-        element: 'countdown-Champions'
+        element: 'countdown-Champions',
+        distance: 0
       }
     ];
 
-    const Competitions = [Champions[0], Champions[1]];
+    const Competitions = [this.Champions[0], this.Champions[1]];
 
     // Update the count down every 1 second
     let x = setInterval(() => {
@@ -32,7 +35,8 @@ export class ChampionsComponent implements OnInit {
         let countDownDate = new Date(competition.deadline).getTime();
         let distance = countDownDate - now;
         let text = '';
-
+        
+        competition.distance = distance;
         if (distance < 0) {
           // If the count down is over, write some text
           text = 'COMENZADA!!';

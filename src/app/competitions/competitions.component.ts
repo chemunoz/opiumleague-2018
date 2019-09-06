@@ -6,46 +6,64 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./competitions.component.css']
 })
 export class CompetitionsComponent implements OnInit {
+  FOCup = [];
+  Champions = [];
+  EuropaLeague = [];
+  SupercupEuropa = [];
+  SupercupSpain = [];
 
   constructor() {
-    const FOCup = [
+    this.FOCup = [
       { // SORTEO
         deadline: 'Sep 21, 2019 21:00:00',
-        element: 'countdown-draw-FOCup'
+        element: 'countdown-draw-FOCup',
+        distance: 0
       },
       { // COMIENZO
         deadline: 'Sep 29, 2019 17:00:00',
-        element: 'countdown-FOCup'
+        element: 'countdown-FOCup',
+        distance: 0
       }
     ];
 
-    const Champions = [
+    this.Champions = [
       { // SORTEO
         deadline: 'Dec 21, 2019 21:00:00',
-        element: 'countdown-draw-Champions'
+        element: 'countdown-draw-Champions',
+        distance: 0
       },
       { // COMIENZO
         deadline: 'Jan 05, 2020 17:00:00',
-        element: 'countdown-Champions'
+        element: 'countdown-Champions',
+        distance: 0
       }
     ];
 
-    const EuropaLeague = {
-      deadline: 'Mar 08, 2020 17:00:00',
-      element: 'countdown-EuropaLeague'
-    };
+    this.EuropaLeague = [
+      {
+        deadline: 'Mar 08, 2020 17:00:00',
+        element: 'countdown-EuropaLeague',
+        distance: 0
+      }
+    ];
 
-    const SupercupEuropa = {
-      deadline: 'Aug 16, 2019 21:00:00',
-      element: 'countdown-SupercupEuropa'
-    };
+    this.SupercupEuropa = [
+      {
+        deadline: 'Aug 16, 2019 21:00:00',
+        element: 'countdown-SupercupEuropa',
+        distance: 0
+      }
+    ];
 
-    const SupercupSpain = {
-      deadline: 'Aug 30, 2019 21:00:00',
-      element: 'countdown-SupercupSpain'
-    };
+    this.SupercupSpain = [
+      {
+        deadline: 'Aug 30, 2019 21:00:00',
+        element: 'countdown-SupercupSpain',
+        distance: 0
+      }
+    ];
 
-    const Competitions = [FOCup[0], FOCup[1], Champions[0], Champions[1], EuropaLeague, SupercupEuropa, SupercupSpain];
+    const Competitions = [this.FOCup[0], this.FOCup[1], this.Champions[0], this.Champions[1], this.EuropaLeague[0], this.SupercupEuropa[0], this.SupercupSpain[0]];
 
     // Update the count down every 1 second
     let x = setInterval(() => {
@@ -59,6 +77,7 @@ export class CompetitionsComponent implements OnInit {
         let distance = countDownDate - now;
         let text = '';
 
+        competition.distance = distance;
         if (distance < 0) {
           // If the count down is over, write some text
           text = 'COMENZADA!!';
