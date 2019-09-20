@@ -15,12 +15,12 @@ export class CompetitionsComponent implements OnInit {
   constructor() {
     this.FOCup = [
       { // SORTEO
-        deadline: 'Sep 21, 2019 21:00:00',
+        deadline: 'Sep 24, 2019 22:00:00',
         element: 'countdown-draw-FOCup',
         distance: 0
       },
       { // COMIENZO
-        deadline: 'Sep 29, 2019 17:00:00',
+        deadline: 'Sep 27, 2019 21:00:00',
         element: 'countdown-FOCup',
         distance: 0
       }
