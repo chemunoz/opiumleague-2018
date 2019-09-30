@@ -120,6 +120,12 @@ export class DataService {
     this.arrPlayers.forEach((player) => {
       player.top_jornada = player.positions_jornada.filter((value) => value === 1).length;
       player.top_clasificacion = player.positions_general.filter((value) => value === 1).length;
+      
+      player.positions_general_differences = player.positions_general.map((value:any, index:number) => {
+        return (index === 0) ? 0 : player.positions_general[index - 1] - value;
+      });
+      player.positions_general_differences_max = player.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, player.positions_general_differences.filter(value => !isNaN(value)));
+      player.positions_general_differences_min = player.positions_general_differences.length === 0 ? 0 : Math.abs(Math.min.apply(null, player.positions_general_differences.filter(value => !isNaN(value))));
     });
 
   }
