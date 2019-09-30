@@ -36,7 +36,7 @@ img.table-shield {
     vertical-align: middle;
     padding: 0; }
   .cup-table th {
-    /* text-align: left !important;  */
+    background-color: #FFC108;
   }
 
 .cup-difference {
