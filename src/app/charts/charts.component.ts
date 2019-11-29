@@ -58,7 +58,7 @@ export class ChartsComponent implements OnInit {
       jornada_winner: []
     };
 
-    let filter_players = this.players_chart.filter(player => player.positions_general.length > 0);
+    const filter_players = this.players_chart.filter(player => player.positions_general.length > 0);
     filter_players.forEach((player, index) => {
       // Jornadas LIDER
       if (player.positions_general.filter((position: any) => position === 1).length > 0) {
@@ -89,10 +89,10 @@ export class ChartsComponent implements OnInit {
         });
       }
       // Jornadas DESCENSO
-      if (player.positions_general.filter((position: any) => (position >= filter_players.length-3 && position <= filter_players.length)).length > 0) {
+      if (player.positions_general.filter((position: any) => (position >= filter_players.length - 3 && position <= filter_players.length)).length > 0) {
         position_series.descenso.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-3)).length})`,
-            y: player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length-3)).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length - 3)).length})`,
+            y: player.positions_general.filter((position: any) => (position <= filter_players.length && position >= filter_players.length - 3)).length
         });
       }
 

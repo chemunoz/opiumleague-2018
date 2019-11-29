@@ -12,7 +12,7 @@ export class NewsComponent implements OnInit, AfterViewInit {
   ngOnInit() {
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     (<any>window).twttr = (function(d, s, id) {
       let js, fjs = d.getElementsByTagName(s)[0],
         t = (<any>window).twttr || {};

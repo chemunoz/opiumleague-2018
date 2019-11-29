@@ -12,9 +12,9 @@ declare var gtag;
 export class AppComponent {
   title = 'Opium League';
 
-  constructor(private router:Router){
+  constructor(private router: Router) {
     const navEndsEvents$ = this.router.events.pipe(filter(event => event instanceof NavigationEnd));
-    navEndsEvents$.subscribe((event:NavigationEnd) => {
+    navEndsEvents$.subscribe((event: NavigationEnd) => {
       gtag('config', 'UA-92241042-3', { 'page_path': event.urlAfterRedirects});
     });
   }

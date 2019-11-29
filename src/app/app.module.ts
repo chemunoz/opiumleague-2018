@@ -42,7 +42,7 @@ const routes: Routes = [
   { path: 'profile/:id', component: ProfileComponent },
   { path: 'supercup-europa', component: SupercupEuropaComponent },
   { path: 'supercup-spain', component: SupercupSpainComponent },
-  { path: '**', redirectTo: '/', pathMatch: 'full' } //404 future
+  { path: '**', redirectTo: '/', pathMatch: 'full' } // 404 future
 ];
 
 @NgModule({
