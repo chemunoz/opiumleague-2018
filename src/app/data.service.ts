@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import * as $ from "jquery";
+import * as $ from 'jquery';
+
 declare var require: any;
-var dataJSON = require('../assets/data.json')
+const dataJSON = require('../assets/data.json');
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ export class DataService {
     this.arrPlayers = dataJSON;
   }
 
-  arrPlayers:any[] = [];
+  arrPlayers: any[] = [];
 
   calculatePlayers() {
     // Comparison function
@@ -75,7 +76,7 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
-          team.score_jornada === calculate_jornadas[jornada][index-1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index-1].position_jornada : team.position_jornada = index + 1;
+          team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada : team.position_jornada = index + 1;
         } else {
           team.position_jornada = index + 1;
         }
@@ -106,7 +107,7 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate POSITIONS GENERAL
         if (index > 0) {
-          team.score_general === calculate_jornadas[jornada][index-1].score_general ? team.position_general = calculate_jornadas[jornada][index-1].position_general : team.position_general = index + 1;
+          team.score_general === calculate_jornadas[jornada][index - 1].score_general ? team.position_general = calculate_jornadas[jornada][index - 1].position_general : team.position_general = index + 1;
         } else {
           team.position_general = index + 1;
         }
@@ -120,8 +121,8 @@ export class DataService {
     this.arrPlayers.forEach((player) => {
       player.top_jornada = player.positions_jornada.filter((value) => value === 1).length;
       player.top_clasificacion = player.positions_general.filter((value) => value === 1).length;
-      
-      player.positions_general_differences = player.positions_general.map((value:any, index:number) => {
+
+      player.positions_general_differences = player.positions_general.map((value: any, index: number) => {
         return (index === 0) ? 0 : player.positions_general[index - 1] - value;
       });
       player.positions_general_differences_max = player.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, player.positions_general_differences.filter(value => !isNaN(value)));
@@ -137,7 +138,7 @@ export class DataService {
 
   getPlayer(i) {
     this.calculatePlayers();
-    return this.arrPlayers.find(x => x.id == i);
+    return this.arrPlayers.find(x => x.id === parseInt(i, 10));
     // return this.arrPlayers[i];
   }
 
@@ -218,7 +219,7 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
-          team.score_jornada === calculate_jornadas[jornada][index-1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index-1].position_jornada : team.position_jornada = index + 1;
+          team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada : team.position_jornada = index + 1;
         } else {
           team.position_jornada = index + 1;
         }
@@ -263,7 +264,7 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index) => {
         // Calculate POSITIONS GENERAL
         if (index > 0) {
-          team.score_general === calculate_jornadas[jornada][index-1].score_general ? team.position_general = calculate_jornadas[jornada][index-1].position_general : team.position_general = index + 1;
+          team.score_general === calculate_jornadas[jornada][index - 1].score_general ? team.position_general = calculate_jornadas[jornada][index - 1].position_general : team.position_general = index + 1;
         } else {
           team.position_general = index + 1;
         }

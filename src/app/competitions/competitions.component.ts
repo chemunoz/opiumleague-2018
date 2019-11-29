@@ -66,15 +66,15 @@ export class CompetitionsComponent implements OnInit {
     const Competitions = [this.FOCup[0], this.FOCup[1], this.Champions[0], this.Champions[1], this.EuropaLeague[0], this.SupercupEuropa[0], this.SupercupSpain[0]];
 
     // Update the count down every 1 second
-    let x = setInterval(() => {
+    const x = setInterval(() => {
       // Get todays date and time
       const now = new Date().getTime();
 
       Competitions.length === 0 ? clearInterval(x) : null;
-      Competitions.forEach((competition, index)=>{
+      Competitions.forEach((competition, index) => {
         // Find the distance between now an the count down date
-        let countDownDate = new Date(competition.deadline).getTime();
-        let distance = countDownDate - now;
+        const countDownDate = new Date(competition.deadline).getTime();
+        const distance = countDownDate - now;
         let text = '';
 
         competition.distance = distance;
@@ -84,10 +84,10 @@ export class CompetitionsComponent implements OnInit {
           Competitions.splice(index, 1);
         } else {
           // Time calculations for days, hours, minutes and seconds
-          let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
           text = `${days}d ${hours}h ${minutes}m ${seconds}s`;
         }
 

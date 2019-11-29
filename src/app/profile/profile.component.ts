@@ -26,7 +26,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
     console.log('SELECCIONADO', this.player);
     const mijugador = this.player;
-    mijugador.positions_general_differences = mijugador.positions_general.map((value:any, index:number) => {
+    mijugador.positions_general_differences = mijugador.positions_general.map((value: any, index: number) => {
       return (index === 0) ? 0 : mijugador.positions_general[index - 1] - value;
     });
     mijugador.positions_general_differences_max = mijugador.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value)));
@@ -49,15 +49,15 @@ export class ProfileComponent implements OnInit {
         ejes.YPosicionesJornada.push(mijugador['positions_jornada'][i]);
       // }
     }
-    
+
     // Trophies
     let total_trophies = 0;
-    let trophies_profile = [];
+    const trophies_profile = [];
     Object.keys(mijugador.trophies).filter((value) => mijugador.trophies[value].length > 0)
     .forEach((trophy, index) => {
       total_trophies += mijugador.trophies[trophy].length;
       mijugador.trophies[trophy].forEach(season => {
-        trophies_profile.push(`${trophy}.png`)
+        trophies_profile.push(`${trophy}.png`);
       });
     });
     mijugador.trophies_profile = trophies_profile;
@@ -65,15 +65,15 @@ export class ProfileComponent implements OnInit {
 
     // Awards
     let total_awards = 0;
-    let awards_profile = [];
+    const awards_profile = [];
     Object.keys(mijugador.awards).filter((value) => mijugador.awards[value].length > 0)
     .forEach((award, index) => {
       total_awards += mijugador.awards[award].length;
       mijugador.awards[award].forEach(season => {
-        if (award === 'round_top'){
-          awards_profile.push(`fas fa-award`)
-        }else{
-          awards_profile.push(`fab fa-think-peaks`)
+        if (award === 'round_top') {
+          awards_profile.push(`fas fa-award`);
+        } else {
+          awards_profile.push(`fab fa-think-peaks`);
         }
       });
     });
