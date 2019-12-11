@@ -48,14 +48,14 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" id="tab-D" data-toggle="tab" href="#D" role="tab" aria-controls="D" aria-selected="true">
+    <a class="nav-link" id="tab-D" data-toggle="tab" href="#D" role="tab" aria-controls="D" aria-selected="true">
       <span><i class="fas fa-expand-arrows-alt"></i></span>
       <span class="d-none d-md-inline"> SEMIFINALES</span>
       <span class="d-sm-inline d-md-none"> SE</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="tab-E" data-toggle="tab" href="#E" role="tab" aria-controls="E" aria-selected="true">
+    <a class="nav-link active" id="tab-E" data-toggle="tab" href="#E" role="tab" aria-controls="E" aria-selected="true">
       <span><i class="fas fa-expand-arrows-alt"></i></span>
       <span class="d-none d-md-inline"> FINAL</span>
       <span class="d-sm-inline d-md-none"> FI</span>
@@ -813,7 +813,7 @@
   </div>
 
   <!-- SEMIS -->
-  <div class="tab-pane fade show active" id="D" role="tabpanel" aria-labelledby="tab-D">
+  <div class="tab-pane fade" id="D" role="tabpanel" aria-labelledby="tab-D">
     <div class="h5 text-center mt-3">SEMIFINALES</div>
     <!-- Resultados -->
     <table class="table cup-table">
@@ -828,15 +828,15 @@
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 38]"><img src="/assets/img/shields/150/hector.png" class="table-shield" alt="Vieja Escuela FC"> <div>Vieja Escuela FC</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
+        <td class="text-center resultado cup-lose-pre"><div class="cup-score">66</div><small class="cup-difference">(-33)</small></td>
+        <td class="text-center resultado cup-win-pre"><div class="cup-score">80</div><small class="cup-difference">(+2)</small></td>
+        <td class="text-center resultado bg-danger text-white"><div class="cup-score">146</div><small class="cup-difference">(-31)</small></td>
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
+        <td class="text-center resultado cup-win-pre"><div class="cup-score">99</div><small class="cup-difference">(+33)</small></td>
+        <td class="text-center resultado cup-lose-pre"><div class="cup-score">78</div><small class="cup-difference">(-2)</small></td>
+        <td class="text-center resultado bg-success"><div class="cup-score">177</div><small class="cup-difference">(+31)</small></td>
       </tr>
 
       <tr>
@@ -847,21 +847,21 @@
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 23]"><img src="/assets/img/shields/150/diego.png" class="table-shield" alt="Orgullo de Runner"> <div>Orgullo de Runner</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
+        <td class="text-center resultado cup-win-pre"><div class="cup-score">75</div><small class="cup-difference">(+4)</small></td>
+        <td class="text-center resultado cup-lose-pre"><div class="cup-score">80</div><small class="cup-difference">(-8)</small></td>
+        <td class="text-center resultado bg-danger text-white"><div class="cup-score">155</div><small class="cup-difference">(-4)</small></td>
       </tr>
       <tr class="fila fila-impar">
         <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
+        <td class="text-center resultado cup-lose-pre"><div class="cup-score">71</div><small class="cup-difference">(-4)</small></td>
+        <td class="text-center resultado cup-win-pre"><div class="cup-score">88</div><small class="cup-difference">(+8)</small></td>
+        <td class="text-center resultado bg-success"><div class="cup-score">159</div><small class="cup-difference">(+4)</small></td>
       </tr>
     </table>
   </div>
 
   <!-- FINAL -->
-  <div class="tab-pane fade" id="E" role="tabpanel" aria-labelledby="tab-E">
+  <div class="tab-pane fade show active" id="E" role="tabpanel" aria-labelledby="tab-E">
     <div class="h5 text-center mt-3"> FINAL</div>
     <!-- Resultados -->
     <table class="table cup-table">
@@ -875,13 +875,13 @@
         <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
       </tr>
       <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
       </tr>
       <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
         <td class="text-center resultado"><div class="cup-score">0</div><small class="cup-difference">(+0)</small></td>
