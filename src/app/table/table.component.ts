@@ -36,8 +36,7 @@ export class TableComponent implements OnInit {
         const myplayer = $.grep(this.general_table, (e) => e.id === player.id );
         if (myplayer[0] !== undefined) {
           if (player.positions_jornada.length > 5) {
-            player.positions_jornada.splice(0, -5); // lo hago en 2 líneas porque splice devuelve el array descartado
-            myplayer[0].positions_jornada = player.positions_jornada;
+            myplayer[0].positions_jornada = player.positions_jornada.splice((player.positions_jornada.length - 5), 5);
           } else {
             myplayer[0].positions_jornada = player.positions_jornada;
           }
