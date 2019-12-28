@@ -11,7 +11,7 @@ export class ChampionsComponent implements OnInit {
   constructor() {
     this.Champions = [
       { // SORTEO
-        deadline: 'Dec 21, 2019 21:00:00',
+        deadline: 'Dec 28, 2019 22:00:00',
         element: 'countdown-draw-Champions',
         distance: 0
       },
