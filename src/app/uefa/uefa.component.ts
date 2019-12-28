@@ -11,7 +11,7 @@ export class UefaComponent implements OnInit {
   constructor() {
     this.EuropaLeague = [
       {
-        deadline: 'Mar 08, 2020 17:00:00',
+        deadline: 'Feb 23, 2020 17:00:00',
         element: 'countdown-EuropaLeague',
         distance: 0
       }
