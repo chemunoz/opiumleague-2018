@@ -33,7 +33,7 @@ export class CompetitionsComponent implements OnInit {
         distance: 0
       },
       { // COMIENZO
-        deadline: 'Jan 05, 2020 17:00:00',
+        deadline: 'Jan 03, 2020 19:00:00',
         element: 'countdown-Champions',
         distance: 0
       }
