@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ChampionsService } from '../champions.service';
 
 @Component({
   selector: 'app-competitions',
@@ -12,7 +13,7 @@ export class CompetitionsComponent implements OnInit {
   SupercupEuropa = [];
   SupercupSpain = [];
 
-  constructor() {
+  constructor(private _servicioChampions: ChampionsService) {
     this.FOCup = [
       { // SORTEO
         deadline: 'Sep 24, 2019 22:00:00',
@@ -26,18 +27,7 @@ export class CompetitionsComponent implements OnInit {
       }
     ];
 
-    this.Champions = [
-      { // SORTEO
-        deadline: 'Dec 28, 2019 22:00:00',
-        element: 'countdown-draw-Champions',
-        distance: 0
-      },
-      { // COMIENZO
-        deadline: 'Jan 03, 2020 19:00:00',
-        element: 'countdown-Champions',
-        distance: 0
-      }
-    ];
+    this.Champions = _servicioChampions.getCountdowns();
 
     this.EuropaLeague = [
       {

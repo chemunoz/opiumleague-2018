@@ -8,15 +8,14 @@ const dataJSON = require('../assets/data.json');
 @Injectable({
   providedIn: 'root'
 })
-
 export class DataService {
+
+  playersInfo: any[] = [];
 
   constructor (private http: HttpClient) {
     console.log('Iniciando Service de Datos');
-    this.arrPlayers = dataJSON;
+    this.playersInfo = dataJSON;
   }
-
-  arrPlayers: any[] = [];
 
   calculatePlayers() {
     // Comparison function
@@ -32,7 +31,7 @@ export class DataService {
     };
 
     const calculate_jornadas = {};
-    this.arrPlayers.forEach((player) => {
+    this.playersInfo.forEach((player) => {
       // Initialize
       player.score_general = 0;
       player.score_jornada = [];
@@ -81,7 +80,7 @@ export class DataService {
           team.position_jornada = index + 1;
         }
 
-        const player = $.grep(this.arrPlayers, (e) => e.id === team.id );
+        const player = $.grep(this.playersInfo, (e) => e.id === team.id );
         player[0].positions_jornada.push(team.position_jornada);
 
         points_average.push(team.score_jornada);
@@ -112,13 +111,13 @@ export class DataService {
           team.position_general = index + 1;
         }
 
-        const player = $.grep(this.arrPlayers, (e) => e.id === team.id );
+        const player = $.grep(this.playersInfo, (e) => e.id === team.id );
         player[0].positions_general.push(team.position_general);
         player[0].score_average_jornada.push(calculate_jornadas[jornada].score_average);
       });
     });
 
-    this.arrPlayers.forEach((player) => {
+    this.playersInfo.forEach((player) => {
       player.top_jornada = player.positions_jornada.filter((value) => value === 1).length;
       player.top_clasificacion = player.positions_general.filter((value) => value === 1).length;
 
@@ -133,13 +132,13 @@ export class DataService {
 
   readPlayers() {
     this.calculatePlayers();
-    return this.arrPlayers;
+    return this.playersInfo;
   }
 
   getPlayer(i) {
     this.calculatePlayers();
-    return this.arrPlayers.find(x => x.id === parseInt(i, 10));
-    // return this.arrPlayers[i];
+    return this.playersInfo.find(x => x.id === parseInt(i, 10));
+    // return this.playersInfo[i];
   }
 
   getjornadas() {
@@ -155,7 +154,7 @@ export class DataService {
     };
 
     const calculate_jornadas = {};
-    this.arrPlayers.forEach((player) => {
+    this.playersInfo.forEach((player) => {
       // Initialize
       player.score_general = 0;
       player.score_jornada = [];
@@ -241,7 +240,7 @@ export class DataService {
         }
         points_average.push(team.score_jornada);
 
-        const player = $.grep(this.arrPlayers, (e) => e.id === team.id );
+        const player = $.grep(this.playersInfo, (e) => e.id === team.id );
         player[0].positions_jornada.push(team.position_jornada);
 
         team.score_best = Math.max.apply(null, player[0].points.filter((value) => value !== null));
@@ -269,7 +268,7 @@ export class DataService {
           team.position_general = index + 1;
         }
 
-        const player = $.grep(this.arrPlayers, (e) => e.id === team.id );
+        const player = $.grep(this.playersInfo, (e) => e.id === team.id );
         player[0].positions_general.push(team.position_general);
 
 
