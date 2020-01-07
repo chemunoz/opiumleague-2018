@@ -1,0 +1,32 @@
+{
+  "groups": [
+    { "name": "A", "teams": [4, 7, 19, 35] },
+    { "name": "B", "teams": [17, 23, 25, 27] },
+    { "name": "C", "teams": [24, 1, 22, 31] },
+    { "name": "D", "teams": [13, 38, 29, 37] },
+    { "name": "E", "teams": [36, 12, 6, 20] },
+    { "name": "F", "teams": [21, 15, 0, 5] },
+    { "name": "G", "teams": [3, 16, 26, 10] },
+    { "name": "H", "teams": [39, 2, 14, 9] }
+  ],
+  "rounds": [
+    { "round": 18, "date": "05/01/2020" },
+    { "round": 19, "date": "19/01/2020" },
+    { "round": 20, "date": "26/01/2020" },
+    { "round": 21, "date": "02/02/2020" },
+    { "round": 22, "date": "09/02/2020" },
+    { "round": 23, "date": "16/02/2020" }
+  ],
+  "countdowns": [
+    {
+      "deadline": "Dec 28, 2019 22:00:00",
+      "element": "countdown-draw-Champions",
+      "distance": 0
+    },
+    {
+      "deadline": "Jan 03, 2020 19:00:00",
+      "element": "countdown-Champions",
+      "distance": 0
+    }
+  ]
+}
