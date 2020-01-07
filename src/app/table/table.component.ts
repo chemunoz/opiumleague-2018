@@ -42,6 +42,15 @@ export class TableComponent implements OnInit {
           }
         }
       });
+
+      // SORT by GENERAL SCORE and then by BEST SCORE in season
+      this.general_table.sort(function(a: any, b: any) {
+        // note the minus before -cmp, for descending order
+        return cmp(
+          [-cmp(a.score_general, b.score_general), -cmp(a.score_best, b.score_best)],
+          [-cmp(b.score_general, a.score_general), -cmp(b.score_best, a.score_best)]
+        );
+      });
       console.log('Ult. Clasificacion', this.general_table);
     }
 
