@@ -24,16 +24,19 @@
               <i class="far fa-clock"></i> Inicio: <span id="countdown-FOCup">0d 0h 0m 0s</span>
             </small>
           </div>
-          <small class="text-muted">
-            <i class="fas fa-expand-arrows-alt"></i> (ronda previa) Jor. 7 y Jor. 8
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 9 hasta Jor. 18
-          </small>
-          <span class="float-right">
-            <a [routerLink]="['/cup']"><i class="fas fa-angle-double-right"></i></a>
-          </span>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-expand-arrows-alt"></i> (ronda previa) Jor. 7 y Jor. 8
+            </small>
+          </div>          
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 9 hasta Jor. 18
+            </small>
+            <span class="float-right">
+              <a [routerLink]="['/cup']"><i class="fas fa-angle-double-right"></i></a>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -53,24 +56,27 @@
             </small>
           </div>
           <div *ngIf="Champions[1].distance > 0">
-          <small class="text-muted">
-            <i class="far fa-clock"></i> Inicio: <span id="countdown-Champions">0d 0h 0m 0s</span>
-          </small>
+            <small class="text-muted">
+              <i class="far fa-clock"></i> Inicio: <span id="countdown-Champions">0d 0h 0m 0s</span>
+            </small>
           </div>
           <!-- <small class="text-muted">
             <i class="fas fa-expand-arrows-alt"></i> (ronda previa) Jor. 19 y Jor. 20
           </small>
           <br> -->
-          <small class="text-muted">
-            <i class="fas fa-table"></i> (liguilla) Desde Jor. 19 hasta Jor. 24
-          </small>
-          <br>
-          <small class="text-muted">
-            <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 27 hasta Jor. 33
-          </small>
-          <span class="float-right">
-            <a [routerLink]="['/champions']"><i class="fas fa-angle-double-right"></i></a>
-          </span>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-table"></i> (liguilla) Desde Jor. 19 hasta Jor. 24
+            </small>
+          </div>
+          <div>
+            <small class="text-muted">
+              <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 27 hasta Jor. 33
+            </small>
+            <span class="float-right">
+              <a [routerLink]="['/champions']"><i class="fas fa-angle-double-right"></i></a>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -93,10 +99,10 @@
             <small class="text-muted">
               <i class="fas fa-expand-arrows-alt"></i> (cruces) Desde Jor. 25 hasta Jor. 33
             </small>
+            <span class="float-right">
+              <a [routerLink]="['/uefa']"><i class="fas fa-angle-double-right"></i></a>
+            </span>
           </div>
-          <span class="float-right">
-            <a [routerLink]="['/uefa']"><i class="fas fa-angle-double-right"></i></a>
-          </span>
         </div>
       </div>
 
@@ -129,9 +135,11 @@
               <i class="fas fa-arrows-alt-h"></i> Jor. 1
             </small>
           </div>
-          <span class="float-right">
-            <a [routerLink]="['/supercup-europa']"><i class="fas fa-angle-double-right"></i></a>
-          </span>
+          <div>
+            <span class="float-right">
+              <a [routerLink]="['/supercup-europa']"><i class="fas fa-angle-double-right"></i></a>
+            </span>
+          </div>
         </div>
       </div>
       
@@ -155,9 +163,11 @@
               <i class="fas fa-expand-arrows-alt"></i> Jor. 3 y Jor. 4
             </small>
           </div>
-          <span class="float-right">
-            <a [routerLink]="['/supercup-spain']"><i class="fas fa-angle-double-right"></i></a>
-          </span>
+          <div>
+            <span class="float-right">
+              <a [routerLink]="['/supercup-spain']"><i class="fas fa-angle-double-right"></i></a>
+            </span>
+          </div>
         </div>
       </div>
 
