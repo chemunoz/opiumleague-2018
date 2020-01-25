@@ -125,12 +125,30 @@ export class ChampionsComponent implements OnInit {
               if (team.max < this.players[partido1.home].points[champions_round.round]){
                 team.max = this.players[partido1.home].points[champions_round.round];
               }
+              if (Math.abs(this.players[partido1.home].points[champions_round.round]) > Math.abs(this.players[partido1.away].points[champions_round.round])) {
+                team.score += 3;
+                team.pg += 1;
+              }else if(Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])){
+                team.score += 1;
+                team.pe += 1;
+              }else{
+                team.pp += 1;
+              }
               break;
             case 1:
               team.pf += this.players[partido1.away].points[champions_round.round];
               team.pc += -this.players[partido1.home].points[champions_round.round];
               if (team.max < this.players[partido1.away].points[champions_round.round]){
                 team.max = this.players[partido1.away].points[champions_round.round];
+              }
+              if (Math.abs(this.players[partido1.away].points[champions_round.round]) > Math.abs(this.players[partido1.home].points[champions_round.round])) {
+                team.score += 3;
+                team.pg += 1;
+              }else if(Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])){
+                team.score += 1;
+                team.pe += 1;
+              }else{
+                team.pp += 1;
               }
               break;
             case 2:
@@ -139,12 +157,30 @@ export class ChampionsComponent implements OnInit {
               if (team.max < this.players[partido2.home].points[champions_round.round]){
                 team.max = this.players[partido2.home].points[champions_round.round];
               }
+              if (Math.abs(this.players[partido2.home].points[champions_round.round]) > Math.abs(this.players[partido2.away].points[champions_round.round])) {
+                team.score += 3;
+                team.pg += 1;
+              }else if(Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])){
+                team.score += 1;
+                team.pe += 1;
+              }else{
+                team.pp += 1;
+              }
               break;
             case 3:
               team.pf += this.players[partido2.away].points[champions_round.round];
               team.pc += -this.players[partido2.home].points[champions_round.round];
               if (team.max < this.players[partido2.away].points[champions_round.round]){
                 team.max = this.players[partido2.away].points[champions_round.round];
+              }
+              if (Math.abs(this.players[partido2.away].points[champions_round.round]) > Math.abs(this.players[partido2.home].points[champions_round.round])) {
+                team.score += 3;
+                team.pg += 1;
+              }else if(Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])){
+                team.score += 1;
+                team.pe += 1;
+              }else{
+                team.pp += 1;
               }
               break;
             default:
@@ -153,16 +189,7 @@ export class ChampionsComponent implements OnInit {
               team.max = 0;
               break;
           }
-          team.dif += (team.pf + team.pc);
-          if (Math.abs(team.pf) > Math.abs(team.pc)) {
-            team.score += 3;
-            team.pg += 1;
-          }else if(Math.abs(team.pf) === Math.abs(team.pc)){
-            team.score += 1;
-            team.pe += 1;
-          }else{
-            team.pp += 1;
-          }
+          team.dif = (team.pf + team.pc);
         })
         
       }
