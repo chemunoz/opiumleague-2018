@@ -57,7 +57,7 @@ export class ProfileComponent implements OnInit {
     .forEach((trophy, index) => {
       total_trophies += mijugador.trophies[trophy].length;
       mijugador.trophies[trophy].forEach(season => {
-        trophies_profile.push(`${trophy}.png`);
+        trophies_profile.push({ kind: trophy, title: trophy.replace('_', ' ') });
       });
     });
     mijugador.trophies_profile = trophies_profile;
@@ -71,9 +71,9 @@ export class ProfileComponent implements OnInit {
       total_awards += mijugador.awards[award].length;
       mijugador.awards[award].forEach(season => {
         if (award === 'round_top') {
-          awards_profile.push(`fas fa-award`);
-        } else {
-          awards_profile.push(`fab fa-think-peaks`);
+          awards_profile.push({ kind: 'fas fa-award', title: 'Jornada Top' });
+        } else if (award === 'rounds_regularity'){
+          awards_profile.push({ kind: 'fab fa-think-peaks', title: 'Premio Regularidad' });
         }
       });
     });
