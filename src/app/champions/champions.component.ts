@@ -29,10 +29,12 @@ export class ChampionsComponent implements OnInit {
   ngOnInit() {
     this.championsCountdowns = this._servicioChampions.getCountdowns();
     this.initCountDowns();
-    this.championsGroups = this._servicioChampions.getGroups();
-    this.championsRounds = this._servicioChampions.getRounds();
+
     this.players = this._servicioData.readPlayers();
     console.log(this.players);
+
+    this.championsGroups = this._servicioChampions.getGroups();
+    this.championsRounds = this._servicioChampions.getRounds();
     this.calculateTables();
   }
 

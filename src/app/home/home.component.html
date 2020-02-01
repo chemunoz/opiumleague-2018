@@ -6,7 +6,7 @@
     <div class="trans-background mt-3 py-3 text-center">
       <!-- <div style="font-size: 0.6em;">EQUIPOS PENDIENTES DE CONFIRMAR...</div>
       <img class="shield" src="assets/img/shields/300/logo_opium_icono.png" alt="Opium League"/>-->
-      <span *ngFor="let player of homePlayers, index as i">
+      <span *ngFor="let player of homePlayers">
         <a [routerLink]="['/profile', player.id]">
           <img class="shield" src="assets/img/shields/150/{{player.shield}}" alt="{{player.team}}"/>
         </a>

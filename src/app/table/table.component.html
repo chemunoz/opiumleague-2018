@@ -68,27 +68,27 @@
             </tr>
           </tfoot>
           <tbody>
-            <tr class ="fila" *ngFor="let player of general_table, index as i" [ngClass]="{'champions': player.position_general < 4,
+            <tr class ="fila" *ngFor="let player of general_table; let i = index;" [ngClass]="{'champions': player.position_general < 4,
                                                                         'uefa': (player.position_general == 4 || player.position_general == 5),
                                                                         'intertoto': (player.position_general == 6 || player.position_general == 7 || player.position_general == 8 || player.position_general == 9 || player.position_general == 10),
-                                                                        'descenso': (i+1) > general_table.length - 4}">
+                                                                        'descenso': (i + 1) > general_table.length - 4}">
   
               <td class="text-center align-middle">{{player.position_general}}</td>
               <td class="text-center align-middle"><i class="{{player.updown}} fa-2x align-middle mr-1" [ngClass]="{'arrow-green': player.updown == 'fas fa-chevron-up', 'arrow-red': (player.updown == 'fas fa-chevron-down')}"></i> <span class="align-middle">{{player.updown_num}}</span></td>
               <td class="text-left align-middle">
-                <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i+1) <= general_table.length - 4,
-                                                                  'text-white': (i+1) > general_table.length - 4}">
+                <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i + 1) <= general_table.length - 4,
+                                                                  'text-white': (i + 1) > general_table.length - 4}">
                   <img src="/assets/img/shields/150/{{player.shield}}" class="table-shield" /> {{player.team}}
                 </a>
               </td>
               <td class="text-left align-middle d-none d-md-table-cell">
-                <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i+1) <= general_table.length - 4,
-                                                                  'text-white': (i+1) > general_table.length - 4}">
+                <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i + 1) <= general_table.length - 4,
+                                                                  'text-white': (i + 1) > general_table.length - 4}">
                   <img src="/assets/img/players/{{player.image}}" class="table-foto" /> {{player.name}}
                 </a>
               </td>
               <td class="text-left align-middle d-none d-md-table-cell">
-                <span class="racha" *ngFor="let position of player.positions_jornada, index as i2" 
+                <span class="racha" *ngFor="let position of player.positions_jornada" 
                   [ngClass]="{'top-positions': (position >= 1 && position < 11),
                               'mid-positions': (position >= 11 && position < general_table.length - 3),
                               'last-positions': position >= general_table.length - 3}">
@@ -110,7 +110,7 @@
     <div class="tab-pane fade" id="hist-total-table" role="tabpanel" aria-labelledby="hist-total-table-tab">
       <section class="table-responsive text-center">
         <div class="text-center">HISTÓRICO GENERAL</div>
-        <span class="historic_table" *ngFor="let jornada of historic_general, index as i">
+        <span class="historic_table" *ngFor="let jornada of historic_general">
           <div class="my-3 title">
             <i class="fas fa-futbol"></i> {{jornada.jor_name}}
           </div>
@@ -122,16 +122,16 @@
                 <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
               </tr>
             </thead>
-            <tbody *ngFor="let player_jornada of jornada, index as i">
+            <tbody *ngFor="let player_jornada of jornada; let i = index;">
             <tr [ngClass]="{'champions': player_jornada.position_general < 4,
                         'uefa': (player_jornada.position_general == 4 || player_jornada.position_general == 5),
                         'intertoto': (player_jornada.position_general == 6 || player_jornada.position_general == 7 || player_jornada.position_general == 8 || player_jornada.position_general == 9 || player_jornada.position_general == 10),
-                        'descenso': (i+1) > jornada.length - 4}">
+                        'descenso': (i + 1) > jornada.length - 4}">
                 <td class="text-center align-middle">{{player_jornada.position_general}}</td>
                 <td class="text-left align-middle">
                   <a [routerLink]="['/profile', player_jornada.id]" [ngClass]="{
-                            'text-dark': (i+1) <= jornada.length - 4,
-                            'text-white': (i+1) > jornada.length - 4}">
+                            'text-dark': (i + 1) <= jornada.length - 4,
+                            'text-white': (i + 1) > jornada.length - 4}">
                     <img src="/assets/img/shields/150/{{player_jornada.shield}}" class="table-shield" /> {{player_jornada.team}}
                   </a>
                 </td>
@@ -148,7 +148,7 @@
     <div class="tab-pane fade" id="hist-jornada-table" role="tabpanel" aria-labelledby="hist-jornada-table-tab">
       <section class="table-responsive text-center">
         <div class="text-center">HISTÓRICO DE JORNADAS</div>
-        <span class="historic_table" *ngFor="let jornada of historic_jornada, index as i">
+        <span class="historic_table" *ngFor="let jornada of historic_jornada">
           <div class="my-3 title">
             <i class="fas fa-futbol"></i> {{jornada.jor_name}}
           </div>
@@ -160,7 +160,7 @@
                 <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
               </tr>
             </thead>
-            <tbody *ngFor="let player_jornada of jornada, index as i">
+            <tbody *ngFor="let player_jornada of jornada">
               <tr [ngClass]="{'champions': player_jornada.position_jornada == 1,
                             'descenso': (player_jornada.position_jornada) == jornada[jornada.length-1].position_jornada}">
                 <td class="text-center align-middle">{{player_jornada.position_jornada}}</td>

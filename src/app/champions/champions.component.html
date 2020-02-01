@@ -88,7 +88,7 @@
     <div *ngIf="championsGroups.length > 0">
       <!-- Tabs Grupos -->
       <ul class="nav nav-tabs nav-fill my-3" id="ChampionsTab" role="tablist">
-        <li class="nav-item" *ngFor="let group of championsGroups; let i = index">
+        <li class="nav-item" *ngFor="let group of championsGroups; let i = index;">
           <a class="nav-link" [ngClass]="(i === 0) ? 'active' : ''" id="tab-{{ group.name }}" data-toggle="tab" href="#{{ group.name }}" role="tab">
             <span><i class="fas fa-table"></i></span>
             <span class="d-none d-md-inline"> GRUPO {{ group.name }} </span>
@@ -101,7 +101,7 @@
       <!-- Grupos -->
       <div class="tab-content mb-5" id="ChampionsTabContent">
         <!-- GRUPO -->
-        <div class="container tab-pane fade" [ngClass]="(i === 0) ? 'show active' : ''" *ngFor="let group of championsGroups; let i = index" id="{{ group.name }}" role="tabpanel">
+        <div class="container tab-pane fade" [ngClass]="(i === 0) ? 'show active' : ''" *ngFor="let group of championsGroups; let i = index;" id="{{ group.name }}" role="tabpanel">
           <div class="h6 text-center">GRUPO {{ group.name }}</div>
           <!-- Clasificación -->
           <table class="table">
@@ -120,7 +120,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr [ngClass]="{'champions': table_i <= 1, 'descenso': table_i > 1}" *ngFor="let table_team of championsTables[group.name]['table']; let table_i = index">
+              <tr [ngClass]="{'champions': table_i <= 1, 'descenso': table_i > 1}" *ngFor="let table_team of championsTables[group.name]['table']; let table_i = index;">
                 <td>{{ table_i + 1 }}</td>
                 <td class="text-left"><a [routerLink]="['/profile', table_team.id]"><img src="/assets/img/shields/150/{{ players[table_team.id].shield }} " class="table-shield" alt="{{ players[table_team.id].team }}"> {{ players[table_team.id].team }}</a></td>
                 <td>{{ table_team.score }}</td> <!-- Ptos -->
@@ -139,7 +139,7 @@
 
           <!-- Resultados -->
           <table class="table cup-table mt-3">
-            <ng-container *ngFor="let jornada of championsRounds; let iround = index">
+            <ng-container *ngFor="let jornada of championsRounds; let iround = index;">
               <tr>
                 <th colspan="3">JORNADA {{ iround + 1 }} ({{ jornada.date }})</th>
               </tr>

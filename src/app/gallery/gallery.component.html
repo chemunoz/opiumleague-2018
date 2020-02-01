@@ -1,7 +1,7 @@
 <section class="section mb-3">
   <div class="h3 text-center my-3">PARTICIPANTES</div>
   <div id="contenedor">
-    <div class="subcontenedor" *ngFor="let player of galleryPlayers, index as i">
+    <div class="subcontenedor" *ngFor="let player of galleryPlayers">
       <div>{{player.team}}</div>
       <a [routerLink]="['/profile', player.id]">
         <img class="foto" src="assets/img/players/{{player.image}}" title={{player.name}}><br>
