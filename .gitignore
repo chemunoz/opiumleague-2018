@@ -29,7 +29,8 @@
 /connect.lock
 /coverage
 /libpeerconnection.log
-/src/assets/api.json
+/src/assets/js/*
+*.psd
 npm-debug.log
 yarn-error.log
 testem.log

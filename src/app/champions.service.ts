@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 declare var require: any;
-const championsJSON = require('../assets/champions.json');
+const championsJSON = require('../assets/js/champions.json');
 
 @Injectable({
   providedIn: 'root'

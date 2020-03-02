@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import * as $ from 'jquery';
 
 declare var require: any;
-const dataJSON = require('../assets/data.json');
+const dataJSON = require('../assets/js/data.json');
 
 @Injectable({
   providedIn: 'root'
