@@ -220,7 +220,7 @@ export class ProfileComponent implements OnInit {
       xAxis: [{
           categories: ejes.XJornada,
           crosshair: true,
-          min: ejes.XJornada.length - 5,
+          min: ejes.XJornada.length - 10,
           max: ejes.XJornada.length - 1,
         //   scrollbar: {
         //     enabled: true
