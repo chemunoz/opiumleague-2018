@@ -12,6 +12,7 @@ export class CompetitionsComponent implements OnInit {
   EuropaLeague = [];
   SupercupEuropa = [];
   SupercupSpain = [];
+  SupercupOpium = [];
 
   constructor(private _servicioChampions: ChampionsService) {
     this.FOCup = [
@@ -53,7 +54,23 @@ export class CompetitionsComponent implements OnInit {
       }
     ];
 
-    const Competitions = [this.FOCup[0], this.FOCup[1], this.Champions[0], this.Champions[1], this.EuropaLeague[0], this.SupercupEuropa[0], this.SupercupSpain[0]];
+    this.SupercupOpium = [
+      {
+        deadline: 'Aug 30, 2019 21:00:00',
+        element: 'countdown-SupercupOpium',
+        distance: 0
+      }
+    ];
+
+    const Competitions = [
+      this.FOCup[0],
+      this.FOCup[1],
+      this.Champions[0],
+      this.Champions[1],
+      this.EuropaLeague[0],
+      this.SupercupEuropa[0],
+      this.SupercupSpain[0]
+    ];
 
     // Update the count down every 1 second
     const x = setInterval(() => {

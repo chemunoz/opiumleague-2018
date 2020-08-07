@@ -38,11 +38,11 @@ export class HomeComponent implements OnInit {
   countdown() {
     const opium_countdowns = {
       payment: {
-        date: 'Aug 11, 2019 21:00:00',
+        date: 'Aug 09, 2020 23:59:59',
         element: 'countdown-money'
       },
       start: {
-        date: 'Aug 16, 2019 21:00:00',
+        date: 'Sep 11, 2020 21:00:00',
         element: 'countdown'
       }
     };
@@ -62,7 +62,7 @@ export class HomeComponent implements OnInit {
     if (distance < 0) {
       document.getElementById('countdowns').style.display = 'none';
     } else {
-      const periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.8rem;">PLAZO DE INSCRIPCIÓN: <br> 01 JULIO HASTA EL 11 AGOSTO</div>` : `<div style="font-size: 0.8rem;">LA LIGA COMIENZA EN...</div>`;
+      const periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.8rem;">PLAZO DE RENOVACIÓN: <br> HASTA EL 09 AGOSTO</div>` : `<div style="font-size: 0.8rem;">LA LIGA COMIENZA EN...</div>`;
       document.getElementById('countdowns').innerHTML = `<div>${periodo}<i class="far ${elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt'}"></i> <span id="${elemento_id}" class="countdowns">0d 0h 0m 0s</span></div>`;
 
       // Update the count down every 1 second

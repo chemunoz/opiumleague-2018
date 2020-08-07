@@ -1,540 +1,543 @@
-<div class="h5 text-center my-3"><img src="/assets/img/cups/europa_league.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> OPIUM EUROPA LEAGUE</div>
+<div class="h5 text-center my-3"><img src="/assets/img/cups/europa_league.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> EUROPA LEAGUE</div>
 <hr>
 
 <div class="text-center mb-2" *ngIf="EuropaLeague[0].distance > 0"><i class="far fa-clock"></i> Inicio: <span id="countdown-EuropaLeague">0d 0h 0m 0s</span></div>
 
 <!-- CABECERA -->
 <div class="text-center my-3">
-  <div class="h4">CAMPEÓN 2019-2020</div>
-  <a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="foto" alt="Galizano 19-20"> <h3>Galizano 19-20</h3></a>
+  <!-- <div class="h4">CAMPEÓN 2019-2020</div>
+  <a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="foto" alt="Galizano 19-20"> <h3>Galizano 19-20</h3></a> -->
 </div>
 
 <!-- CRUCES -->
-<div class="text-center"><img id="cruces-uefa" class="cruces-img" src="/assets/img/uefa_cruces.jpg" alt=""></div>
+<div class="text-center"><img id="cruces-uefa" class="cruces-img" src="/assets/img/uefa_cruces_16.png" alt=""></div>
+<!-- <div class="text-center"><img id="cruces-uefa" class="cruces-img" src="/assets/img/uefa_cruces.jpg" alt=""></div> -->
 
-<!-- RESULTADOS -->
-<div class="h4 text-center mt-3">RESULTADOS</div>
+<div class="d-none">
+  <!-- RESULTADOS -->
+  <div class="h4 text-center mt-3">RESULTADOS</div>
 
-<!-- TABS -->
-<ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
-      <span><i class="fas fa-expand-arrows-alt"></i></span>
-      <span class="d-none d-md-inline"> DIECISEISAVOS</span>
-      <span class="d-sm-inline d-md-none"> 16º</span>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
-      <span><i class="fas fa-expand-arrows-alt"></i></span>
-      <span class="d-none d-md-inline"> OCTAVOS</span>
-      <span class="d-sm-inline d-md-none"> 8º</span>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="tab-C" data-toggle="tab" href="#C" role="tab" aria-controls="C" aria-selected="true">
-      <span><i class="fas fa-expand-arrows-alt"></i></span>
-      <span class="d-none d-md-inline"> CUARTOS</span>
-      <span class="d-sm-inline d-md-none"> 4º</span>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="tab-D" data-toggle="tab" href="#D" role="tab" aria-controls="D" aria-selected="true">
-      <span><i class="fas fa-expand-arrows-alt"></i></span>
-      <span class="d-none d-md-inline"> SEMIFINALES</span>
-      <span class="d-sm-inline d-md-none"> SE</span>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" id="tab-E" data-toggle="tab" href="#E" role="tab" aria-controls="E" aria-selected="true">
-      <span><i class="fas fa-expand-arrows-alt"></i></span>
-      <span class="d-none d-md-inline"> FINAL</span>
-      <span class="d-sm-inline d-md-none"> FI</span>
-    </a>
-  </li>
-</ul>
+  <!-- TABS -->
+  <ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
+        <span><i class="fas fa-expand-arrows-alt"></i></span>
+        <span class="d-none d-md-inline"> DIECISEISAVOS</span>
+        <span class="d-sm-inline d-md-none"> 16º</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
+        <span><i class="fas fa-expand-arrows-alt"></i></span>
+        <span class="d-none d-md-inline"> OCTAVOS</span>
+        <span class="d-sm-inline d-md-none"> 8º</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab-C" data-toggle="tab" href="#C" role="tab" aria-controls="C" aria-selected="true">
+        <span><i class="fas fa-expand-arrows-alt"></i></span>
+        <span class="d-none d-md-inline"> CUARTOS</span>
+        <span class="d-sm-inline d-md-none"> 4º</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab-D" data-toggle="tab" href="#D" role="tab" aria-controls="D" aria-selected="true">
+        <span><i class="fas fa-expand-arrows-alt"></i></span>
+        <span class="d-none d-md-inline"> SEMIFINALES</span>
+        <span class="d-sm-inline d-md-none"> SE</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" id="tab-E" data-toggle="tab" href="#E" role="tab" aria-controls="E" aria-selected="true">
+        <span><i class="fas fa-expand-arrows-alt"></i></span>
+        <span class="d-none d-md-inline"> FINAL</span>
+        <span class="d-sm-inline d-md-none"> FI</span>
+      </a>
+    </li>
+  </ul>
 
-<!-- RONDAS -->
-<div class="container tab-content mb-5" id="myTabContent">
+  <!-- RONDAS -->
+  <div class="container tab-content mb-5" id="myTabContent">
 
-  <!-- DIECISEISAVOS -->
-  <div class="tab-pane fade" id="A" role="tabpanel" aria-labelledby="tab-A">
-    <div class="h5 text-center mt-3">DIECISEISAVOS DE FINAL</div>
-    <table class="table cup-table">
-      <tr>
-        <td colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 23/02/2020 - VUELTA: 01/03/2020</td>
-      </tr>
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">81</div><small class="cup-difference">(-3)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+22)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">142</div><small class="cup-difference">(+19)</small></td>
-      </tr>
-      <tr class="fila fila-impar"> 
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 30]"><img src="/assets/img/shields/150/dani_lozano.png" class="table-shield" alt="NewTeam"> <div>NewTeam</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">84</div><small class="cup-difference">(+1)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">39</div><small class="cup-difference">(-22)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">123</div><small class="cup-difference">(-19)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 27]"><img src="/assets/img/shields/150/daniel_gonzalez.png" class="table-shield" alt="Caracas FC"> <div>Caracas FC</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">82</div><small class="cup-difference">(+39)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+4)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">143</div><small class="cup-difference">(+43)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 34]"><img src="/assets/img/shields/150/danilo.png" class="table-shield" alt="WikiTeam"> <div>WikiTeam</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">43</div><small class="cup-difference">(-39)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-4)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">100</div><small class="cup-difference">(-43)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 22]"><img src="/assets/img/shields/150/ekaitz.png" class="table-shield" alt="Yellow Storm F.C."> <div>Yellow Storm F.C.</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-18)</small></td>
-        <td class="text-center resultado"><div class="cup-score">54</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">101</div><small class="cup-difference">(-18)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 11]"><img src="/assets/img/shields/150/javi_nieto.png" class="table-shield" alt="Jabulani FC"> <div>Jabulani FC</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">65</div><small class="cup-difference">(+18)</small></td>
-        <td class="text-center resultado"><div class="cup-score">54</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">119</div><small class="cup-difference">(+18)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 37]"><img src="/assets/img/shields/150/dani_boltana.png" class="table-shield" alt="Buena FC"> <div>Buena FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">63</div><small class="cup-difference">(-8)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">64</div><small class="cup-difference">(+22)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">127</div><small class="cup-difference">(+14)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 33]"><img src="/assets/img/shields/150/paloma.png" class="table-shield" alt="Super Palomba"> <div>Super Palomba</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">71</div><small class="cup-difference">(+8)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">42</div><small class="cup-difference">(-22)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">113</div><small class="cup-difference">(-14)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">73</div><small class="cup-difference">(-3)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">60</div><small class="cup-difference">(+5)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">133</div><small class="cup-difference">(+2)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 32]"><img src="/assets/img/shields/150/mario.png" class="table-shield" alt="Mario's Eleven"> <div>Mario's Eleven</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">76</div><small class="cup-difference">(+3)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">55</div><small class="cup-difference">(-5)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">131</div><small class="cup-difference">(-2)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 5]"><img src="/assets/img/shields/150/javi_bsh.png" class="table-shield" alt="Sito Miñanco"> <div>Sito Miñanco</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">70</div><small class="cup-difference">(+20)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">38</div><small class="cup-difference">(+8)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">108</div><small class="cup-difference">(+28)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 8]"><img src="/assets/img/shields/150/ines.png" class="table-shield" alt="Capitán Tsubasa"> <div>Capitán Tsubasa</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">50</div><small class="cup-difference">(-20)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">30</div><small class="cup-difference">(-8)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">80</div><small class="cup-difference">(-28)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 10]"><img src="/assets/img/shields/150/will.png" class="table-shield" alt="Williessous"> <div>Williessous</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-35)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-20)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">103</div><small class="cup-difference">(-55)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 18]"><img src="/assets/img/shields/150/ezequiel.png" class="table-shield" alt="La Guardia Imperial"> <div>La Guardia Imperial</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">81</div><small class="cup-difference">(+35)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">77</div><small class="cup-difference">(+20)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">158</div><small class="cup-difference">(+55)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 9]"><img src="/assets/img/shields/150/nandelas.png" class="table-shield" alt="InFiCaN ViAjEs"> <div>InFiCaN ViAjEs</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">64</div><small class="cup-difference">(+16)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+8)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">125</div><small class="cup-difference">(+24)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 28]"><img src="/assets/img/shields/150/jose_cagigas.png" class="table-shield" alt="Autos Esprilla"> <div>Autos Esprilla</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-16)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">53</div><small class="cup-difference">(-8)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">101</div><small class="cup-difference">(-24)</small></td>
-      </tr>
-
-    </table>
-  </div>
-
-  <!-- OCTAVOS -->
-  <div class="tab-pane fade" id="B" role="tabpanel" aria-labelledby="tab-B">
-    <div class="h5 text-center mt-3"> OCTAVOS DE FINAL</div>
-    <!-- Resultados -->
-    <table class="table cup-table">
-      <tr>
-        <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 08/03/2020 - VUELTA: 14/06/2020</th>
-      </tr>
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 14]"><img src="/assets/img/shields/150/lorea.png" class="table-shield" alt="Jambo Jambo"> <div>Jambo Jambo</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-12)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">72</div><small class="cup-difference">(-19)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">118</div><small class="cup-difference">(-31)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">58</div><small class="cup-difference">(+12)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">91</div><small class="cup-difference">(+19)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">149</div><small class="cup-difference">(+31)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">73</div><small class="cup-difference">(+29)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">76</div><small class="cup-difference">(+5)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">149</div><small class="cup-difference">(+34)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 27]"><img src="/assets/img/shields/150/daniel_gonzalez.png" class="table-shield" alt="Caracas FC"> <div>Caracas FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">44</div><small class="cup-difference">(-29)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">71</div><small class="cup-difference">(-5)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">115 </div><small class="cup-difference">(-34)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 21]"><img src="/assets/img/shields/150/zea.png" class="table-shield" alt="Zea 1+8 FC"> <div>Zea 1+8 FC</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">68</div><small class="cup-difference">(+24)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">75</div><small class="cup-difference">(+8)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">143</div><small class="cup-difference">(+32)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 11]"><img src="/assets/img/shields/150/javi_nieto.png" class="table-shield" alt="Jabulani FC"> <div>Jabulani FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">44</div><small class="cup-difference">(-24)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">67</div><small class="cup-difference">(-8)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">111</div><small class="cup-difference">(-32)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">42</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">68</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">110</div><small class="cup-difference">(+0)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 37]"><img src="/assets/img/shields/150/dani_boltana.png" class="table-shield" alt="Buena FC"> <div>Buena FC</div></a></td>
-        <td class="text-center resultado"><div class="cup-score">42</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado"><div class="cup-score">68</div><small class="cup-difference">(+0)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">110</div><small class="cup-difference">(+0)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 38]"><img src="/assets/img/shields/150/hector.png" class="table-shield" alt="Vieja Escuela FC"> <div>Vieja Escuela FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">43</div><small class="cup-difference">(-16)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">79</div><small class="cup-difference">(+14)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">122</div><small class="cup-difference">(-2)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">59</div><small class="cup-difference">(+16)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">65</div><small class="cup-difference">(-14)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">124</div><small class="cup-difference">(+2)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">71</div><small class="cup-difference">(+33)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">70</div><small class="cup-difference">(+19)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">141</div><small class="cup-difference">(+52)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 5]"><img src="/assets/img/shields/150/javi_bsh.png" class="table-shield" alt="Sito Miñanco"> <div>Sito Miñanco</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">38</div><small class="cup-difference">(-33)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">51</div><small class="cup-difference">(-19)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">89</div><small class="cup-difference">(-52)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 25]"><img src="/assets/img/shields/150/raul.png" class="table-shield" alt="Dojo Cobra KAI"> <div>Dojo Cobra KAI</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">53</div><small class="cup-difference">(+6)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">61</div><small class="cup-difference">(-2)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">114</div><small class="cup-difference">(+4)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 18]"><img src="/assets/img/shields/150/ezequiel.png" class="table-shield" alt="La Guardia Imperial"> <div>La Guardia Imperial</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-6)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">63</div><small class="cup-difference">(+2)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">110</div><small class="cup-difference">(-4)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">57</div><small class="cup-difference">(+4)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">79</div><small class="cup-difference">(+9)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">136</div><small class="cup-difference">(+13)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 9]"><img src="/assets/img/shields/150/nandelas.png" class="table-shield" alt="InFiCaN ViAjEs"> <div>InFiCaN ViAjEs</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">53</div><small class="cup-difference">(-4)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">70</div><small class="cup-difference">(-9)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">123</div><small class="cup-difference">(-13)</small></td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- CUARTOS -->
-  <div class="tab-pane fade" id="C" role="tabpanel" aria-labelledby="tab-C">
-    <div class="h5 text-center mt-3"> CUARTOS DE FINAL</div>
-    <!-- Resultados -->
-    <table class="table cup-table">
-      <tr>
-        <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 18/06/2020 - VUELTA: 21/06/2020</th>
-      </tr>
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">49</div><small class="cup-difference">(+22)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">-28</div><small class="cup-difference">(-85)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">21</div><small class="cup-difference">(-63)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">27</div><small class="cup-difference">(-22)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">57</div><small class="cup-difference">(+85)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">84</div><small class="cup-difference">(+63)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 21]"><img src="/assets/img/shields/150/zea.png" class="table-shield" alt="Zea 1+8 FC"> <div>Zea 1+8 FC</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">21</div><small class="cup-difference">(-17)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-4)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">69</div><small class="cup-difference">(-21)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">38</div><small class="cup-difference">(+17)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">52</div><small class="cup-difference">(+4)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">90</div><small class="cup-difference">(+21)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">62</div><small class="cup-difference">(+3)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">66</div><small class="cup-difference">(-7)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">128</div><small class="cup-difference">(-4)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">59</div><small class="cup-difference">(-3)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">73</div><small class="cup-difference">(+7)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">132</div><small class="cup-difference">(+4)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 25]"><img src="/assets/img/shields/150/raul.png" class="table-shield" alt="Dojo Cobra KAI"> <div>Dojo Cobra KAI</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-18)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-15)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">93</div><small class="cup-difference">(-33)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">65</div><small class="cup-difference">(+18)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+15)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">126</div><small class="cup-difference">(+33)</small></td>
-      </tr>
-      
-    </table>
-  </div>
-
-  <!-- SEMIS -->
-  <div class="tab-pane fade" id="D" role="tabpanel" aria-labelledby="tab-D">
-    <div class="h5 text-center mt-3"> SEMIFINALES</div>
-    <!-- Resultados -->
-    <table class="table cup-table">
-      <tr>
-        <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 25/06/2020 - VUELTA: 29/06/2020</th>
-      </tr>
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">60</div><small class="cup-difference">(+11)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">68</div><small class="cup-difference">(-29)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">128</div><small class="cup-difference">(-18)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">49</div><small class="cup-difference">(-11)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">97</div><small class="cup-difference">(+29)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">146</div><small class="cup-difference">(+18)</small></td>
-      </tr>
-
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">IDA</span></th>
-        <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-14)</small></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">75</div><small class="cup-difference">(+18)</small></td>
-        <td class="text-center resultado bg-success"><div class="cup-score">123</div><small class="cup-difference">(+4)</small></td>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
-        <td class="text-center resultado cup-win-pre"><div class="cup-score">62</div><small class="cup-difference">(+14)</small></td>
-        <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-18)</small></td>
-        <td class="text-center resultado bg-danger text-white"><div class="cup-score">119</div><small class="cup-difference">(-4)</small></td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- FINAL -->
-  <div class="tab-pane fade show active" id="E" role="tabpanel" aria-labelledby="tab-E">
-    <div class="h5 text-center mt-3"> FINAL</div>
-    <!-- Resultados -->
-    <table class="table cup-table">
-      <tr>
-        <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 01/07/2020</th>
-      </tr>
-      <tr>
-        <th>EQUIPO</th>
-        <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
-        <th>EQUIPO</th>
-      </tr>
-      <tr class="fila fila-impar">
-        <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
-          <td class="text-center resultado"><div class="cup-score">82 - 44</div></td>
-          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
+    <!-- DIECISEISAVOS -->
+    <div class="tab-pane fade" id="A" role="tabpanel" aria-labelledby="tab-A">
+      <div class="h5 text-center mt-3">DIECISEISAVOS DE FINAL</div>
+      <table class="table cup-table">
+        <tr>
+          <td colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 23/02/2020 - VUELTA: 01/03/2020</td>
         </tr>
-    </table>
-  </div>
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">81</div><small class="cup-difference">(-3)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+22)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">142</div><small class="cup-difference">(+19)</small></td>
+        </tr>
+        <tr class="fila fila-impar"> 
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 30]"><img src="/assets/img/shields/150/dani_lozano.png" class="table-shield" alt="NewTeam"> <div>NewTeam</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">84</div><small class="cup-difference">(+1)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">39</div><small class="cup-difference">(-22)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">123</div><small class="cup-difference">(-19)</small></td>
+        </tr>
 
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 27]"><img src="/assets/img/shields/150/daniel_gonzalez.png" class="table-shield" alt="Caracas FC"> <div>Caracas FC</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">82</div><small class="cup-difference">(+39)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+4)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">143</div><small class="cup-difference">(+43)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 34]"><img src="/assets/img/shields/150/danilo.png" class="table-shield" alt="WikiTeam"> <div>WikiTeam</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">43</div><small class="cup-difference">(-39)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-4)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">100</div><small class="cup-difference">(-43)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 22]"><img src="/assets/img/shields/150/ekaitz.png" class="table-shield" alt="Yellow Storm F.C."> <div>Yellow Storm F.C.</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-18)</small></td>
+          <td class="text-center resultado"><div class="cup-score">54</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">101</div><small class="cup-difference">(-18)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 11]"><img src="/assets/img/shields/150/javi_nieto.png" class="table-shield" alt="Jabulani FC"> <div>Jabulani FC</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">65</div><small class="cup-difference">(+18)</small></td>
+          <td class="text-center resultado"><div class="cup-score">54</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">119</div><small class="cup-difference">(+18)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 37]"><img src="/assets/img/shields/150/dani_boltana.png" class="table-shield" alt="Buena FC"> <div>Buena FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">63</div><small class="cup-difference">(-8)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">64</div><small class="cup-difference">(+22)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">127</div><small class="cup-difference">(+14)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 33]"><img src="/assets/img/shields/150/paloma.png" class="table-shield" alt="Super Palomba"> <div>Super Palomba</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">71</div><small class="cup-difference">(+8)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">42</div><small class="cup-difference">(-22)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">113</div><small class="cup-difference">(-14)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">73</div><small class="cup-difference">(-3)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">60</div><small class="cup-difference">(+5)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">133</div><small class="cup-difference">(+2)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 32]"><img src="/assets/img/shields/150/mario.png" class="table-shield" alt="Mario's Eleven"> <div>Mario's Eleven</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">76</div><small class="cup-difference">(+3)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">55</div><small class="cup-difference">(-5)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">131</div><small class="cup-difference">(-2)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 5]"><img src="/assets/img/shields/150/javi_bsh.png" class="table-shield" alt="Sito Miñanco"> <div>Sito Miñanco</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">70</div><small class="cup-difference">(+20)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">38</div><small class="cup-difference">(+8)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">108</div><small class="cup-difference">(+28)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 8]"><img src="/assets/img/shields/150/ines.png" class="table-shield" alt="Capitán Tsubasa"> <div>Capitán Tsubasa</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">50</div><small class="cup-difference">(-20)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">30</div><small class="cup-difference">(-8)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">80</div><small class="cup-difference">(-28)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 10]"><img src="/assets/img/shields/150/will.png" class="table-shield" alt="Williessous"> <div>Williessous</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-35)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-20)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">103</div><small class="cup-difference">(-55)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 18]"><img src="/assets/img/shields/150/ezequiel.png" class="table-shield" alt="La Guardia Imperial"> <div>La Guardia Imperial</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">81</div><small class="cup-difference">(+35)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">77</div><small class="cup-difference">(+20)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">158</div><small class="cup-difference">(+55)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 9]"><img src="/assets/img/shields/150/nandelas.png" class="table-shield" alt="InFiCaN ViAjEs"> <div>InFiCaN ViAjEs</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">64</div><small class="cup-difference">(+16)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+8)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">125</div><small class="cup-difference">(+24)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 28]"><img src="/assets/img/shields/150/jose_cagigas.png" class="table-shield" alt="Autos Esprilla"> <div>Autos Esprilla</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-16)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">53</div><small class="cup-difference">(-8)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">101</div><small class="cup-difference">(-24)</small></td>
+        </tr>
+
+      </table>
+    </div>
+
+    <!-- OCTAVOS -->
+    <div class="tab-pane fade" id="B" role="tabpanel" aria-labelledby="tab-B">
+      <div class="h5 text-center mt-3"> OCTAVOS DE FINAL</div>
+      <!-- Resultados -->
+      <table class="table cup-table">
+        <tr>
+          <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 08/03/2020 - VUELTA: 14/06/2020</th>
+        </tr>
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 14]"><img src="/assets/img/shields/150/lorea.png" class="table-shield" alt="Jambo Jambo"> <div>Jambo Jambo</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-12)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">72</div><small class="cup-difference">(-19)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">118</div><small class="cup-difference">(-31)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">58</div><small class="cup-difference">(+12)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">91</div><small class="cup-difference">(+19)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">149</div><small class="cup-difference">(+31)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">73</div><small class="cup-difference">(+29)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">76</div><small class="cup-difference">(+5)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">149</div><small class="cup-difference">(+34)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 27]"><img src="/assets/img/shields/150/daniel_gonzalez.png" class="table-shield" alt="Caracas FC"> <div>Caracas FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">44</div><small class="cup-difference">(-29)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">71</div><small class="cup-difference">(-5)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">115 </div><small class="cup-difference">(-34)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 21]"><img src="/assets/img/shields/150/zea.png" class="table-shield" alt="Zea 1+8 FC"> <div>Zea 1+8 FC</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">68</div><small class="cup-difference">(+24)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">75</div><small class="cup-difference">(+8)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">143</div><small class="cup-difference">(+32)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 11]"><img src="/assets/img/shields/150/javi_nieto.png" class="table-shield" alt="Jabulani FC"> <div>Jabulani FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">44</div><small class="cup-difference">(-24)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">67</div><small class="cup-difference">(-8)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">111</div><small class="cup-difference">(-32)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
+          <td class="text-center resultado"><div class="cup-score">42</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado"><div class="cup-score">68</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">110</div><small class="cup-difference">(+0)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 37]"><img src="/assets/img/shields/150/dani_boltana.png" class="table-shield" alt="Buena FC"> <div>Buena FC</div></a></td>
+          <td class="text-center resultado"><div class="cup-score">42</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado"><div class="cup-score">68</div><small class="cup-difference">(+0)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">110</div><small class="cup-difference">(+0)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 38]"><img src="/assets/img/shields/150/hector.png" class="table-shield" alt="Vieja Escuela FC"> <div>Vieja Escuela FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">43</div><small class="cup-difference">(-16)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">79</div><small class="cup-difference">(+14)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">122</div><small class="cup-difference">(-2)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">59</div><small class="cup-difference">(+16)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">65</div><small class="cup-difference">(-14)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">124</div><small class="cup-difference">(+2)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">71</div><small class="cup-difference">(+33)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">70</div><small class="cup-difference">(+19)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">141</div><small class="cup-difference">(+52)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 5]"><img src="/assets/img/shields/150/javi_bsh.png" class="table-shield" alt="Sito Miñanco"> <div>Sito Miñanco</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">38</div><small class="cup-difference">(-33)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">51</div><small class="cup-difference">(-19)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">89</div><small class="cup-difference">(-52)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 25]"><img src="/assets/img/shields/150/raul.png" class="table-shield" alt="Dojo Cobra KAI"> <div>Dojo Cobra KAI</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">53</div><small class="cup-difference">(+6)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">61</div><small class="cup-difference">(-2)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">114</div><small class="cup-difference">(+4)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 18]"><img src="/assets/img/shields/150/ezequiel.png" class="table-shield" alt="La Guardia Imperial"> <div>La Guardia Imperial</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-6)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">63</div><small class="cup-difference">(+2)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">110</div><small class="cup-difference">(-4)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">57</div><small class="cup-difference">(+4)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">79</div><small class="cup-difference">(+9)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">136</div><small class="cup-difference">(+13)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 9]"><img src="/assets/img/shields/150/nandelas.png" class="table-shield" alt="InFiCaN ViAjEs"> <div>InFiCaN ViAjEs</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">53</div><small class="cup-difference">(-4)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">70</div><small class="cup-difference">(-9)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">123</div><small class="cup-difference">(-13)</small></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- CUARTOS -->
+    <div class="tab-pane fade" id="C" role="tabpanel" aria-labelledby="tab-C">
+      <div class="h5 text-center mt-3"> CUARTOS DE FINAL</div>
+      <!-- Resultados -->
+      <table class="table cup-table">
+        <tr>
+          <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 18/06/2020 - VUELTA: 21/06/2020</th>
+        </tr>
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 35]"><img src="/assets/img/shields/150/dani_negro.png" class="table-shield" alt="Gotham de Cantabria"> <div>Gotham de Cantabria</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">49</div><small class="cup-difference">(+22)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">-28</div><small class="cup-difference">(-85)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">21</div><small class="cup-difference">(-63)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">27</div><small class="cup-difference">(-22)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">57</div><small class="cup-difference">(+85)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">84</div><small class="cup-difference">(+63)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 21]"><img src="/assets/img/shields/150/zea.png" class="table-shield" alt="Zea 1+8 FC"> <div>Zea 1+8 FC</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">21</div><small class="cup-difference">(-17)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-4)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">69</div><small class="cup-difference">(-21)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">38</div><small class="cup-difference">(+17)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">52</div><small class="cup-difference">(+4)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">90</div><small class="cup-difference">(+21)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 12]"><img src="/assets/img/shields/150/pablo_fernandez.png" class="table-shield" alt="Lábaro FC"> <div>Lábaro FC</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">62</div><small class="cup-difference">(+3)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">66</div><small class="cup-difference">(-7)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">128</div><small class="cup-difference">(-4)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">59</div><small class="cup-difference">(-3)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">73</div><small class="cup-difference">(+7)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">132</div><small class="cup-difference">(+4)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 25]"><img src="/assets/img/shields/150/raul.png" class="table-shield" alt="Dojo Cobra KAI"> <div>Dojo Cobra KAI</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">47</div><small class="cup-difference">(-18)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">46</div><small class="cup-difference">(-15)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">93</div><small class="cup-difference">(-33)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">65</div><small class="cup-difference">(+18)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">61</div><small class="cup-difference">(+15)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">126</div><small class="cup-difference">(+33)</small></td>
+        </tr>
+        
+      </table>
+    </div>
+
+    <!-- SEMIS -->
+    <div class="tab-pane fade" id="D" role="tabpanel" aria-labelledby="tab-D">
+      <div class="h5 text-center mt-3"> SEMIFINALES</div>
+      <!-- Resultados -->
+      <table class="table cup-table">
+        <tr>
+          <th colspan="4" class="text-left px-1"><i class="far fa-clock"></i> IDA: 25/06/2020 - VUELTA: 29/06/2020</th>
+        </tr>
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 16]"><img src="/assets/img/shields/150/ovidiu.png" class="table-shield" alt="Ovi Dan"> <div>Ovi Dan</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">60</div><small class="cup-difference">(+11)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">68</div><small class="cup-difference">(-29)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">128</div><small class="cup-difference">(-18)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">49</div><small class="cup-difference">(-11)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">97</div><small class="cup-difference">(+29)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">146</div><small class="cup-difference">(+18)</small></td>
+        </tr>
+
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">IDA</span></th>
+          <th class="text-center"><span class="homeaway-result">VUELTA</span></th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-14)</small></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">75</div><small class="cup-difference">(+18)</small></td>
+          <td class="text-center resultado bg-success"><div class="cup-score">123</div><small class="cup-difference">(+4)</small></td>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 19]"><img src="/assets/img/shields/150/mayfex.png" class="table-shield" alt="CaZuVeNe"> <div>CaZuVeNe</div></a></td>
+          <td class="text-center resultado cup-win-pre"><div class="cup-score">62</div><small class="cup-difference">(+14)</small></td>
+          <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-18)</small></td>
+          <td class="text-center resultado bg-danger text-white"><div class="cup-score">119</div><small class="cup-difference">(-4)</small></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- FINAL -->
+    <div class="tab-pane fade show active" id="E" role="tabpanel" aria-labelledby="tab-E">
+      <div class="h5 text-center mt-3"> FINAL</div>
+      <!-- Resultados -->
+      <table class="table cup-table">
+        <tr>
+          <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 01/07/2020</th>
+        </tr>
+        <tr>
+          <th>EQUIPO</th>
+          <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
+          <th>EQUIPO</th>
+        </tr>
+        <tr class="fila fila-impar">
+          <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano 19-20"> <div>Galizano 19-20</div></a></td>
+            <td class="text-center resultado"><div class="cup-score">82 - 44</div></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 24]"><img src="/assets/img/shields/150/nuria.png" class="table-shield" alt="Steaua no Beberé"> <div>Steaua no Beberé</div></a></td>
+          </tr>
+      </table>
+    </div>
+
+  </div>
 </div>

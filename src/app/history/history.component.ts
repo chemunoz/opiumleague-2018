@@ -16,7 +16,7 @@ export class HistoryComponent implements OnInit {
 
     this.chart = new Chart({
       chart: {
-        height: 300,
+        height: 500,
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
@@ -38,58 +38,77 @@ export class HistoryComponent implements OnInit {
         data: [
           {y: 11, color: '#dc4f21'},
           {y: 11, color: '#dc4f21'},
+
           {y: 9, color: '#a09661'},
           {y: 9, color: '#a09661'},
           {y: 9, color: '#a09661'},
           {y: 9, color: '#a09661'},
+
           {y: 8, color: '#01fe6e'},
           {y: 8, color: '#01fe6e'},
-          {y: 7, color: '#d33497'},
+
+          {y: 7, color: '#58d7d7'},
 
           {y: 6, color: '#d33497'},
           {y: 6, color: '#d33497'},
-          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#d33497'},
 
           {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+          {y: 5, color: '#1a8251'},
+
           {y: 4, color: '#fdfe5f'},
           {y: 4, color: '#fdfe5f'},
           {y: 4, color: '#fdfe5f'},
           {y: 4, color: '#fdfe5f'},
           {y: 4, color: '#fdfe5f'},
           {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
+
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
+
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'},
-          {y: 1, color: '#6dcf5c'}
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'},
+          {y: 1, color: '#a1b2d5'}
         ]
       }],
       yAxis: {
-        title: null,
-        max: 10
+        title: null
+        // max: 15
       },
       xAxis: {
         labels: {
