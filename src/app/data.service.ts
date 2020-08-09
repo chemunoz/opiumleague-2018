@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import * as $ from 'jquery';
 
 declare var require: any;
-const dataJSON = require('../assets/js/data.json');
+const dataJSON = require('../assets/data/data.json');
 
 @Injectable({
   providedIn: 'root'
@@ -218,7 +218,11 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
-          team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada : team.position_jornada = index + 1;
+          if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {
+            team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada;
+          } else {
+            team.position_jornada = index + 1;
+          }
         } else {
           team.position_jornada = index + 1;
         }
@@ -263,7 +267,11 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index) => {
         // Calculate POSITIONS GENERAL
         if (index > 0) {
-          team.score_general === calculate_jornadas[jornada][index - 1].score_general ? team.position_general = calculate_jornadas[jornada][index - 1].position_general : team.position_general = index + 1;
+          if (team.score_general === calculate_jornadas[jornada][index - 1].score_general) {
+            team.position_general = calculate_jornadas[jornada][index - 1].position_general;
+          } else {
+            team.position_general = index + 1;
+          }
         } else {
           team.position_general = index + 1;
         }

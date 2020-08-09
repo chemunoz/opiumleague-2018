@@ -46,7 +46,8 @@ img.table-shield {
 }
 
 .cup-table th {
-  background-color: #fac473;
+  background-color: rgba(227, 4, 4, 0.7);
+  color: #FFFFFF;
 }
 
 .cup-difference {

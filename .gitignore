@@ -30,6 +30,7 @@
 /coverage
 /libpeerconnection.log
 /src/assets/js/*
+src/assets/psd/*
 npm-debug.log
 yarn-error.log
 testem.log

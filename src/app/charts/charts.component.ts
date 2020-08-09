@@ -158,7 +158,7 @@ export class ChartsComponent implements OnInit {
         text: null // 'GANADORES DE JORNADA'
       },
       subtitle: {
-        text: '(Obtendrán el Premio CERVECERÍA MOMPYS)'
+        text: ''
       },
       credits: {
         enabled: false

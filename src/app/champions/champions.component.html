@@ -1,4 +1,6 @@
-<div class="h5 text-center my-3"><img src="/assets/img/cups/champions.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> CHAMPIONS LEAGUE</div>
+<div class="h5 text-center my-3">
+  <img src="/assets/img/cups/champions.png" style="height: 40px; vertical-align: bottom; margin-right: 10px;"> 
+  <span>CHAMPIONS LEAGUE</span></div>
 <hr>
 
 <div class="text-center mb-2" *ngIf="championsCountdowns[0].distance > 0"><i class="fas fa-diagnoses"></i> Sorteo: <span id="countdown-draw-Champions">0d 0h 0m 0s</span></div>
@@ -13,14 +15,14 @@
 </div>
 
 <!-- BOMBOS y CRUCES -->
-<div class="text-center"><img src="/assets/img/cups/banner_champions_league.jpg" alt="Champions Logo" style="max-width: 90%;"></div>
-<!-- <div class="text-center"><img class="cruces-img" src="/assets/img/champions_bombos.jpg" alt="Bombos de Champions"></div> -->
-<!-- <div class="text-center"><img class="cruces-img" src="/assets/img/champions_grupos.jpg" alt="Grupos de Champions"></div> -->
-<!-- <div class="text-center"><img class="cruces-img mt-3" src="/assets/img/champions_cruces.jpg" alt="Cruces de Champions"></div> -->
+<!-- <div class="text-center"><img src="/assets/img/competitions/banner_champions_league.jpg" alt="Champions Logo" style="max-width: 90%;"></div> -->
+<div class="text-center"><img class="cruces-img" src="/assets/img/competitions/champions_bombos.jpg" alt="Bombos de Champions"></div>
+<!-- <div class="text-center"><img class="cruces-img" src="/assets/img/competitions/champions_grupos.jpg" alt="Grupos de Champions"></div> -->
+<!-- <div class="text-center"><img class="cruces-img mt-3" src="/assets/img/competitions/champions_cruces.jpg" alt="Cruces de Champions"></div> -->
 
 <div class="d-none">
 
-  <!-- RESULTADOS -->
+<!-- RESULTADOS -->
 <div class="h4 text-center mt-3">RESULTADOS</div>
 
 <!-- TABS -->
@@ -33,14 +35,14 @@
     </a>
   </li> -->
   <li class="nav-item">
-    <a class="nav-link" id="tab-fase-B" data-toggle="tab" href="#fase-B" role="tab" aria-controls="fase-B" aria-selected="true">
+    <a class="nav-link active" id="tab-fase-B" data-toggle="tab" href="#fase-B" role="tab" aria-controls="fase-B" aria-selected="true">
       <span><i class="fas fa-table"></i></span>
       <span class="d-none d-md-inline"> GRUPOS</span>
       <span class="d-sm-inline d-md-none"> GRUPOS</span>
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" id="tab-fase-C" data-toggle="tab" href="#fase-C" role="tab" aria-controls="fase-C" aria-selected="true">
+    <a class="nav-link" id="tab-fase-C" data-toggle="tab" href="#fase-C" role="tab" aria-controls="fase-C" aria-selected="true">
       <span><i class="fas fa-expand-arrows-alt"></i></span>
       <span class="d-none d-md-inline"> CRUCES</span>
       <span class="d-sm-inline d-md-none"> CRUCES</span>
@@ -81,7 +83,7 @@
   </div> -->
 
   <!-- FASE GRUPOS -->
-  <div class="container tab-pane fade" id="fase-B" role="tabpanel" aria-labelledby="fase-B">
+  <div class="container tab-pane fade show active" id="fase-B" role="tabpanel" aria-labelledby="fase-B">
     <div class="h5 text-center mt-3">GRUPOS</div>
 
     <div *ngIf="championsGroups.length === 0">
@@ -165,13 +167,13 @@
   </div>
 
   <!-- FASE CRUCES -->
-  <div class="container tab-pane fade show active" id="fase-C" role="tabpanel" aria-labelledby="fase-C">
+  <div class="container tab-pane fade" id="fase-C" role="tabpanel" aria-labelledby="fase-C">
     <div class="h5 text-center mt-3">CRUCES</div>
 
     <!-- TABS -->
     <ul class="nav nav-tabs nav-fill my-3" id="CrucesTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link" id="tab-cruce-A" data-toggle="tab" href="#cruce-A" role="tab" aria-controls="cruce-A" aria-selected="true">
+        <a class="nav-link active" id="tab-cruce-A" data-toggle="tab" href="#cruce-A" role="tab" aria-controls="cruce-A" aria-selected="true">
           <span><i class="fas fa-expand-arrows-alt"></i></span>
           <span class="d-none d-md-inline"> OCTAVOS</span>
           <span class="d-sm-inline d-md-none"> 8º</span>
@@ -192,7 +194,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" id="tab-cruce-D" data-toggle="tab" href="#cruce-D" role="tab" aria-controls="cruce-D" aria-selected="true">
+        <a class="nav-link" id="tab-cruce-D" data-toggle="tab" href="#cruce-D" role="tab" aria-controls="cruce-D" aria-selected="true">
           <span><i class="fas fa-expand-arrows-alt"></i></span>
           <span class="d-none d-md-inline"> FINAL</span>
           <span class="d-sm-inline d-md-none"> FI</span>
@@ -204,7 +206,7 @@
     <div class="container tab-content mb-5" id="CrucesTabContent">
 
       <!-- OCTAVOS -->
-      <div class="tab-pane fade" id="cruce-A" role="tabpanel" aria-labelledby="cruce-A">
+      <div class="tab-pane fade show active" id="cruce-A" role="tabpanel" aria-labelledby="cruce-A">
         <!-- Resultados -->
         <table class="table">
           <tr>
@@ -217,16 +219,16 @@
             <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
-            <td class="text-center resultado cup-win-pre"><div class="cup-score">68</div><small class="cup-difference">(+11)</small></td>
-            <td class="text-center resultado cup-lose-pre"><div class="cup-score">72</div><small class="cup-difference">(-20)</small></td>
-            <td class="text-center resultado bg-danger text-white"><div class="cup-score">140</div><small class="cup-difference">(-9)</small></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado bg-danger text-white"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
-            <td class="text-center resultado cup-lose-pre"><div class="cup-score">57</div><small class="cup-difference">(-11)</small></td>
-            <td class="text-center resultado cup-win-pre"><div class="cup-score">92</div><small class="cup-difference">(+20)</small></td>
-            <td class="text-center resultado bg-success"><div class="cup-score">149</div><small class="cup-difference">(+9)</small></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado bg-success"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
           </tr>
 
           <tr>
@@ -497,7 +499,7 @@
       </div>
 
       <!-- FINAL -->
-      <div class="tab-pane fade show active" id="cruce-D" role="tabpanel" aria-labelledby="cruce-D">
+      <div class="tab-pane fade" id="cruce-D" role="tabpanel" aria-labelledby="cruce-D">
         <!-- Resultados -->
         <table class="table cup-table">
           <tr>

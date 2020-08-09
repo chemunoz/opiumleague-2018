@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 declare var require: any;
-const championsJSON = require('../assets/js/champions.json');
+const championsJSON = require('../assets/data/champions.json');
 
 @Injectable({
   providedIn: 'root'
@@ -16,15 +16,15 @@ export class ChampionsService {
     this.championsInfo = championsJSON;
   }
 
-  getGroups(){
-    return this.championsInfo["groups"];
+  getGroups() {
+    return this.championsInfo['groups'];
   }
 
-  getRounds(){
-    return this.championsInfo["rounds"];
+  getRounds() {
+    return this.championsInfo['rounds'];
   }
 
-  getCountdowns(){
-    return this.championsInfo["countdowns"];
+  getCountdowns() {
+    return this.championsInfo['countdowns'];
   }
 }

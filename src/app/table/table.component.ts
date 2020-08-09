@@ -80,7 +80,7 @@ export class TableComponent implements OnInit {
             [-cmp(b.score_jornada, a.score_jornada), cmp(b.team, a.team)]
           );
         });
-        this.historic_jornada[this.historic_jornada.length - 1].jor_name = `${jornada}`.replace('_', ` Mompy's `).toUpperCase();
+        this.historic_jornada[this.historic_jornada.length - 1].jor_name = `${jornada}`.replace('_', ' ').toUpperCase();
       }
     });
     console.log('Hist generales', this.historic_general);
