@@ -1,12 +1,31 @@
 <section class="section mb-3">
   <div class="h3 text-center my-3">PARTICIPANTES</div>
   <div id="contenedor">
-    <div class="subcontenedor" *ngFor="let player of galleryPlayers">
-      <div>{{player.team}}</div>
-      <a [routerLink]="['/profile', player.id]">
-        <img class="foto" src="assets/img/players/{{player.image}}" title={{player.name}}><br>
+    <ng-container *ngFor="let player of galleryPlayers">
+      <a [routerLink]="['/profile', player.id]" style="color: #000000;">
+        <div class="badge-container" [ngClass]="{'badge-bronze': player.seasons.length <= 4,
+        'badge-silver': (player.seasons.length === 5 || player.seasons.length === 6 || player.seasons.length === 7 || player.seasons.length === 8),
+        'badge-gold': (player.seasons.length > 8)}">
+          <span class="kpi-average">{{player.badges.avg}}</span>
+          <span class="player-name">{{player.name | slice:0:19}}</span>
+          <span><img class="team-flag" src="assets/img/flags/{{player.nationality}}.gif"></span>
+          <span><img class="team-shield" src="assets/img/shields/150/{{player.images.shield}}" title="{{player.team}}"></span>
+          <span><img class="player-image" src="assets/img/badges/{{player.images.badge}}" title="{{player.name}}"></span>
+          <span class="team-name">{{player.team | slice:0:19}}</span>
+          <span class="kpis-container">
+            <span class="kpis-left">
+              <div><span class="label mr-1">ULT</span><span class="kpi">{{player.badges.ult}}</span></div>
+              <div><span class="label mr-1">TIT</span><span class="kpi">{{player.badges.tit}}</span></div>
+              <div><span class="label mr-1">ALT</span><span class="kpi">{{player.badges.alt}}</span></div>
+            </span>
+            <span class="kpis-right">
+              <div><span class="label mr-1">PAR</span><span class="kpi">{{player.badges.par}}</span></div>
+              <div><span class="label mr-1">JOR</span><span class="kpi">{{player.badges.jor}}</span></div>
+              <div><span class="label mr-1">BAJ</span><span class="kpi">{{player.badges.baj}}</span></div>
+            </span>
+          </span>
+        </div>
       </a>
-      <div>{{player.name}}</div>
-    </div>
+    </ng-container>
   </div>
 </section>

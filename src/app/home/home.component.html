@@ -8,7 +8,7 @@
       <!-- <img class="shield" src="assets/img/shields/300/logo_opium_icono.png" alt="Opium League"/>-->
       <span *ngFor="let player of homePlayers">
         <a [routerLink]="['/profile', player.id]">
-          <img class="shield" src="assets/img/shields/150/{{player.shield}}" alt="{{player.team}}"/>
+          <img class="shield" src="assets/img/shields/150/{{player.images.shield}}" alt="{{player.team}}"/>
         </a>
       </span>
     </div>

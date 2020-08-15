@@ -4,31 +4,109 @@
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   border-radius: 15px;
-  background-color: #2FB101;
+  background-color: rgba(47, 177, 1, 0.5);
   margin: 0px auto;
   text-align: center;
   padding: 5px;
 }
 
-.subcontenedor{
-  background-color: #FFF;
-  text-align: center;
-  display: inline-table;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  border-radius: 15px;
-  margin: 5px;
-  padding: 4px;
-  border: 1px solid;
-  font-size: 0.8rem;
+.badge-container {
+  width: 162px;
+  height: 210px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 0;
 }
 
-img.foto {
-  width: 9rem;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  vertical-align: middle;
+.badge-gold {
+  background-image: url(../../assets/img/badges/badge_gold.png);
+  background-size: cover;
+}
+
+.badge-silver {
+  background-image: url(../../assets/img/badges/badge_silver.png);
+  background-size: cover;
+}
+
+.badge-bronze {
+  background-image: url(../../assets/img/badges/badge_bronze.png);
+  background-size: cover;
+}
+
+.kpi-average {
+  position: relative;
+  top: 20px;
+  left: -36px;
+  font-size: 1.4rem;
+}
+
+.player-name {
+  position: relative;
+  top: 15px;
+  left: 25px;
+  display: block;
+  width: 40px;
+  font-size: 0.55rem;
+  text-align: center;
+}
+
+.team-flag {
+  position: relative;
+  top: -14px;
+  left: 17px;
+  height: 15px;
+}
+
+.team-shield {
+  position: relative;
+  top: 10px;
+  left: -7px;
+  height: 25px;
+  width: 25px;
+}
+
+.player-image {
+  position: relative;
+  top: -13px;
+  left: -5px;
+  width: 80px;
+}
+
+.team-name {
+  position: relative;
+  top: -11px;
+  left: 21px;
+  display: block;
+  width: 120px;
+  font-size: 0.75rem;
+}
+
+.kpis-container {
+  position: relative;
+  top: -8px;
+  font-size: 0.6rem;
+}
+
+.kpis-left {
+  position: relative;
+  left: 36px;
+  float: left;
+}
+
+.kpis-right {
+  position: relative;
+  right: -55px;
+  float: left;
+}
+
+.label {
+  display: inline-block;
+  min-width: 20px;
+}
+
+.kpi {
+  display: inline-block;
+  min-width: 10px;
+  text-align: right;
+  font-weight: bold;
 }

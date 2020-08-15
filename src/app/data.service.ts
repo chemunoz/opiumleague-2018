@@ -52,9 +52,9 @@ export class DataService {
         calculate_jornadas[`jornada_${index + 1}`].push({
           id: player.id,
           team: player.team,
-          shield: player.shield,
+          shield: player.images.shield,
           name: player.name,
-          image: player.image,
+          image: player.images.profile,
           score_jornada: score,
           score_general: player.score_general
         });
@@ -75,7 +75,11 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
-          team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada ? team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada : team.position_jornada = index + 1;
+          if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {
+            team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada;
+          } else {
+            team.position_jornada = index + 1;
+          }
         } else {
           team.position_jornada = index + 1;
         }
@@ -106,7 +110,11 @@ export class DataService {
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
         // Calculate POSITIONS GENERAL
         if (index > 0) {
-          team.score_general === calculate_jornadas[jornada][index - 1].score_general ? team.position_general = calculate_jornadas[jornada][index - 1].position_general : team.position_general = index + 1;
+          if (team.score_general === calculate_jornadas[jornada][index - 1].score_general) {
+            team.position_general = calculate_jornadas[jornada][index - 1].position_general;
+          } else {
+            team.position_general = index + 1;
+          }
         } else {
           team.position_general = index + 1;
         }
@@ -170,9 +178,9 @@ export class DataService {
         calculate_jornadas[`jornada_${index + 1}`].push({
           id: player.id,
           team: player.team,
-          shield: player.shield,
+          shield: player.images.shield,
           name: player.name,
-          image: player.image,
+          image: player.images.profile,
           score_jornada: score,
           score_general: player.score_general
         });
@@ -216,6 +224,7 @@ export class DataService {
 
       const points_average = [];
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
+        console.log('team', team);
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
           if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {

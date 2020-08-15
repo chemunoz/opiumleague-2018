@@ -10,8 +10,8 @@ export class GalleryComponent implements OnInit {
 
   galleryPlayers: any[] = [];
 
-  constructor(private _servicio: DataService) {
-    this.galleryPlayers = _servicio.readPlayers();
+  constructor(private dataService: DataService) {
+    this.galleryPlayers = dataService.readPlayers();
 
     // Comparison function
     const cmp = (x, y) => {
@@ -22,13 +22,12 @@ export class GalleryComponent implements OnInit {
     this.galleryPlayers.sort(function(a, b) {
       // note the minus before -cmp, for descending order
       return cmp(
-        [cmp(a.name, b.name)],
-        [cmp(b.name, a.name)]
+        [-cmp(a.badges.avg, b.badges.avg)],
+        [-cmp(b.badges.avg, a.badges.avg)]
       );
     });
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
