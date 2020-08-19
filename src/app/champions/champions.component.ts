@@ -21,7 +21,7 @@ export class ChampionsComponent implements OnInit {
     { match1: [2, 1], match2: [0, 3] }
   ];
   players: any = [];
-  championsTables : any = {};
+  championsTables: any = {};
 
   constructor(private _servicioData: DataService,
               private _servicioChampions: ChampionsService) {}
@@ -38,7 +38,7 @@ export class ChampionsComponent implements OnInit {
     this.calculateTables();
   }
 
-  initCountDowns(){
+  initCountDowns() {
     const Competitions = [this.championsCountdowns[0], this.championsCountdowns[1]];
 
     // Update the count down every 1 second
@@ -46,7 +46,9 @@ export class ChampionsComponent implements OnInit {
       // Get todays date and time
       const now = new Date().getTime();
 
-      Competitions.length === 0 ? clearInterval(x) : null;
+      if (Competitions.length === 0) {
+        clearInterval(x);
+      }
       Competitions.forEach((competition, index) => {
         // Find the distance between now an the count down date
         const countDownDate = new Date(competition.deadline).getTime();
@@ -68,22 +70,23 @@ export class ChampionsComponent implements OnInit {
         }
 
         // Output the result validating that the element exists
-        document.getElementById(competition.element) !== null ? document.getElementById(competition.element).innerHTML = text : null;
+        if (document.getElementById(competition.element) !== null) {
+          document.getElementById(competition.element).innerHTML = text;
+        }
       });
     }, 1000);
   }
 
-  calculateRounds(group: any){
+  calculateRounds(group: any) {
     // console.log("CALCULAR RONDAS", group);
     this.championsRounds.forEach((champions_round: any, index: number) => {
-      if (this.players[group.teams[0]].points[champions_round.round] !== null){
-        
+      if (this.players[group.teams[0]].points[champions_round.round] !== null) {
         // PARTIDOS
-        let partido1 = {
+        const partido1 = {
           home: group.teams[this.championsGroupsSchedule[index]['match1'][0]],
           away: group.teams[this.championsGroupsSchedule[index]['match1'][1]]
         };
-        let partido2 = {
+        const partido2 = {
           home: group.teams[this.championsGroupsSchedule[index]['match2'][0]],
           away: group.teams[this.championsGroupsSchedule[index]['match2'][1]]
         };
@@ -112,76 +115,76 @@ export class ChampionsComponent implements OnInit {
             ]
           }
         );
-        
+
         // CLASIFICACION
-        let home1 = this.championsTables[group.name]['table'].find(x => x.id === partido1.home);
-        let away1 = this.championsTables[group.name]['table'].find(x => x.id === partido1.away);
-        let home2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.home);
-        let away2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.away);
+        const home1 = this.championsTables[group.name]['table'].find(x => x.id === partido1.home);
+        const away1 = this.championsTables[group.name]['table'].find(x => x.id === partido1.away);
+        const home2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.home);
+        const away2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.away);
         [home1, away1, home2, away2].forEach((team: any, index: number) => {
           team.pj += 1;
           switch (index) {
             case 0:
               team.pf += this.players[partido1.home].points[champions_round.round];
               team.pc += -this.players[partido1.away].points[champions_round.round];
-              if (team.max < this.players[partido1.home].points[champions_round.round]){
+              if (team.max < this.players[partido1.home].points[champions_round.round]) {
                 team.max = this.players[partido1.home].points[champions_round.round];
               }
               if (Math.abs(this.players[partido1.home].points[champions_round.round]) > Math.abs(this.players[partido1.away].points[champions_round.round])) {
                 team.score += 3;
                 team.pg += 1;
-              }else if(Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])){
+              } else if (Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])) {
                 team.score += 1;
                 team.pe += 1;
-              }else{
+              } else {
                 team.pp += 1;
               }
               break;
             case 1:
               team.pf += this.players[partido1.away].points[champions_round.round];
               team.pc += -this.players[partido1.home].points[champions_round.round];
-              if (team.max < this.players[partido1.away].points[champions_round.round]){
+              if (team.max < this.players[partido1.away].points[champions_round.round]) {
                 team.max = this.players[partido1.away].points[champions_round.round];
               }
               if (Math.abs(this.players[partido1.away].points[champions_round.round]) > Math.abs(this.players[partido1.home].points[champions_round.round])) {
                 team.score += 3;
                 team.pg += 1;
-              }else if(Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])){
+              } else if (Math.abs(this.players[partido1.home].points[champions_round.round]) === Math.abs(this.players[partido1.away].points[champions_round.round])) {
                 team.score += 1;
                 team.pe += 1;
-              }else{
+              } else {
                 team.pp += 1;
               }
               break;
             case 2:
               team.pf += this.players[partido2.home].points[champions_round.round];
               team.pc += -this.players[partido2.away].points[champions_round.round];
-              if (team.max < this.players[partido2.home].points[champions_round.round]){
+              if (team.max < this.players[partido2.home].points[champions_round.round]) {
                 team.max = this.players[partido2.home].points[champions_round.round];
               }
               if (Math.abs(this.players[partido2.home].points[champions_round.round]) > Math.abs(this.players[partido2.away].points[champions_round.round])) {
                 team.score += 3;
                 team.pg += 1;
-              }else if(Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])){
+              } else if (Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])) {
                 team.score += 1;
                 team.pe += 1;
-              }else{
+              } else {
                 team.pp += 1;
               }
               break;
             case 3:
               team.pf += this.players[partido2.away].points[champions_round.round];
               team.pc += -this.players[partido2.home].points[champions_round.round];
-              if (team.max < this.players[partido2.away].points[champions_round.round]){
+              if (team.max < this.players[partido2.away].points[champions_round.round]) {
                 team.max = this.players[partido2.away].points[champions_round.round];
               }
               if (Math.abs(this.players[partido2.away].points[champions_round.round]) > Math.abs(this.players[partido2.home].points[champions_round.round])) {
                 team.score += 3;
                 team.pg += 1;
-              }else if(Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])){
+              } else if (Math.abs(this.players[partido2.home].points[champions_round.round]) === Math.abs(this.players[partido2.away].points[champions_round.round])) {
                 team.score += 1;
                 team.pe += 1;
-              }else{
+              } else {
                 team.pp += 1;
               }
               break;
@@ -192,13 +195,13 @@ export class ChampionsComponent implements OnInit {
               break;
           }
           team.dif = (team.pf + team.pc);
-        })
-        
+        });
+
       }
     });
   }
 
-  calculateTables(){
+  calculateTables() {
     // Comparison function
     const cmp = (x, y) => {
       return (x > y) ? 1 : (x < y) ? -1 : 0;

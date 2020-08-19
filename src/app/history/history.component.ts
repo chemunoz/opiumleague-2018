@@ -36,38 +36,40 @@ export class HistoryComponent implements OnInit {
         // showInLegend: false,
         name: 'Temporadas',
         data: [
-          {y: 11, color: '#dc4f21'},
-          {y: 11, color: '#dc4f21'},
+          {y: 12, color: '#dc4f21'},
+          {y: 12, color: '#dc4f21'},
 
-          {y: 9, color: '#a09661'},
-          {y: 9, color: '#a09661'},
-          {y: 9, color: '#a09661'},
-          {y: 9, color: '#a09661'},
+          {y: 10, color: '#a09661'},
+          {y: 10, color: '#a09661'},
+          {y: 10, color: '#a09661'},
+          {y: 10, color: '#a09661'},
 
-          {y: 8, color: '#01fe6e'},
-          {y: 8, color: '#01fe6e'},
+          {y: 9, color: '#01fe6e'},
+          {y: 9, color: '#01fe6e'},
 
-          {y: 7, color: '#58d7d7'},
+          {y: 8, color: '#58d7d7'},
 
-          {y: 6, color: '#d33497'},
-          {y: 6, color: '#d33497'},
-          {y: 6, color: '#d33497'},
+          {y: 7, color: '#d33497'},
+          {y: 7, color: '#d33497'},
 
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
-          {y: 5, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
 
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
-          {y: 4, color: '#fdfe5f'},
+          {y: 5, color: '#fdfe5f'},
+          {y: 5, color: '#fdfe5f'},
+          {y: 5, color: '#fdfe5f'},
+          {y: 5, color: '#fdfe5f'},
+          {y: 5, color: '#fdfe5f'},
+
+          {y: 4, color: '#d8944d'},
+          {y: 4, color: '#d8944d'},
+          {y: 4, color: '#d8944d'},
+          {y: 4, color: '#d8944d'},
 
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
@@ -75,6 +77,9 @@ export class HistoryComponent implements OnInit {
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
           {y: 3, color: '#7eb5da'},
+          {y: 3, color: '#7eb5da'},
+          {y: 3, color: '#7eb5da'},
+          {y: 3, color: '#7eb5da'},
 
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
@@ -84,14 +89,17 @@ export class HistoryComponent implements OnInit {
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
           {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
+          {y: 2, color: '#e03d12'},
 
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
-          {y: 1, color: '#a1b2d5'},
           {y: 1, color: '#a1b2d5'},
           {y: 1, color: '#a1b2d5'},
           {y: 1, color: '#a1b2d5'},
@@ -107,7 +115,8 @@ export class HistoryComponent implements OnInit {
         ]
       }],
       yAxis: {
-        title: null
+        title: null,
+        allowDecimals: false
         // max: 15
       },
       xAxis: {
@@ -129,75 +138,83 @@ export class HistoryComponent implements OnInit {
         //   enabled: true
         // },
         categories: [
-          // 11
+          // 12
           'Che',
           'David O.',
-          // 9
+          // 10
           'Adolfo',
           'Fran',
           'JC',
           'Mario',
-          // 8
+          // 9
           'Luis',
           'Paloma',
-          // 7
+          // 8
           'Raúl',
-          // 6
-          'A.Cadelo',
+          // 7
           'Danilo',
           'Chente',
-          // 5
-          'Borja L.',
+          // 6
+          'A.Cadelo',
           'Borja R.',
           'Dani',
-          'David M.',
           'Javi',
           'Nandelas',
           'Serious',
           'Will',
+          // 5
+          'Borja L.',
+          'David M.',
+          'Ru',
+          'Diego',
+          'Juanan',
           // 4
           'Carlos Julio',
           'Ivan',
           'Raúl Magni',
-          'Ru',
-          'Diego',
-          'Juanan',
+          'Ovidiu',
           // 3
           'Chus Contador',
           'Cruchi',
           'Dani Magni',
           'Dioni',
           'Ekaitz',
-          'Ovidiu',
+          'Nando',
+          'Dani G.',
+          'Ines',
+          'Pablo',
           // 2
           'Chema',
           'Manunu',
-          'Nando',
-          'Dani G.',
           'Felipe',
-          'Ines',
-          'Pablo',
           'Miguel',
-          // 1
-          'Adrialys',
-          'Cresmar',
-          'David',
           'Javier Rey',
-          'Jose',
-          'Poli',
-          'Rafa',
           'Javi',
           'Javi N.',
           'Lorea',
           'Luis R.',
+          'Richard',
           'Ezequiel',
           'Mayfex',
           'Nuria',
-          'Jose C.',
           'Dani L.',
           'Javichu',
           'Daniel',
-          'Pedro'
+          'Pedro',
+          'Hector',
+          // 1
+          'Adrialys',
+          'Cresmar',
+          'David',
+          'Jose Ramón',
+          'Poli',
+          'Rafa',
+          'Jose C.',
+          'Iñaki',
+          'Vanessa',
+          'Ramón',
+          'Murube',
+          'Pablo'
         ]
       }
     });

@@ -72,7 +72,7 @@ export class ProfileComponent implements OnInit {
       mijugador.awards[award].forEach(season => {
         if (award === 'round_top') {
           awards_profile.push({ kind: 'fas fa-award', title: 'Jornada Top' });
-        } else if (award === 'rounds_regularity'){
+        } else if (award === 'rounds_regularity') {
           awards_profile.push({ kind: 'fab fa-think-peaks', title: 'Premio Regularidad' });
         }
       });

@@ -11,12 +11,12 @@ export class CupComponent implements OnInit {
   constructor() {
     this.FOCup = [
       { // SORTEO
-        deadline: 'Sep 24, 2019 22:00:00',
+        deadline: 'Oct 16, 2020 22:00:00',
         element: 'countdown-draw-FOCup',
         distance: 0
       },
       { // COMIENZO
-        deadline: 'Sep 27, 2019 21:00:00',
+        deadline: 'Oct 23, 2020 21:00:00',
         element: 'countdown-FOCup',
         distance: 0
       }

@@ -17,12 +17,12 @@ export class CompetitionsComponent implements OnInit {
   constructor(private _servicioChampions: ChampionsService) {
     this.FOCup = [
       { // SORTEO
-        deadline: 'Sep 24, 2019 22:00:00',
+        deadline: 'Oct 16, 2020 22:00:00',
         element: 'countdown-draw-FOCup',
         distance: 0
       },
       { // COMIENZO
-        deadline: 'Sep 27, 2019 21:00:00',
+        deadline: 'Oct 23, 2020 21:00:00',
         element: 'countdown-FOCup',
         distance: 0
       }
@@ -40,7 +40,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupEuropa = [
       {
-        deadline: 'Aug 16, 2019 21:00:00',
+        deadline: 'Sep 18, 2020 21:00:00',
         element: 'countdown-SupercupEuropa',
         distance: 0
       }
@@ -48,7 +48,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupSpain = [
       {
-        deadline: 'Aug 30, 2019 21:00:00',
+        deadline: 'Oct 02, 2020 21:00:00',
         element: 'countdown-SupercupSpain',
         distance: 0
       }
