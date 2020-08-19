@@ -29,10 +29,12 @@
           </div>
           <div class="row my-3">
             <div class="col">
-              <h6>PARTICIPACIONES: {{player.seasons.length}} Temporadas</h6>
-              <span *ngFor="let temporada of player.seasons" style="text-align: center;">
-                <div class="temporada">{{temporada}}</div>
-              </span>
+              <div class="h6 text-left">PARTICIPACIONES: {{player.seasons.length}} Temporadas</div>
+              <div class="text-center">
+                <span *ngFor="let temporada of player.seasons" style="display: inline-block;">
+                  <div class="temporada">{{temporada}}</div>
+                </span>
+              </div>
             </div>
           </div>
           <div class="row">
@@ -62,13 +64,11 @@
     </div>
   </header>
 
-  <!-- GRAFICOS Y BIO -->
+  <!-- MÁS INFO -->
   <div class="container-fluid">
+    <!-- BIO -->
     <!-- <div class="row my-3">
-      <div class="col-md-12 col-lg-6 text-center mb-3">
-        <img class="stadium" src="https://www.abc.net.au/news/image/10882646-3x2-700x467.jpg" alt="">
-      </div>
-      <div class="col-md-12 col-lg-6">
+      <div class="col-md-12">
         <div class="card card-block text-xs-left p-3">
           <h5><i class="fa fa-user fa-fw"></i>Biography</h5>
             <p>Rick Sanchez C-137 is the father of Beth Smith, and the grandfather of Morty and Summer Smith. Aged 60 years old, he is said to have been away from the family for around fourteen years prior to the events of the show's first episode, "Pilot". He frequently travels on adventures through space and other planets and dimensions with his grandson Morty.</p>
@@ -76,6 +76,24 @@
       </div>
     </div> -->
 
+    <!-- ESTADIO y EQUIPACIONES -->
+    <div class="row my-3">
+      <!-- Estadio -->
+      <div class="col-md-12 col-lg-6 text-center mb-3">
+        <div class="h4">ESTADIO</div>
+        <!-- <img class="stadium" src="https://www.abc.net.au/news/image/10882646-3x2-700x467.jpg" alt=""> -->
+        <img class="stadium" src="assets/img/stadiums/{{player.images.stadium}}" alt="{{player.team}} stadium">
+        <div class="h6 mt-2">{{player.stadium}}</div>
+      </div>
+      <!-- Equipaciones -->
+      <div class="col-md-12 col-lg-6 text-center">
+        <div class="h4">EQUIPACIÓN</div>
+        <img class="strip mr-4" src="assets/img/teamstrips/{{player.images.team_strip_front}}" alt="{{player.team}} strip front">
+        <img class="strip" src="assets/img/teamstrips/{{player.images.team_strip_back}}" alt="{{player.team}} strip back">
+      </div>
+    </div>
+
+    <!-- GRAFICOS  -->
     <div class="row mb-3">
       <div class="col-sm-12 col-md-6 mb-3">
         <div class="card card-block">

@@ -3,10 +3,14 @@
     "id": 2,
     "name": "David",
     "team": "David Valcan",
+    "stadium": "Floranuco Valcan Arena",
     "images": {
       "shield": "ortega.png",
       "profile": "ortega.jpg",
-      "badge": "ortega.png"
+      "badge": "ortega.png",
+      "team_strip_front": "ortega_f.png",
+      "team_strip_back": "ortega_b.png",
+      "stadium": "ortega.jpg"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -40,10 +44,14 @@
     "id": 4,
     "name": "Javi",
     "team": "C.D. Monte",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "javi_monte.png",
       "profile": "javi_monte.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -76,11 +84,15 @@
   {
     "id": 6,
     "name": "Adolfo",
-    "team": "Galizano 19-20",
+    "team": "Galizano C.F.",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "adolfo.png",
       "profile": "adolfo.jpg",
-      "badge": "adolfo.png"
+      "badge": "adolfo.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -114,10 +126,14 @@
     "id": 30,
     "name": "Dani L.",
     "team": "NewTeam",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_lozano.png",
       "profile": "dani_lozano.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -151,10 +167,14 @@
     "id": 25,
     "name": "Raúl",
     "team": "Dojo Cobra KAI",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "raul.png",
       "profile": "raul.jpg",
-      "badge": "raul.png"
+      "badge": "raul.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -188,10 +208,14 @@
     "id": 8,
     "name": "Inés",
     "team": "Capitán Tsubasa",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "ines.png",
       "profile": "ines.jpg",
-      "badge": "ines.png"
+      "badge": "ines.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -225,10 +249,14 @@
     "id": 18,
     "name": "Ezequiel",
     "team": "La Guardia Imperial",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "ezequiel.png",
       "profile": "ezequiel.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -262,10 +290,14 @@
     "id": 11,
     "name": "Javi",
     "team": "Jabulani FC",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "javi_nieto.png",
       "profile": "javi_nieto.jpg",
-      "badge": "javi_nieto.png"
+      "badge": "javi_nieto.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -299,10 +331,14 @@
     "id": 14,
     "name": "Lorea",
     "team": "Jambo Jambo",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "lorea.png",
       "profile": "lorea.jpg",
-      "badge": "lorea.png"
+      "badge": "lorea.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -336,10 +372,14 @@
     "id": 38,
     "name": "Hector",
     "team": "Vieja Escuela FC",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "hector.png",
       "profile": "hector.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -373,10 +413,14 @@
     "id": 39,
     "name": "Pedro",
     "team": "Pedreña City",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "pedro_cuesta.png",
       "profile": "pedro_cuesta.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -410,10 +454,14 @@
     "id": 7,
     "name": "Fran",
     "team": "Rino's Boys",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "fran.png",
       "profile": "fran.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "fran.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -447,10 +495,14 @@
     "id": 0,
     "name": "JC",
     "team": "Frente Popular",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "jc.png",
       "profile": "jc.jpg",
-      "badge": "jc.png"
+      "badge": "jc.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -484,10 +536,14 @@
     "id": 1,
     "name": "Che",
     "team": "Amunt Che",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "che.png",
       "profile": "che.jpg",
-      "badge": "che.png"
+      "badge": "che.png",
+      "team_strip_front": "che_f.png",
+      "team_strip_back": "che_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -521,10 +577,14 @@
     "id": 36,
     "name": "Richard",
     "team": "La Familia",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "richard.png",
       "profile": "richard.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -558,10 +618,14 @@
     "id": 33,
     "name": "Paloma",
     "team": "Super Palomba",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "paloma.png",
       "profile": "paloma.jpg",
-      "badge": "paloma.png"
+      "badge": "paloma.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -595,10 +659,14 @@
     "id": 32,
     "name": "Mario",
     "team": "Mario's Eleven",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "mario.png",
       "profile": "mario.jpg",
-      "badge": "mario.png"
+      "badge": "mario.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -632,10 +700,14 @@
     "id": 13,
     "name": "Borja",
     "team": "Bierzo Power",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "borja_ramos.png",
       "profile": "borja_ramos2.jpg",
-      "badge": "borja_ramos.png"
+      "badge": "borja_ramos.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -669,10 +741,14 @@
     "id": 12,
     "name": "Pablo",
     "team": "Lábaro FC",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "pablo_fernandez.png",
       "profile": "pablo_fernandez.jpg",
-      "badge": "pablo_fernandez.png"
+      "badge": "pablo_fernandez.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -706,10 +782,14 @@
     "id": 9,
     "name": "Nando",
     "team": "InFiCaN ViAjEs",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "nandelas.png",
       "profile": "nandelas.jpg",
-      "badge": "nandelas.png"
+      "badge": "nandelas.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -743,10 +823,14 @@
     "id": 15,
     "name": "Juanan",
     "team": "Balompédica Porrua",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "juanan.png",
       "profile": "juanan.jpg",
-      "badge": "juanan.png"
+      "badge": "juanan.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -780,10 +864,14 @@
     "id": 17,
     "name": "Luís",
     "team": "MOMPY'S CF",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "luis_roll.png",
       "profile": "luis_roll.jpg",
-      "badge": "luis_roll.png"
+      "badge": "luis_roll.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -817,10 +905,14 @@
     "id": 3,
     "name": "Luís",
     "team": "Porrua City",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "luis.png",
       "profile": "luis.jpg",
-      "badge": "luis.png"
+      "badge": "luis.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -854,10 +946,14 @@
     "id": 31,
     "name": "Javichu",
     "team": "Racing Hoznayo",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "javichu.png",
       "profile": "javichu.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -891,10 +987,14 @@
     "id": 37,
     "name": "Daniel",
     "team": "Buena FC",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_boltana.png",
       "profile": "dani_boltana.jpg",
-      "badge": "dani_boltana.png"
+      "badge": "dani_boltana.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -928,10 +1028,14 @@
     "id": 19,
     "name": "Mayfex",
     "team": "CaZuVeNe",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "mayfex.png",
       "profile": "mayfex.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "mayfex.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -965,10 +1069,14 @@
     "id": 23,
     "name": "Diego",
     "team": "Orgullo de Runner",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "diego.png",
       "profile": "diego.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1002,10 +1110,14 @@
     "id": 40,
     "name": "Fernando",
     "team": "Murube's Jr",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "fernando_murube.png",
       "profile": "fernando_murube.jpg",
-      "badge": "fernando_murube.png"
+      "badge": "fernando_murube.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1039,10 +1151,14 @@
     "id": 41,
     "name": "Ramón",
     "team": "Montaña Porrúa",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "ramon_peredo.png",
       "profile": "ramon_peredo.jpg",
-      "badge": "ramon_peredo.png"
+      "badge": "ramon_peredo.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1076,10 +1192,14 @@
     "id": 27,
     "name": "Dani G.",
     "team": "Caracas FC",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "daniel_gonzalez.png",
       "profile": "daniel_gonzalez.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1113,10 +1233,14 @@
     "id": 42,
     "name": "Iñaki",
     "team": "Akiperez",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "inaki.png",
       "profile": "inaki.jpg",
-      "badge": "inaki.png"
+      "badge": "inaki.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1150,10 +1274,14 @@
     "id": 43,
     "name": "Nando",
     "team": "El Cártel de Kazoña",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "nando.png",
       "profile": "nando2.jpg",
-      "badge": "nando.png"
+      "badge": "nando.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1187,10 +1315,14 @@
     "id": 5,
     "name": "Javi",
     "team": "Club Juventud Cambados",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "javi_bsh.png",
       "profile": "javi_bsh.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1224,10 +1356,14 @@
     "id": 16,
     "name": "Ovidiu",
     "team": "Ovi Dan",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "ovidiu.png",
       "profile": "ovidiu.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1260,11 +1396,15 @@
   {
     "id": 35,
     "name": "Dani R.",
-    "team": "Gotham de Cantabria",
+    "team": "Santander Eagles",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_negro.png",
       "profile": "dani_negro.jpg",
-      "badge": "dani_negro.png"
+      "badge": "dani_negro.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1298,10 +1438,14 @@
     "id": 10,
     "name": "Will",
     "team": "Williessous",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "will.png",
       "profile": "will.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1335,10 +1479,14 @@
     "id": 26,
     "name": "Serious",
     "team": "Meneillos",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "serious.png",
       "profile": "serious.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1372,10 +1520,14 @@
     "id": 34,
     "name": "Dani S.",
     "team": "WikiTeam",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "danilo.png",
       "profile": "danilo.jpg",
-      "badge": "danilo.png"
+      "badge": "danilo.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1409,10 +1561,14 @@
     "id": 44,
     "name": "Pablo",
     "team": "Tolo's Team",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "pablo_padilla.png",
       "profile": "pablo_padilla.jpg",
-      "badge": "pablo_padilla.png"
+      "badge": "pablo_padilla.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1446,10 +1602,14 @@
     "id": 24,
     "name": "Nuria",
     "team": "Steaua no Beberé",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "nuria.png",
       "profile": "nuria.jpg",
-      "badge": "icono_femenino.png"
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1483,10 +1643,14 @@
     "id": 45,
     "name": "Ru",
     "team": "Antimerengues",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "ru.png",
       "profile": "ru.jpg",
-      "badge": "ru.png"
+      "badge": "ru.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1520,10 +1684,14 @@
     "id": 46,
     "name": "Chente",
     "team": "DamageKKing",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "vicente2.png",
       "profile": "vicente2.jpg",
-      "badge": "vicente.png"
+      "badge": "vicente.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1557,10 +1725,14 @@
     "id": 47,
     "name": "Vanessa",
     "team": "Lil'murderGirl",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "vanessa.png",
       "profile": "vanessa.jpg",
-      "badge": "vanessa.png"
+      "badge": "vanessa.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1594,10 +1766,14 @@
     "id": 48,
     "name": "Javi",
     "team": "Enzo team",
+    "stadium": "Opium Stadium",
     "images": {
       "shield": "javi.png",
       "profile": "javi.jpg",
-      "badge": "javi.png"
+      "badge": "javi.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
     },
     "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
@@ -1618,13 +1794,13 @@
     },
     "nationality": "esp",
     "badges": {
-      "avg": 50,
-      "ult": 50,
+      "avg": 55,
+      "ult": 71,
       "tit": "-",
-      "alt": 50,
-      "par": 8,
-      "jor": "-",
-      "baj": 30
+      "alt": 56,
+      "par": 17,
+      "jor": 7,
+      "baj": 40
     }
   }
 ]
