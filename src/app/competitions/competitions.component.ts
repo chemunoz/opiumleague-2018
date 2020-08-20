@@ -56,7 +56,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupOpium = [
       {
-        deadline: 'Aug 30, 2019 21:00:00',
+        deadline: 'Dec 18, 2020 21:00:00',
         element: 'countdown-SupercupOpium',
         distance: 0
       }
@@ -69,7 +69,8 @@ export class CompetitionsComponent implements OnInit {
       this.Champions[1],
       this.EuropaLeague[0],
       this.SupercupEuropa[0],
-      this.SupercupSpain[0]
+      this.SupercupSpain[0],
+      this.SupercupOpium[0]
     ];
 
     // Update the count down every 1 second
