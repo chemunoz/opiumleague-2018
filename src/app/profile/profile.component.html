@@ -48,7 +48,7 @@
             </div>
 
             <div class="col-sm-9 col-lg-6 my-3">
-              <h6>PREMIOS: {{player.awards.total}} Distinciones</h6>
+              <h6>LOGROS: {{player.awards.total}} Distinciones</h6>
               <div *ngIf="player.awards.total > 0">
                 <span *ngFor="let premio of player.awards_profile" style="text-align: center;">
                   <i class="{{ premio.kind }} fa-2x mr-2" title="{{ premio.title }}"></i>
