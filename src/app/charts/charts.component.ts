@@ -68,24 +68,24 @@ export class ChartsComponent implements OnInit {
         });
       }
       // Jornadas CHAMPIONS
-      if (player.positions_general.filter((position: any) => position <= 3).length > 0) {
+      if (player.positions_general.filter((position: any) => position <= 4).length > 0) {
         position_series.champions.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => position <= 3).length})`,
-            y: player.positions_general.filter((position: any) => position <= 3).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => position <= 4).length})`,
+            y: player.positions_general.filter((position: any) => position <= 4).length
         });
       }
       // Jornadas UEFA
-      if (player.positions_general.filter((position: any) => (position > 3 && position < 6)).length > 0) {
+      if (player.positions_general.filter((position: any) => (position > 4 && position < 8)).length > 0) {
         position_series.uefa.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => (position > 3 && position < 6)).length})`,
-            y: player.positions_general.filter((position: any) => (position > 3 && position < 6)).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => (position > 4 && position < 8)).length})`,
+            y: player.positions_general.filter((position: any) => (position > 4 && position < 8)).length
         });
       }
       // Jornadas INTERTOTO
-      if (player.positions_general.filter((position: any) => position > 5 && position < 11).length > 0) {
+      if (player.positions_general.filter((position: any) => position > 7 && position < 11).length > 0) {
         position_series.intertoto.push({
-            name: `${player.team} (${player.positions_general.filter((position: any) => position > 5 && position < 11).length})`,
-            y: player.positions_general.filter((position: any) => position > 5 && position < 11).length
+            name: `${player.team} (${player.positions_general.filter((position: any) => position > 7 && position < 11).length})`,
+            y: player.positions_general.filter((position: any) => position > 7 && position < 11).length
         });
       }
       // Jornadas DESCENSO

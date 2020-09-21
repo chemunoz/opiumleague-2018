@@ -11,7 +11,7 @@ export class SupercupOpiumComponent implements OnInit {
   constructor() {
     this.SupercupOpium = [
       {
-        deadline: 'Dec 18, 2020 21:00:00',
+        deadline: 'Jan 19, 2021 21:00:00',
         element: 'countdown-SupercupOpium',
         distance: 0
       }

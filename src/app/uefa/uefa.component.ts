@@ -11,11 +11,11 @@ export class UefaComponent implements OnInit {
   constructor() {
     this.EuropaLeague = [
       {
-        deadline: 'Feb 23, 2020 17:00:00',
+        deadline: 'Mar 19, 2021 21:00:00',
         element: 'countdown-EuropaLeague',
         distance: 0
       }
-  ];
+    ];
 
     const Competitions = [this.EuropaLeague[0]];
 

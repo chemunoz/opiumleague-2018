@@ -11,7 +11,7 @@ export class SupercupEuropaComponent implements OnInit {
   constructor() {
     this.SupercupEuropa = [
       {
-        deadline: 'Sep 18, 2020 21:00:00',
+        deadline: 'Sep 19, 2020 16:00:00',
         element: 'countdown-SupercupEuropa',
         distance: 0
       }

@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
         element: 'countdown-money'
       },
       start: {
-        date: 'Sep 11, 2020 21:00:00',
+        date: 'Sep 12, 2020 16:00:00',
         element: 'countdown'
       }
     };

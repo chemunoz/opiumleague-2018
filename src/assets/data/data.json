@@ -2,17 +2,17 @@
   {
     "id": 2,
     "name": "David",
-    "team": "David Valcan",
+    "team": "David Valcan (*)",
     "stadium": "Floranuco Valcan Arena",
     "images": {
       "shield": "ortega.png",
-      "profile": "ortega.jpg",
+      "profile": "ortega2.jpg",
       "badge": "ortega.png",
       "team_strip_front": "ortega_f.png",
       "team_strip_back": "ortega_b.png",
       "stadium": "ortega.jpg"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [70, 60, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -48,12 +48,12 @@
     "images": {
       "shield": "javi_monte.png",
       "profile": "javi_monte.jpg",
-      "badge": "icono_femenino.png",
+      "badge": "javi_monte.png",
       "team_strip_front": "opium_f.png",
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [46, 75, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -64,7 +64,8 @@
       "europa_league": [],
       "fo_cup": ["2019-2020"],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -94,7 +95,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [60, 47, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -105,7 +106,8 @@
       "europa_league": ["2019-2020"],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2010-2011"],
@@ -125,17 +127,17 @@
   {
     "id": 30,
     "name": "Dani L.",
-    "team": "NewTeam",
+    "team": "NewTeam(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_lozano.png",
       "profile": "dani_lozano.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "dani_lozano.png",
+      "team_strip_front": "dani_lozano_f.png",
+      "team_strip_back": "dani_lozano_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [9, 48, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -146,7 +148,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -166,17 +169,17 @@
   {
     "id": 25,
     "name": "Raúl",
-    "team": "Dojo Cobra KAI",
+    "team": "Dojo Cobra KAI(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "raul.png",
       "profile": "raul.jpg",
       "badge": "raul.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "raul_f.png",
+      "team_strip_back": "raul_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [28, 40, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2012-2013", "2013-2014", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -187,7 +190,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -207,17 +211,17 @@
   {
     "id": 8,
     "name": "Inés",
-    "team": "Capitán Tsubasa",
+    "team": "Capitán Tsubasa(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "ines.png",
       "profile": "ines.jpg",
       "badge": "ines.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "ines_f.png",
+      "team_strip_back": "ines_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [36, 21, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
@@ -228,7 +232,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -248,17 +253,17 @@
   {
     "id": 18,
     "name": "Ezequiel",
-    "team": "La Guardia Imperial",
+    "team": "La Guardia Imperial(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "ezequiel.png",
       "profile": "ezequiel.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "ezequiel.png",
+      "team_strip_front": "ezequiel_f.png",
+      "team_strip_back": "ezequiel_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [25, 31, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -269,7 +274,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -289,7 +295,7 @@
   {
     "id": 11,
     "name": "Javi",
-    "team": "Jabulani FC",
+    "team": "Jabulani FC(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "javi_nieto.png",
@@ -299,7 +305,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [32, 47, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -310,7 +316,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -330,7 +337,7 @@
   {
     "id": 14,
     "name": "Lorea",
-    "team": "Jambo Jambo",
+    "team": "Jambo Jambo(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "lorea.png",
@@ -340,7 +347,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [11, 21, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -351,7 +358,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -371,17 +379,17 @@
   {
     "id": 38,
     "name": "Hector",
-    "team": "Vieja Escuela FC",
+    "team": "Vieja Escuela FC(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "hector.png",
       "profile": "hector.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "hector.png",
+      "team_strip_front": "hector_f.png",
+      "team_strip_back": "hector_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [25, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -392,7 +400,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -412,17 +421,17 @@
   {
     "id": 39,
     "name": "Pedro",
-    "team": "Pedreña City",
+    "team": "Pedreña City(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "pedro_cuesta.png",
       "profile": "pedro_cuesta.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "pedro_cuesta.png",
+      "team_strip_front": "pedro_cuesta_f.png",
+      "team_strip_back": "pedro_cuesta_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [14, 42, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -433,7 +442,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -459,11 +469,11 @@
       "shield": "fran.png",
       "profile": "fran.jpg",
       "badge": "fran.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "fran_f.png",
+      "team_strip_back": "fran_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [59, 72, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -474,7 +484,8 @@
       "europa_league": ["2018-2019"],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -494,17 +505,17 @@
   {
     "id": 0,
     "name": "JC",
-    "team": "Frente Popular",
+    "team": "Frente Popular(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "jc.png",
       "profile": "jc.jpg",
       "badge": "jc.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "jc_f.png",
+      "team_strip_back": "jc_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [51, 41, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -515,7 +526,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2012-2013", "2019-2020"],
@@ -545,7 +557,7 @@
       "team_strip_back": "che_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [63, 81, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -556,7 +568,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2009-2010", "2012-2013", "2013-2014", "2015-2016", "2018-2019"],
@@ -581,12 +594,12 @@
     "images": {
       "shield": "richard.png",
       "profile": "richard.jpg",
-      "badge": "icono_femenino.png",
+      "badge": "richard.png",
       "team_strip_front": "opium_f.png",
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [48, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -597,7 +610,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -617,7 +631,7 @@
   {
     "id": 33,
     "name": "Paloma",
-    "team": "Super Palomba",
+    "team": "Super Palomba(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "paloma.png",
@@ -627,7 +641,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [50, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -638,7 +652,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -658,7 +673,7 @@
   {
     "id": 32,
     "name": "Mario",
-    "team": "Mario's Eleven",
+    "team": "Mario's Eleven(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "mario.png",
@@ -668,7 +683,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [56, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -679,7 +694,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -699,17 +715,17 @@
   {
     "id": 13,
     "name": "Borja",
-    "team": "Bierzo Power",
+    "team": "Bierzo Power(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "borja_ramos.png",
       "profile": "borja_ramos2.jpg",
       "badge": "borja_ramos.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "borja_ramos_f.png",
+      "team_strip_back": "borja_ramos_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [48, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -720,7 +736,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -750,7 +767,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [53, 68, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
@@ -761,7 +778,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -781,17 +799,17 @@
   {
     "id": 9,
     "name": "Nando",
-    "team": "InFiCaN ViAjEs",
+    "team": "InFiCaN ViAjEs(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "nandelas.png",
       "profile": "nandelas.jpg",
       "badge": "nandelas.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "nandelas_f.png",
+      "team_strip_back": "nandelas_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [25, 72, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -802,7 +820,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -828,11 +847,11 @@
       "shield": "juanan.png",
       "profile": "juanan.jpg",
       "badge": "juanan.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "juanan_f.png",
+      "team_strip_back": "juanan_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [58, 78, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -843,7 +862,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -863,17 +883,17 @@
   {
     "id": 17,
     "name": "Luís",
-    "team": "MOMPY'S CF",
+    "team": "MOMPY'S CF(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "luis_roll.png",
       "profile": "luis_roll.jpg",
       "badge": "luis_roll.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "luis_roll_f.png",
+      "team_strip_back": "luis_roll_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [3, 12, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -884,7 +904,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -910,11 +931,11 @@
       "shield": "luis.png",
       "profile": "luis.jpg",
       "badge": "luis.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "luis_f.png",
+      "team_strip_back": "luis_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [55, 68, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -924,8 +945,9 @@
       "champions": ["2019-2020"],
       "europa_league": [],
       "fo_cup": [],
-      "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_europa": ["2019-2020"],
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2016-2017"],
@@ -950,12 +972,12 @@
     "images": {
       "shield": "javichu.png",
       "profile": "javichu.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "javichu.png",
+      "team_strip_front": "javichu_f.png",
+      "team_strip_back": "javichu_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [26, 51, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -966,7 +988,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -986,7 +1009,7 @@
   {
     "id": 37,
     "name": "Daniel",
-    "team": "Buena FC",
+    "team": "Buena FC(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_boltana.png",
@@ -996,7 +1019,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [21, 47, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1007,7 +1030,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1033,11 +1057,11 @@
       "shield": "mayfex.png",
       "profile": "mayfex.jpg",
       "badge": "mayfex.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "mayfex_f.png",
+      "team_strip_back": "mayfex_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [43, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1048,7 +1072,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1073,12 +1098,12 @@
     "images": {
       "shield": "diego.png",
       "profile": "diego.jpg",
-      "badge": "icono_femenino.png",
+      "badge": "diego.png",
       "team_strip_front": "opium_f.png",
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [50, 76, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1089,7 +1114,8 @@
       "europa_league": [],
       "fo_cup": ["2018-2019"],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1109,17 +1135,17 @@
   {
     "id": 40,
     "name": "Fernando",
-    "team": "Murube's Jr",
+    "team": "Murube's Jr(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "fernando_murube.png",
       "profile": "fernando_murube.jpg",
       "badge": "fernando_murube.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "fernando_murube_f.png",
+      "team_strip_back": "fernando_murube_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [35, 54, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
@@ -1130,7 +1156,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1156,11 +1183,11 @@
       "shield": "ramon_peredo.png",
       "profile": "ramon_peredo.jpg",
       "badge": "ramon_peredo.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "ramon_peredo_f.png",
+      "team_strip_back": "ramon_peredo_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [46, 66, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
@@ -1171,7 +1198,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1191,17 +1219,17 @@
   {
     "id": 27,
     "name": "Dani G.",
-    "team": "Caracas FC",
+    "team": "Caracas FC(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "daniel_gonzalez.png",
       "profile": "daniel_gonzalez.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "daniel_gonzalez.png",
+      "team_strip_front": "daniel_gonzalez_f.png",
+      "team_strip_back": "daniel_gonzalez_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [22, 58, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
@@ -1212,7 +1240,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1231,59 +1260,18 @@
   },
   {
     "id": 42,
-    "name": "Iñaki",
-    "team": "Akiperez",
-    "stadium": "Opium Stadium",
-    "images": {
-      "shield": "inaki.png",
-      "profile": "inaki.jpg",
-      "badge": "inaki.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
-      "stadium": "opium.png"
-    },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-    ],
-    "seasons": ["2020-2021"],
-    "trophies": {
-      "liga_marca": [],
-      "liga_futmondo": [],
-      "champions": [],
-      "europa_league": [],
-      "fo_cup": [],
-      "supercopa_europa": [],
-      "supercopa_espana": []
-    },
-    "awards": {
-      "round_top": [],
-      "rounds_regularity": []
-    },
-    "nationality": "esp",
-    "badges": {
-      "avg": 50,
-      "ult": 50,
-      "tit": "-",
-      "alt": 50,
-      "par": 8,
-      "jor": "-",
-      "baj": 30
-    }
-  },
-  {
-    "id": 43,
     "name": "Nando",
-    "team": "El Cártel de Kazoña",
+    "team": "El Cártel de Kazoña(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "nando.png",
       "profile": "nando2.jpg",
       "badge": "nando.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "nando_f.png",
+      "team_strip_back": "nando_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [31, 52, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2011-2012", "2012-2013", "2020-2021"],
@@ -1294,7 +1282,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1314,7 +1303,7 @@
   {
     "id": 5,
     "name": "Javi",
-    "team": "Club Juventud Cambados",
+    "team": "Club Juventud Cambados(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "javi_bsh.png",
@@ -1324,7 +1313,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [13, 31, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2012-2013", "2018-2019", "2019-2020", "2020-2021"],
@@ -1335,7 +1324,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1360,12 +1350,12 @@
     "images": {
       "shield": "ovidiu.png",
       "profile": "ovidiu.jpg",
-      "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "badge": "ovidiu.png",
+      "team_strip_front": "ovidiu_f.png",
+      "team_strip_back": "ovidiu_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [59, 57, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1376,7 +1366,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2017-2018"],
@@ -1406,7 +1397,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [53, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1417,7 +1408,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1447,7 +1439,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1458,7 +1450,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1478,17 +1471,17 @@
   {
     "id": 26,
     "name": "Serious",
-    "team": "Meneillos",
+    "team": "Meneillos(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "serious.png",
       "profile": "serious.jpg",
       "badge": "icono_femenino.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
+      "team_strip_front": "serious_f.png",
+      "team_strip_back": "serious_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [41, 34, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1499,7 +1492,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1519,7 +1513,7 @@
   {
     "id": 34,
     "name": "Dani S.",
-    "team": "WikiTeam",
+    "team": "WikiTeam(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "danilo.png",
@@ -1529,7 +1523,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [19, 38, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020", "2020-2021"],
@@ -1540,7 +1534,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1558,9 +1553,9 @@
     }
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "Pablo",
-    "team": "Tolo's Team",
+    "team": "Tolo's Team(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "pablo_padilla.png",
@@ -1570,7 +1565,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [34, 44, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
@@ -1581,7 +1576,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1606,12 +1602,12 @@
     "images": {
       "shield": "nuria.png",
       "profile": "nuria.jpg",
-      "badge": "icono_femenino.png",
+      "badge": "nuria.png",
       "team_strip_front": "opium_f.png",
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [58, 63, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1622,7 +1618,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": ["2019-2020"],
@@ -1640,48 +1637,7 @@
     }
   },
   {
-    "id": 45,
-    "name": "Ru",
-    "team": "Antimerengues",
-    "stadium": "Opium Stadium",
-    "images": {
-      "shield": "ru.png",
-      "profile": "ru.jpg",
-      "badge": "ru.png",
-      "team_strip_front": "opium_f.png",
-      "team_strip_back": "opium_b.png",
-      "stadium": "opium.png"
-    },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
-    ],
-    "seasons": ["2009-2010", "2010-2011", "2011-2012", "2014-2015", "2020-2021"],
-    "trophies": {
-      "liga_marca": ["2009-2010"],
-      "liga_futmondo": [],
-      "champions": [],
-      "europa_league": [],
-      "fo_cup": [],
-      "supercopa_europa": [],
-      "supercopa_espana": []
-    },
-    "awards": {
-      "round_top": [],
-      "rounds_regularity": ["2009-2010", "2010-2011", "2011-2012"]
-    },
-    "nationality": "esp",
-    "badges": {
-      "avg": 85,
-      "ult": "-",
-      "tit": 33,
-      "alt": 50,
-      "par": 36,
-      "jor": 0,
-      "baj": 40
-    }
-  },
-  {
-    "id": 46,
+    "id": 44,
     "name": "Chente",
     "team": "DamageKKing",
     "stadium": "Opium Stadium",
@@ -1693,7 +1649,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [39, 55, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2012-2013", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2020-2021"],
@@ -1704,7 +1660,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1722,9 +1679,9 @@
     }
   },
   {
-    "id": 47,
+    "id": 45,
     "name": "Vanessa",
-    "team": "Lil'murderGirl",
+    "team": "Lil'murderGirl(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "vanessa.png",
@@ -1734,7 +1691,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [23, 58, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
@@ -1745,7 +1702,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1763,9 +1721,9 @@
     }
   },
   {
-    "id": 48,
+    "id": 46,
     "name": "Javi",
-    "team": "Enzo team",
+    "team": "Enzo team(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "javi.png",
@@ -1775,7 +1733,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+    "points": [28, 38, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2020-2021"],
@@ -1786,7 +1744,8 @@
       "europa_league": [],
       "fo_cup": [],
       "supercopa_europa": [],
-      "supercopa_espana": []
+      "supercopa_espana": [],
+      "supercopa_opium": []
     },
     "awards": {
       "round_top": [],
@@ -1801,6 +1760,170 @@
       "par": 17,
       "jor": 7,
       "baj": 40
+    }
+  },
+  {
+    "id": 20,
+    "name": "Felipe",
+    "team": "Old Tikis(**)",
+    "images": {
+      "shield": "felipe.png",
+      "profile": "felipe.jpg",
+      "badge": "felipe.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
+    },
+    "points": [19, 61, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+    ],
+    "seasons": ["2018-2019", "2019-2020", "2020-2021"],
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": [],
+      "supercopa_opium": []
+    },
+    "awards": {
+      "round_top": [],
+      "rounds_regularity": []
+    },
+    "nationality": "esp",
+    "badges": {
+      "avg": 80,
+      "ult": 87,
+      "tit": "-",
+      "alt": 85,
+      "par": 25,
+      "jor": 99,
+      "baj": 66
+    }
+  },
+  {
+    "id": 29,
+    "name": "David M.",
+    "team": "New Tikis(**)",
+    "images": {
+      "shield": "david_munoz.png",
+      "profile": "david_munoz.jpg",
+      "badge": "david_munoz.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
+    },
+    "points": [16, 50, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+    ],
+    "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": [],
+      "supercopa_opium": []
+    },
+    "awards": {
+      "round_top": [],
+      "rounds_regularity": []
+    },
+    "nationality": "esp",
+    "badges": {
+      "avg": 88,
+      "ult": 88,
+      "tit": 12,
+      "alt": 87,
+      "par": 50,
+      "jor": 34,
+      "baj": 68
+    }
+  },
+  {
+    "id": 47,
+    "name": "Juanjo",
+    "team": "Juanjotti Team(*)",
+    "images": {
+      "shield": "juanjo.png",
+      "profile": "juanjo.jpg",
+      "badge": "juanjo.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
+    },
+    "points": [37, 60, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+    ],
+    "seasons": ["2020-2021"],
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": [],
+      "supercopa_opium": []
+    },
+    "awards": {
+      "round_top": [],
+      "rounds_regularity": []
+    },
+    "nationality": "esp",
+    "badges": {
+      "avg": 50,
+      "ult": 50,
+      "tit": "-",
+      "alt": 50,
+      "par": 8,
+      "jor": "-",
+      "baj": 30
+    }
+  },
+  {
+    "id": 21,
+    "name": "Miguel",
+    "team": "Zea 1+8 FC(**)",
+    "images": {
+      "shield": "zea.png",
+      "profile": "zea.jpg",
+      "badge": "icono_femenino.png",
+      "team_strip_front": "opium_f.png",
+      "team_strip_back": "opium_b.png",
+      "stadium": "opium.png"
+    },
+    "points": [28, 24, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+      null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+    ],
+    "seasons": ["2018-2019", "2019-2020", "2020-2021"],
+    "trophies": {
+      "liga_marca": [],
+      "liga_futmondo": [],
+      "champions": [],
+      "europa_league": [],
+      "fo_cup": [],
+      "supercopa_europa": [],
+      "supercopa_espana": [],
+      "supercopa_opium": []
+    },
+    "awards": {
+      "round_top": [],
+      "rounds_regularity": []
+    },
+    "nationality": "esp",
+    "badges": {
+      "avg": 80,
+      "ult": 87,
+      "tit": "-",
+      "alt": 87,
+      "par": 25,
+      "jor": 33,
+      "baj": 47
     }
   }
 ]

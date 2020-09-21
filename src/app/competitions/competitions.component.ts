@@ -32,7 +32,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.EuropaLeague = [
       {
-        deadline: 'Feb 23, 2020 17:00:00',
+        deadline: 'Mar 19, 2021 21:00:00',
         element: 'countdown-EuropaLeague',
         distance: 0
       }
@@ -40,7 +40,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupEuropa = [
       {
-        deadline: 'Sep 18, 2020 21:00:00',
+        deadline: 'Sep 19, 2020 16:00:00',
         element: 'countdown-SupercupEuropa',
         distance: 0
       }
@@ -48,7 +48,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupSpain = [
       {
-        deadline: 'Oct 02, 2020 21:00:00',
+        deadline: 'Sep 29, 2020 21:00:00',
         element: 'countdown-SupercupSpain',
         distance: 0
       }
@@ -56,7 +56,7 @@ export class CompetitionsComponent implements OnInit {
 
     this.SupercupOpium = [
       {
-        deadline: 'Dec 18, 2020 21:00:00',
+        deadline: 'Jan 19, 2021 21:00:00',
         element: 'countdown-SupercupOpium',
         distance: 0
       }

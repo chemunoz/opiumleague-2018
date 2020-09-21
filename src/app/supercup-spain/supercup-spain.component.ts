@@ -11,9 +11,9 @@ export class SupercupSpainComponent implements OnInit {
   constructor() {
     this.SupercupSpain = [
       {
-      deadline: 'Oct 02, 2020 21:00:00',
-      element: 'countdown-SupercupSpain',
-      distance: 0
+        deadline: 'Sep 29, 2020 21:00:00',
+        element: 'countdown-SupercupSpain',
+        distance: 0
       }
     ];
 

@@ -59,13 +59,13 @@ export class HistoryComponent implements OnInit {
           {y: 6, color: '#1a8251'},
           {y: 6, color: '#1a8251'},
           {y: 6, color: '#1a8251'},
+          {y: 6, color: '#1a8251'},
 
           {y: 5, color: '#fdfe5f'},
           {y: 5, color: '#fdfe5f'},
           {y: 5, color: '#fdfe5f'},
-          {y: 5, color: '#fdfe5f'},
-          {y: 5, color: '#fdfe5f'},
 
+          {y: 4, color: '#d8944d'},
           {y: 4, color: '#d8944d'},
           {y: 4, color: '#d8944d'},
           {y: 4, color: '#d8944d'},
@@ -162,13 +162,13 @@ export class HistoryComponent implements OnInit {
           'Nandelas',
           'Serious',
           'Will',
+          'David M.',
           // 5
           'Borja L.',
-          'David M.',
-          'Ru',
           'Diego',
           'Juanan',
           // 4
+          'Ru',
           'Carlos Julio',
           'Ivan',
           'Raúl Magni',
@@ -183,11 +183,11 @@ export class HistoryComponent implements OnInit {
           'Dani G.',
           'Ines',
           'Pablo',
+          'Felipe',
+          'Zea',
           // 2
           'Chema',
           'Manunu',
-          'Felipe',
-          'Miguel',
           'Javier Rey',
           'Javi',
           'Javi N.',
@@ -210,11 +210,11 @@ export class HistoryComponent implements OnInit {
           'Poli',
           'Rafa',
           'Jose C.',
-          'Iñaki',
           'Vanessa',
           'Ramón',
           'Murube',
-          'Pablo'
+          'Pablo',
+          'Juanjo'
         ]
       }
     });

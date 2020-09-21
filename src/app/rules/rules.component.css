@@ -1,8 +1,13 @@
-p{
+section {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+p {
  margin-bottom: 0.5rem !important;
 }
 
-#contenedor-reglas{
+.contenedor-reglas{
   width: 95%;
   height: 100%;
   color: #FFF;
@@ -15,18 +20,18 @@ p{
   margin: 0px auto;
 }
 
-#contenedor-reglas p{
+.contenedor-reglas p{
   /*margin: 1px 1px 15px 1px;*/
   text-align: justify;
 }
 
-#contenedor-reglas ol{
+.contenedor-reglas ol{
   margin: 1px 1px 1px 30px;
   color: #FFF;
   text-align: justify;
 }
 
-#contenedor-reglas li{
+.contenedor-reglas li{
   font-size: 0.8rem;
 }
 

@@ -4,7 +4,7 @@
     <div class="trans-background">XII OPIUM INFICAN VIAJES</div>
     <div id="countdowns" class="trans-background mt-3" style="color: #000;"></div>
     <div class="trans-background mt-3 py-3 text-center">
-      <div class="mb-2" style="color: #000; font-size: 0.6em;">EQUIPOS CONFIRMADOS: {{ homePlayers.length }}</div>
+      <!-- <div class="mb-2" style="color: #000; font-size: 0.6em;">EQUIPOS CONFIRMADOS: {{ homePlayers.length }}</div> -->
       <!-- <img class="shield" src="assets/img/shields/300/logo_opium_icono.png" alt="Opium League"/>-->
       <span *ngFor="let player of homePlayers">
         <a [routerLink]="['/profile', player.id]">
