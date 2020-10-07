@@ -1,0 +1,69 @@
+<div class="h3 text-center my-3">SPORT-FRIENDS</div>
+
+<!-- General Table -->
+<section class="table-responsive mb-4">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+        <th class="text-center align-middle"><abbr title="Sube/baja posición"><i class="fas fa-exchange-alt align-middle"></i></abbr></th>
+        <th class="align-middle"><i class="fas fa-shield-alt"></i> Equipo</th>
+        <th class="align-middle d-none d-md-table-cell"><i class="fas fa-user-shield"></i> Jugador</th>
+        <th class="text-center align-middle d-none d-md-table-cell"><i class="fas fa-chart-line"></i> Racha</th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
+        <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Peor Jornada">Peor</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Media Puntos/Jornada">Media</abbr></th>
+      </tr>
+    </thead>
+    <!-- <tfoot class="thead-light">
+      <tr>
+        <th class="text-center align-middle"><abbr title="Posicion">Pos</abbr></th>
+        <th class="text-center align-middle"><abbr title="Sube/baja posición"><i class="fas fa-exchange-alt align-middle"></i></abbr></th>
+        <th class="align-middle"><i class="fas fa-shield-alt"></i> Equipo</th>
+        <th class="align-middle d-none d-md-table-cell"><i class="fas fa-user-shield"></i> Jugador</th>
+        <th class="text-center align-middle d-none d-md-table-cell"><i class="fas fa-chart-line"></i> Racha</th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Jornada">Jor</abbr></th>
+        <th class="text-center align-middle"><abbr title="Puntos">Ptos</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Mejor Jornada">Mejor</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Peor Jornada">Peor</abbr></th>
+        <th class="text-center align-middle d-none d-sm-table-cell"><abbr title="Media Puntos/Jornada">Media</abbr></th>
+      </tr>
+    </tfoot> -->
+    <tbody>
+      <tr class ="fila" *ngFor="let player of general_table; let i = index;" [ngClass]="{'champions': player.position_general == 1,
+                                                                  'uefa': (player.position_general == 2),
+                                                                  'descenso': (i + 1) > general_table.length - 1}">
+
+        <td class="text-center align-middle">{{player.position_general}}</td>
+        <td class="text-center align-middle"><i class="{{player.updown}} fa-2x align-middle mr-1" [ngClass]="{'arrow-green': player.updown == 'fas fa-chevron-up', 'arrow-red': (player.updown == 'fas fa-chevron-down')}"></i> <span class="align-middle">{{player.updown_num}}</span></td>
+        <td class="text-left align-middle">
+          <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i + 1) <= general_table.length - 1,
+                                                            'text-white': (i + 1) > general_table.length - 1}">
+            <img src="/assets/img/shields/150/{{player.shield}}" class="table-shield" /> {{player.team}}
+          </a>
+        </td>
+        <td class="text-left align-middle d-none d-md-table-cell">
+          <a [routerLink]="['/profile', player.id]" [ngClass]="{'text-dark': (i + 1) <= general_table.length - 1,
+                                                            'text-white': (i + 1) > general_table.length - 1}">
+            <img src="/assets/img/players/{{player.image}}" class="table-foto" /> {{player.name}}
+          </a>
+        </td>
+        <td class="text-left align-middle d-none d-md-table-cell">
+          <span class="racha" *ngFor="let position of player.positions_jornada" 
+            [ngClass]="{'top-positions': (position >= 1 && position < 11),
+                        'mid-positions': (position >= 11 && position < general_table.length - 3),
+                        'last-positions': position >= general_table.length - 3}">
+            {{position}}
+          </span>
+        </td>
+        <td class="text-center align-middle d-none d-sm-table-cell">{{player.num_jornadas}}</td>
+        <td class="text-center align-middle font-weight-bold">{{player.score_general}}</td>
+        <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_best}}</td>
+        <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_worst}}</td>
+        <td class="text-center align-middle d-none d-sm-table-cell">{{player.score_average}}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

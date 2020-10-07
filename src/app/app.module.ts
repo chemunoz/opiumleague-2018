@@ -26,11 +26,13 @@ import { NewsComponent } from './news/news.component';
 import { SupercupEuropaComponent } from './supercup-europa/supercup-europa.component';
 import { SupercupSpainComponent } from './supercup-spain/supercup-spain.component';
 import { SupercupOpiumComponent } from './supercup-opium/supercup-opium.component';
+import { TableFriendsComponent } from './table-friends/table-friends.component';
 
 // Routes
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'table', component: TableComponent },
+  { path: 'table-friends', component: TableFriendsComponent },
   { path: 'charts', component: ChartsComponent },
   { path: 'competitions', component: CompetitionsComponent },
   { path: 'cup', component: CupComponent },
@@ -66,7 +68,8 @@ const routes: Routes = [
     NewsComponent,
     SupercupEuropaComponent,
     SupercupSpainComponent,
-    SupercupOpiumComponent
+    SupercupOpiumComponent,
+    TableFriendsComponent
   ],
   imports: [
     BrowserModule,

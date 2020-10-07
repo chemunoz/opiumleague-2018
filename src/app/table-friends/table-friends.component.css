@@ -1,0 +1,149 @@
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.no-data {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.nav-link {
+  padding: .5rem .2rem;
+}
+
+/* CLASIFICACIONES */
+.fa-exchange-alt {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.table td, .table th {
+  padding: 0.5rem 0.1rem !important;
+  vertical-align: middle !important;
+  font-size: 0.9rem; }
+
+.champions {
+  background-color: #FFFF00;
+  color: #000; }
+
+.uefa {
+  background-color: #FFC000;
+  color: #000; }
+
+.intertoto {
+  background-color: #82da82;
+  color: #000; }
+
+.resto {
+  background-color: #FFF;
+  color: #000; }
+
+.descenso {
+  background-color: #FF5555;
+  color: #FFF; }
+
+tbody tr.fila:hover {
+  background-color: #0F0 !important;
+  color: #000 !important; }
+tbody tr:hover a {
+  color: #000 !important; }
+tbody tr.fila th:hover {
+  background-color: #FFF !important;
+  color: #000 !important; }
+
+.historic_table {
+  font-size: 1rem; }
+  .historic_table .title {
+    font-size: 1rem; }
+
+img.table-foto {
+  width: 2rem;
+  height: 2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: middle; }
+
+img.table-shield {
+  width: 2.3rem;
+  height: 2.3rem;
+  vertical-align: middle; }
+
+.arrow-green {
+  color: #019700;
+}
+
+.arrow-red {
+  color: #BE1501;
+}
+
+.racha{
+  margin: 0 1px;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  width: 30px;
+  text-align: center;
+}
+
+.top-positions {
+  background-color: #50ad55 !important;
+  color: #FFF; }
+
+.mid-positions {
+  background-color: #2b98f0 !important;
+  color: #FFF; }
+
+.last-positions {
+  background-color: #f1453d !important;
+  color: #FFF; }
+
+
+.legend{
+  padding: 2px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+  .historic_table {
+    display: inline-block;
+    margin: 1px 3px 10px 3px;
+    border: 1px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .no-data {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  img.table-foto {
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  img.table-shield {
+    width: 2.8rem;
+    height: 2.8rem;
+    vertical-align: middle;
+  }
+  
+  .no-data {
+    width: 20%;
+    margin: 0 auto;
+  }
+}

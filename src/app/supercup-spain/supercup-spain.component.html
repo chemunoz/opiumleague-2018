@@ -5,8 +5,9 @@
 
 <!-- CABECERA -->
 <div class="text-center my-3">
-  <!-- <div class="h4">CAMPEÓN 2018-2019</div>
-  <a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="foto" alt="David Valcan"> <div>David Valcan</div></a> -->
+  <div class="h4">CAMPEÓN 2019-2020</div>
+  <a [routerLink]="['/profile', 36]"><img src="/assets/img/shields/150/richard.png" class="foto" alt="La Familia"> <div>La Familia</div></a>
+
   <div class="container">
     <div class="text-left"><i class="fas fa-exclamation-triangle text-warning"></i> NOTA:</div>
     <div class="text-justify">Al coincidir esta temporada los finalistas de la FO Cup con el campeón y subcampeón de Liga, se completa el cuadro con los 3º y 4º clasificados en Liga. </div>
@@ -22,14 +23,14 @@
   <!-- TABS -->
   <ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
+      <a class="nav-link" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
         <span><i class="fas fa-expand-arrows-alt"></i></span>
         <span class="d-none d-md-inline"> SEMIFINALES</span>
         <span class="d-sm-inline d-md-none"> SEMIFINALES</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
+      <a class="nav-link active" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
         <span><i class="fas fa-expand-arrows-alt"></i></span>
         <span class="d-none d-md-inline"> FINAL</span>
         <span class="d-sm-inline d-md-none"> FINAL</span>
@@ -41,12 +42,12 @@
   <div class="container tab-content mb-5" id="myTabContent">
 
     <!-- SEMIS -->
-    <div class="tab-pane fade show active" id="A" role="tabpanel" aria-labelledby="tab-A">
+    <div class="tab-pane fade" id="A" role="tabpanel" aria-labelledby="tab-A">
       <div class="h5 text-center mt-3"> SEMIFINALES</div>
       <!-- Resultados -->
       <table class="table cup-table">
         <tr>
-            <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 04/10/2020</th>
+            <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 30/09/2020</th>
         </tr>
         <tr>
           <th>EQUIPO</th>
@@ -55,24 +56,24 @@
         </tr>
         <tr class="fila fila-impar">
           <td class="text-center equipo"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
-          <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
+          <td class="text-center resultado"><div class="cup-score"><small>58 - 71</small></div></td>
           <td class="text-center equipo"><a [routerLink]="['/profile', 36]"><img src="/assets/img/shields/150/richard.png" class="table-shield" alt="La Familia"> <div>La Familia</div></a></td>
         </tr>
         <tr class="fila fila-impar">
           <td class="text-center equipo"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
-          <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
+          <td class="text-center resultado"><div class="cup-score"><small>50 - 66</small></div></td>
           <td class="text-center equipo"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
         </tr>
       </table>
     </div>
 
     <!-- FINAL -->
-    <div class="tab-pane fade" id="B" role="tabpanel" aria-labelledby="tab-B">
+    <div class="tab-pane fade show active" id="B" role="tabpanel" aria-labelledby="tab-B">
       <div class="h5 text-center my-3"> FINAL</div>
       <!-- Resultados -->
       <table class="table cup-table">
         <tr>
-          <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 11/10/2020</th>
+          <th colspan="3" class="text-left"><i class="far fa-clock"></i> PARTIDO ÚNICO: 04/10/2020</th>
         </tr>
         <tr>
           <th>EQUIPO</th>
@@ -80,9 +81,9 @@
           <th>EQUIPO</th>
         </tr>
         <tr class="fila fila-impar">
-            <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
-            <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
-            <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+          <td class="text-center equipo"><a [routerLink]="['/profile', 36]"><img src="/assets/img/shields/150/richard.png" class="table-shield" alt="La Familia"> <div>La Familia</div></a></td>
+            <td class="text-center resultado"><div class="cup-score"><small>70 - 40</small></div></td>
+            <td class="text-center equipo"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
           </tr>
       </table>
     </div>
