@@ -11,7 +11,7 @@ export class CupComponent implements OnInit {
   constructor() {
     this.FOCup = [
       { // SORTEO
-        deadline: 'Oct 16, 2020 22:00:00',
+        deadline: 'Oct 17, 2020 16:00:00',
         element: 'countdown-draw-FOCup',
         distance: 0
       },
