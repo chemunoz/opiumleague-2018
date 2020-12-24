@@ -224,7 +224,6 @@ export class DataService {
 
       const points_average = [];
       calculate_jornadas[jornada].forEach((team: any, index: any) => {
-        console.log('team', team);
         // Calculate position number (and if there are more than one team sharing each position)
         if (index > 0) {
           if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {
