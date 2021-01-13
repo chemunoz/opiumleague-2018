@@ -127,7 +127,7 @@
   {
     "id": 30,
     "name": "Dani L.",
-    "team": "NewTeam(*****)",
+    "team": "NewTeam(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_lozano.png",
@@ -137,7 +137,7 @@
       "team_strip_back": "dani_lozano_b.png",
       "stadium": "opium.png"
     },
-    "points": [9, 48, 72, 56, 50, 38, 55, 71, 63, 62, 65, 40, 71, 50, 77, 63, 67, 48, 35,
+    "points": [9, 48, 72, 61, 50, 38, 55, 71, 63, 62, 65, 40, 71, 50, 77, 63, 67, 48, 35,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -379,7 +379,7 @@
   {
     "id": 38,
     "name": "Hector",
-    "team": "Vieja Escuela FC(****)",
+    "team": "Vieja Escuela FC(***)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "hector.png",
@@ -389,7 +389,7 @@
       "team_strip_back": "hector_b.png",
       "stadium": "opium.png"
     },
-    "points": [25, 64, 39, 76, 56, 40, 71, 87, 53, 42, 62, 48, 60, 64, 65, 69, 59, 63, 22,
+    "points": [25, 64, 39, 81, 56, 40, 71, 87, 53, 42, 62, 48, 60, 64, 65, 69, 59, 63, 22,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -505,7 +505,7 @@
   {
     "id": 0,
     "name": "JC",
-    "team": "Frente Popular(****)",
+    "team": "Frente Popular(***)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "jc.png",
@@ -515,7 +515,7 @@
       "team_strip_back": "jc_b.png",
       "stadium": "opium.png"
     },
-    "points": [51, 58, 70, 61, 44, 56, 43, 49, 65, 60, 70, 53, 73, 63, 82, 62, 70, 71, 17,
+    "points": [51, 58, 70, 76, 44, 56, 43, 49, 65, 60, 70, 53, 73, 63, 82, 62, 70, 71, 17,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -547,7 +547,7 @@
   {
     "id": 1,
     "name": "Che",
-    "team": "Amunt Che(***)",
+    "team": "Amunt Che(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "che.png",
@@ -557,7 +557,7 @@
       "team_strip_back": "che_b.png",
       "stadium": "opium.png"
     },
-    "points": [63, 81, 34, 53, 71, 58, 59, 71, 47, 68, 63, 51, 69, 64, 65, 66, 81, 55, 6,
+    "points": [63, 81, 34, 58, 71, 58, 59, 71, 47, 68, 63, 51, 69, 64, 65, 66, 81, 55, 6,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -631,7 +631,7 @@
   {
     "id": 33,
     "name": "Paloma",
-    "team": "Super Palomba(*****)",
+    "team": "Super Palomba(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "paloma.png",
@@ -641,7 +641,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [50, 53, 35, 53, 50, 34, 37, 63, 63, 45, 44, 43, 66, 83, 68, 66, 46, 62, 15,
+    "points": [50, 53, 35, 58, 50, 34, 37, 63, 63, 45, 44, 43, 66, 83, 68, 66, 46, 62, 15,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -673,7 +673,7 @@
   {
     "id": 32,
     "name": "Mario",
-    "team": "Mario's Eleven(***)",
+    "team": "Mario's Eleven(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "mario.png",
@@ -683,7 +683,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [56, 71, 35, 55, 49, 29, 62, 81, 73, 54, 55, 27, 62, 75, 76, 52, 65, 57, 39,
+    "points": [56, 71, 35, 63, 49, 29, 62, 81, 73, 54, 55, 27, 62, 75, 76, 52, 65, 57, 39,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -799,7 +799,7 @@
   {
     "id": 9,
     "name": "Nando",
-    "team": "InFiCaN ViAjEs(***)",
+    "team": "InFiCaN ViAjEs(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "nandelas.png",
@@ -809,7 +809,7 @@
       "team_strip_back": "nandelas_b.png",
       "stadium": "opium.png"
     },
-    "points": [25, 72, 75, 55, 52, 34, 61, 54, 87, 59, 79, 27, 58, 87, 80, 41, 75, 77, 35,
+    "points": [25, 72, 75, 70, 52, 34, 61, 54, 87, 59, 79, 27, 58, 87, 80, 41, 75, 77, 35,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -841,7 +841,7 @@
   {
     "id": 15,
     "name": "Juanan",
-    "team": "Balompédica Porrua(***)",
+    "team": "Balompédica Porrua(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "juanan.png",
@@ -851,7 +851,7 @@
       "team_strip_back": "juanan_b.png",
       "stadium": "opium.png"
     },
-    "points": [58, 78, 32, 61, 55, 33, 30, 68, 78, 62, 70, 38, 53, 63, 31, 42, 62, 67, 13,
+    "points": [58, 78, 32, 66, 55, 33, 30, 68, 78, 62, 70, 38, 53, 63, 31, 42, 62, 67, 13,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -883,7 +883,7 @@
   {
     "id": 17,
     "name": "Luís",
-    "team": "MOMPY'S CF(*****)",
+    "team": "MOMPY'S CF(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "luis_roll.png",
@@ -893,7 +893,7 @@
       "team_strip_back": "luis_roll_b.png",
       "stadium": "opium.png"
     },
-    "points": [3, 12, 59, 55, 34, 41, 26, 37, 65, 32, 32, 20, 35, 48, 22, 39, 29, 27, 0,
+    "points": [3, 12, 59, 64, 34, 41, 26, 37, 65, 32, 32, 20, 35, 48, 22, 39, 29, 27, 0,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -925,7 +925,7 @@
   {
     "id": 3,
     "name": "Luís",
-    "team": "Porrua City(***)",
+    "team": "Porrua City(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "luis.png",
@@ -935,7 +935,7 @@
       "team_strip_back": "luis_b.png",
       "stadium": "opium.png"
     },
-    "points": [55, 68, 79, 50, 68, 36, 51, 78, 51, 69, 62, 43, 61, 95, 86, 49, 76, 69, 40,
+    "points": [55, 68, 79, 60, 68, 36, 51, 78, 51, 69, 62, 43, 61, 95, 86, 49, 76, 69, 40,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1009,7 +1009,7 @@
   {
     "id": 37,
     "name": "Daniel",
-    "team": "Buena FC(*****)",
+    "team": "Buena FC(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "dani_boltana.png",
@@ -1019,7 +1019,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [21, 47, 64, 32, 51, 30, 56, 76, 42, 56, 50, 57, 53, 79, 69, 45, 51, 29, 49,
+    "points": [21, 47, 64, 36, 51, 30, 56, 76, 42, 56, 50, 57, 53, 79, 69, 45, 51, 29, 49,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1051,7 +1051,7 @@
   {
     "id": 19,
     "name": "Mayfex",
-    "team": "CaZuVeNe(***)",
+    "team": "CaZuVeNe(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "mayfex.png",
@@ -1061,7 +1061,7 @@
       "team_strip_back": "mayfex_b.png",
       "stadium": "opium.png"
     },
-    "points": [43, 62, 67, 66, 73, 26, 71, 67, 56, 59, 56, 49, 97, 80, 72, 62, 66, 60, 23,
+    "points": [43, 62, 67, 76, 73, 26, 71, 67, 56, 59, 56, 49, 97, 80, 72, 62, 66, 60, 23,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1093,7 +1093,7 @@
   {
     "id": 23,
     "name": "Diego",
-    "team": "Orgullo de Runner(***)",
+    "team": "Orgullo de Runner(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "diego.png",
@@ -1103,7 +1103,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [50, 76, 56, 33, 60, 56, 69, 56, 45, 54, 32, 61, 51, 61, 69, 58, 60, 43, 5,
+    "points": [50, 76, 56, 42, 60, 56, 69, 56, 45, 54, 32, 61, 51, 61, 69, 58, 60, 43, 5,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1261,7 +1261,7 @@
   {
     "id": 42,
     "name": "Nando",
-    "team": "El Cártel de Kazoña(*****)",
+    "team": "El Cártel de Kazoña(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "nando.png",
@@ -1271,7 +1271,7 @@
       "team_strip_back": "nando_b.png",
       "stadium": "opium.png"
     },
-    "points": [31, 52, 33, 30, 82, 48, 50, 41, 25, 40, 33, 42, 51, 44, 46, 41, 73, 47, 13,
+    "points": [31, 52, 33, 34, 82, 48, 50, 41, 25, 40, 33, 42, 51, 44, 46, 41, 73, 47, 13,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2011-2012", "2012-2013", "2020-2021"],
@@ -1471,7 +1471,7 @@
   {
     "id": 26,
     "name": "Serious",
-    "team": "Meneillos(****)",
+    "team": "Meneillos(***)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "serious.png",
@@ -1481,7 +1481,7 @@
       "team_strip_back": "serious_b.png",
       "stadium": "opium.png"
     },
-    "points": [41, 38, 38, 44, 59, 38, 53, 39, 35, 48, 38, 31, 25, 57, 37, 41, 39, 54, 0,
+    "points": [41, 38, 38, 53, 59, 38, 53, 39, 35, 48, 38, 31, 25, 57, 37, 41, 39, 54, 0,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -1597,7 +1597,7 @@
   {
     "id": 24,
     "name": "Nuria",
-    "team": "Steaua no Beberé(***)",
+    "team": "Steaua no Beberé(**)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "nuria.png",
@@ -1607,7 +1607,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [58, 63, 37, 64, 57, 26, 51, 89, 75, 56, 68, 54, 63, 78, 74, 63, 74, 65, 19,
+    "points": [58, 63, 37, 69, 57, 26, 51, 89, 75, 56, 68, 54, 63, 78, 74, 63, 74, 65, 19,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1723,7 +1723,7 @@
   {
     "id": 46,
     "name": "Javi",
-    "team": "Enzo team(*****)",
+    "team": "Enzo team(****)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "javi.png",
@@ -1733,7 +1733,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [28, 42, 29, 54, 55, 54, 65, 42, 46, 66, 68, 27, 51, 53, 56, 45, 66, 69, 17,
+    "points": [28, 42, 29, 63, 55, 54, 65, 42, 46, 66, 68, 27, 51, 53, 56, 45, 66, 69, 17,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2020-2021"],
@@ -1806,7 +1806,7 @@
   {
     "id": 29,
     "name": "David M.",
-    "team": "New Tikis(****)",
+    "team": "New Tikis(***)",
     "images": {
       "shield": "david_munoz.png",
       "profile": "david_munoz.jpg",
@@ -1815,7 +1815,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [16, 54, 75, 66, 81, 43, 45, 59, 65, 63, 72, 36, 62, 68, 77, 50, 74, 83, 32,
+    "points": [16, 54, 75, 76, 81, 43, 45, 59, 65, 63, 72, 36, 62, 68, 77, 50, 74, 83, 32,
       null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
