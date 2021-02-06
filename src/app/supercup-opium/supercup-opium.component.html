@@ -5,12 +5,12 @@
 
 <!-- CABECERA -->
 <div class="text-center my-3">
-  <!-- <div class="h4">CAMPEÓN 2019-2020</div>
-  <a [routerLink]="['/profile', 22]"><img src="/assets/img/shields/150/ekaitz.png" class="foto" alt="Yellow Storm F.C."> <div>Yellow Storm F.C.</div></a> -->
+  <div class="h4">CAMPEÓN 2019-2020</div>
+  <a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="foto" alt="C.D. Monte"> <div>C.D. Monte</div></a>
 </div>
 
 <!-- CRUCES -->
-<div class="text-center mb-4"><img id="cruces-opium-spain" class="cruces-img" src="/assets/img/competitions/supercup_opium_cruces.png" alt=""></div>
+<div class="text-center mb-4"><img id="cruces-opium-spain" class="cruces-img" src="/assets/img/competitions/supercup_opium_cruces.jpg" alt=""></div>
 
 
 
@@ -20,14 +20,14 @@
 <!-- TABS -->
 <ul class="nav nav-tabs nav-fill my-3" id="myTab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
+      <a class="nav-link" id="tab-A" data-toggle="tab" href="#A" role="tab" aria-controls="A" aria-selected="true">
         <span><i class="fas fa-expand-arrows-alt"></i></span>
         <span class="d-none d-md-inline"> SEMIFINALES</span>
         <span class="d-sm-inline d-md-none"> SEMIFINALES</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
+      <a class="nav-link active" id="tab-B" data-toggle="tab" href="#B" role="tab" aria-controls="B" aria-selected="true">
         <span><i class="fas fa-expand-arrows-alt"></i></span>
         <span class="d-none d-md-inline"> FINAL</span>
         <span class="d-sm-inline d-md-none"> FINAL</span>
@@ -39,7 +39,7 @@
 <div class="container tab-content mb-5" id="myTabContent">
 
     <!-- SEMIS -->
-    <div class="tab-pane fade show active" id="A" role="tabpanel" aria-labelledby="tab-A">
+    <div class="tab-pane fade" id="A" role="tabpanel" aria-labelledby="tab-A">
       <div class="h5 text-center mt-3"> SEMIFINALES</div>
       <!-- Resultados -->
       <table class="table cup-table">
@@ -53,19 +53,19 @@
         </tr>
         <tr class="fila fila-impar">
           <td class="text-center equipo"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
-          <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
+          <td class="text-center resultado"><div class="cup-score"><small>62 - 83</small></div></td>
           <td class="text-center equipo"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano C.F."> <div>Galizano C.F.</div></a></td>
         </tr>
         <tr class="fila fila-impar">
           <td class="text-center equipo"><a [routerLink]="['/profile', 31]"><img src="/assets/img/shields/150/javichu.png" class="table-shield" alt="Racing Hoznayo"> <div>Racing Hoznayo</div></a></td>
-          <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
+          <td class="text-center resultado"><div class="cup-score"><small>67 - 77</small></div></td>
           <td class="text-center equipo"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
         </tr>
       </table>
     </div>
 
     <!-- FINAL -->
-    <div class="tab-pane fade" id="B" role="tabpanel" aria-labelledby="tab-B">
+    <div class="tab-pane fade show active" id="B" role="tabpanel" aria-labelledby="tab-B">
       <div class="h5 text-center my-3"> FINAL</div>
       <!-- Resultados -->
       <table class="table cup-table">
@@ -78,9 +78,9 @@
           <th>EQUIPO</th>
         </tr>
         <tr class="fila fila-impar">
-            <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
-            <td class="text-center resultado"><div class="cup-score"><small>0 - 0</small></div></td>
-            <td class="text-center equipo"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+          <td class="text-center equipo"><a [routerLink]="['/profile', 6]"><img src="/assets/img/shields/150/adolfo.png" class="table-shield" alt="Galizano C.F."> <div>Galizano C.F.</div></a></td>
+            <td class="text-center resultado"><div class="cup-score"><small>88 - 90</small></div></td>
+            <td class="text-center equipo"><a [routerLink]="['/profile', 4]"><img src="/assets/img/shields/150/javi_monte.png" class="table-shield" alt="C.D. Monte"> <div>C.D. Monte</div></a></td>
           </tr>
       </table>
     </div>
