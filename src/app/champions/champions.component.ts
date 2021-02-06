@@ -31,6 +31,7 @@ export class ChampionsComponent implements OnInit {
     this.initCountDowns();
 
     this.players = this._servicioData.readPlayers();
+    this.players.sort((a, b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0))
     console.log(this.players);
 
     this.championsGroups = this._servicioChampions.getGroups();

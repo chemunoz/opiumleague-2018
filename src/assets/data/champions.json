@@ -1,25 +1,25 @@
 {
   "groups": [
-    { "name": "A", "teams": [0, 0, 0, 0] },
-    { "name": "B", "teams": [0, 0, 0, 0] },
-    { "name": "C", "teams": [0, 0, 0, 0] },
-    { "name": "D", "teams": [0, 0, 0, 0] },
-    { "name": "E", "teams": [0, 0, 0, 0] },
-    { "name": "F", "teams": [0, 0, 0, 0] },
-    { "name": "G", "teams": [0, 0, 0, 0] },
-    { "name": "H", "teams": [0, 0, 0, 0] }
+    { "name": "A", "teams": [2, 29, 44, 33] },
+    { "name": "B", "teams": [41, 24, 32, 23] },
+    { "name": "C", "teams": [40, 0, 25, 16] },
+    { "name": "D", "teams": [1, 20, 38, 39] },
+    { "name": "E", "teams": [12, 9, 35, 45] },
+    { "name": "F", "teams": [7, 6, 30, 31] },
+    { "name": "G", "teams": [3, 19, 5, 8] },
+    { "name": "H", "teams": [4, 13, 36, 15] }
   ],
   "rounds": [
-    { "round": 18, "date": "05/01/2020" },
-    { "round": 19, "date": "19/01/2020" },
-    { "round": 20, "date": "26/01/2020" },
-    { "round": 21, "date": "02/02/2020" },
-    { "round": 22, "date": "09/02/2020" },
-    { "round": 23, "date": "16/02/2020" }
+    { "round": 21, "date": "07/02/2021" },
+    { "round": 22, "date": "14/02/2021" },
+    { "round": 23, "date": "21/02/2021" },
+    { "round": 24, "date": "28/02/2021" },
+    { "round": 25, "date": "07/03/2021" },
+    { "round": 26, "date": "14/03/2021" }
   ],
   "countdowns": [
     {
-      "deadline": "Jan 30, 2021 22:00:00",
+      "deadline": "Jan 23, 2021 22:00:00",
       "element": "countdown-draw-Champions",
       "distance": 0
     },
