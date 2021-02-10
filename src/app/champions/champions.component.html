@@ -125,7 +125,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr [ngClass]="{'champions': table_i <= 1, 'descenso': table_i > 1}" *ngFor="let table_team of championsTables[group.name]['table']; let table_i = index;">
+              <tr [ngClass]="{'clasified': table_i <= 1, 'eliminated': table_i > 1}" *ngFor="let table_team of championsTables[group.name]['table']; let table_i = index;">
                 <td>{{ table_i + 1 }}</td>
                 <td class="text-left"><a [routerLink]="['/profile', table_team.id]"><img src="/assets/img/shields/150/{{ players[table_team.id].images.shield }} " class="table-shield" alt="{{ players[table_team.id].team }}"> {{ players[table_team.id].team }}</a></td>
                 <td>{{ table_team.score }}</td> <!-- Ptos -->

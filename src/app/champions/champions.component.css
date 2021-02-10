@@ -13,29 +13,23 @@ th.text-left{
   font-size: 0.8rem;
 }
 
-tr.champions {
+.clasified {
   background-color: #FFFF00;
   color: #000;
 }
 
-tr.uefa {
+.playoff {
   background-color: #FFC000;
   color: #000;
 }
 
-tr.intertoto {
-  background-color: #E26B0A;
-  color: #000;
-}
-
-tr.resto {
-  background-color: #FFF;
-  color: #000;
-}
-
-tr.descenso {
+.eliminated {
   background-color: #FF5555;
   color: #FFF;
+}
+
+.eliminated a {
+  color: #FFF !important;
 }
 
 .fila-par {
