@@ -137,7 +137,7 @@
       "team_strip_back": "dani_lozano_b.png",
       "stadium": "opium.png"
     },
-    "points": [34, 48, 72, 65, 50, 38, 55, 71, 63, 62, 65, 40, 71, 50, 77, 63, 67, 48, 63,
+    "points": [34, 69, 72, 65, 50, 38, 55, 71, 63, 62, 65, 40, 71, 50, 77, 63, 67, 48, 63,
       103, 43, 47, 77, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -169,7 +169,7 @@
   {
     "id": 25,
     "name": "Raúl",
-    "team": "Dojo Cobra KAI(**)",
+    "team": "Dojo Cobra KAI(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "raul.png",
@@ -179,7 +179,7 @@
       "team_strip_back": "raul_b.png",
       "stadium": "opium.png"
     },
-    "points": [44, 57, 62, 43, 67, 53, 69, 64, 58, 59, 46, 54, 51, 60, 75, 57, 55, 62, 41,
+    "points": [44, 58, 62, 43, 67, 53, 69, 64, 58, 59, 46, 54, 51, 60, 75, 57, 55, 62, 41,
       88, 57, 65, 57, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2012-2013", "2013-2014", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -221,7 +221,7 @@
       "team_strip_back": "ines_b.png",
       "stadium": "opium.png"
     },
-    "points": [36, 36, 72, 52, 56, 32, 48, 38, 86, 62, 64, 51, 65, 46, 81, 42, 82, 45, 49,
+    "points": [36, 51, 72, 52, 56, 32, 48, 38, 86, 62, 64, 51, 65, 46, 81, 42, 82, 45, 49,
       60, 74, 80, 72, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
@@ -263,7 +263,7 @@
       "team_strip_back": "ezequiel_b.png",
       "stadium": "opium.png"
     },
-    "points": [25, 33, 58, 43, 60, 33, 34, 48, 58, 37, 44, 44, 62, 54, 45, 91, 58, 79, 71,
+    "points": [25, 44, 58, 43, 60, 33, 34, 48, 58, 37, 44, 44, 62, 54, 45, 91, 58, 79, 71,
       83, 63, 75, 57, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -631,7 +631,7 @@
   {
     "id": 33,
     "name": "Paloma",
-    "team": "Super Palomba(**)",
+    "team": "Super Palomba(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "paloma.png",
@@ -641,7 +641,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [58, 53, 35, 58, 50, 34, 37, 63, 63, 45, 44, 43, 66, 83, 68, 66, 46, 62, 36,
+    "points": [58, 60, 35, 58, 50, 34, 37, 63, 63, 45, 44, 43, 66, 83, 68, 66, 46, 62, 36,
       27, 40, 59, 55, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
@@ -893,7 +893,7 @@
       "team_strip_back": "luis_roll_b.png",
       "stadium": "opium.png"
     },
-    "points": [41, 12, 59, 64, 34, 41, 26, 37, 65, 32, 32, 20, 35, 48, 22, 39, 29, 27, 39,
+    "points": [41, 30, 59, 64, 34, 41, 26, 37, 65, 32, 32, 20, 35, 48, 22, 39, 29, 27, 39,
       38, 36, 49, 15, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
@@ -1555,7 +1555,7 @@
   {
     "id": 43,
     "name": "Pablo",
-    "team": "Tolo's Team(**)",
+    "team": "Tolo's Team(*)",
     "stadium": "Opium Stadium",
     "images": {
       "shield": "pablo_padilla.png",
@@ -1565,7 +1565,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [42, 44, 31, 70, 31, 39, 43, 58, 32, 28, 32, 31, 56, 49, 54, 62, 50, 60, 41,
+    "points": [42, 62, 31, 70, 31, 39, 43, 58, 32, 28, 32, 31, 56, 49, 54, 62, 50, 60, 41,
       67, 61, 63, 43, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
@@ -1733,7 +1733,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [44, 42, 29, 63, 55, 54, 65, 42, 46, 66, 68, 27, 51, 53, 56, 45, 66, 69, 49,
+    "points": [44, 45, 29, 63, 55, 54, 65, 42, 46, 66, 68, 27, 51, 53, 56, 45, 66, 69, 49,
       66, 55, 64, 43, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2020-2021"],
@@ -1897,7 +1897,7 @@
       "team_strip_back": "opium_b.png",
       "stadium": "opium.png"
     },
-    "points": [31, 41, 41, 46, 32, 28, 28, 42, 74, 49, 65, 41, 57, 43, 48, 37, 48, 64, 63,
+    "points": [31, 42, 41, 46, 32, 28, 28, 42, 74, 49, 65, 41, 57, 43, 48, 37, 48, 64, 63,
       58, 53, 67, 41, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
