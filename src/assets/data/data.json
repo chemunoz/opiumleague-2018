@@ -13,7 +13,7 @@
       "stadium": "ortega.jpg"
     },
     "points": [70, 67, 49, 66, 40, 24, 77, 73, 83, 70, 68, 38, 69, 85, 77, 43, 81, 65, 73,
-      80, 68, 68, 72, 58, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      80, 68, 68, 72, 58, 45, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -54,7 +54,7 @@
       "stadium": "opium.png"
     },
     "points": [46, 75, 63, 58, 55, 39, 71, 78, 54, 70, 69, 55, 79, 79, 65, 67, 85, 57, 77,
-      90, 59, 71, 71, 56, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      90, 59, 71, 71, 56, 45, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -96,7 +96,7 @@
       "stadium": "opium.png"
     },
     "points": [60, 47, 59, 57, 86, 48, 58, 52, 64, 39, 42, 58, 54, 64, 60, 61, 74, 71, 83,
-      88, 54, 80, 63, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      88, 54, 80, 63, 65, 51, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -138,7 +138,7 @@
       "stadium": "opium.png"
     },
     "points": [36, 69, 72, 65, 50, 38, 55, 71, 63, 62, 65, 40, 71, 50, 77, 63, 67, 48, 63,
-      103, 43, 47, 77, 41, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      103, 43, 47, 77, 41, 56, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -180,7 +180,7 @@
       "stadium": "opium.png"
     },
     "points": [61, 58, 62, 43, 67, 53, 69, 64, 58, 59, 46, 54, 51, 60, 75, 57, 55, 62, 41,
-      88, 57, 65, 57, 59, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      88, 57, 65, 57, 59, 49, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2012-2013", "2013-2014", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -222,7 +222,7 @@
       "stadium": "opium.png"
     },
     "points": [36, 51, 72, 52, 56, 32, 48, 38, 86, 62, 64, 51, 65, 46, 81, 42, 82, 45, 49,
-      60, 74, 80, 72, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      60, 74, 80, 72, 53, 74, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -264,7 +264,7 @@
       "stadium": "opium.png"
     },
     "points": [25, 44, 58, 43, 60, 33, 34, 48, 58, 37, 44, 44, 62, 54, 45, 91, 58, 79, 71,
-      83, 63, 75, 57, 57, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      83, 63, 75, 57, 57, 35, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -306,7 +306,7 @@
       "stadium": "opium.png"
     },
     "points": [31, 47, 81, 40, 51, 54, 74, 62, 25, 20, 49, 64, 50, 39, 43, 47, 46, 54, 51,
-      43, 56, 24, 22, 46, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      43, 56, 24, 22, 46, 38, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -348,7 +348,7 @@
       "stadium": "opium.png"
     },
     "points": [34, 50, 39, 51, 54, 44, 65, 76, 45, 40, 42, 30, 32, 47, 65, 38, 73, 78, 32,
-      82, 74, 71, 75, 71, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      82, 74, 71, 75, 71, 72, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -390,7 +390,7 @@
       "stadium": "opium.png"
     },
     "points": [40, 64, 39, 85, 56, 40, 71, 87, 53, 42, 62, 48, 60, 64, 65, 69, 59, 63, 33,
-      62, 57, 71, 70, 67, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      62, 57, 71, 70, 67, 55, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -432,7 +432,7 @@
       "stadium": "opium.png"
     },
     "points": [47, 63, 56, 74, 49, 25, 42, 36, 69, 50, 53, 43, 84, 74, 66, 52, 71, 68, 63,
-      85, 54, 74, 72, 46, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      85, 54, 74, 72, 46, 43, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -474,7 +474,7 @@
       "stadium": "opium.png"
     },
     "points": [59, 72, 46, 72, 59, 41, 54, 54, 75, 42, 57, 39, 75, 75, 69, 58, 85, 90, 66,
-      61, 56, 89, 76, 64, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      61, 56, 89, 76, 64, 60, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -516,7 +516,7 @@
       "stadium": "opium.png"
     },
     "points": [74, 58, 70, 76, 44, 56, 43, 49, 65, 60, 70, 53, 73, 63, 82, 62, 70, 71, 51,
-      92, 83, 89, 77, 52, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      92, 83, 89, 77, 52, 56, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -558,7 +558,7 @@
       "stadium": "opium.png"
     },
     "points": [63, 81, 34, 62, 71, 58, 59, 71, 47, 68, 63, 51, 69, 64, 65, 66, 81, 57, 70,
-      104, 53, 74, 113, 47, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      104, 53, 74, 113, 47, 52, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2013-2014", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -600,7 +600,7 @@
       "stadium": "opium.png"
     },
     "points": [48, 62, 26, 71, 70, 34, 68, 55, 35, 48, 54, 53, 60, 87, 79, 60, 74, 54, 61,
-      77, 60, 95, 56, 58, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      77, 60, 95, 56, 58, 47, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -642,7 +642,7 @@
       "stadium": "opium.png"
     },
     "points": [58, 60, 35, 58, 50, 34, 37, 63, 63, 45, 44, 43, 66, 83, 68, 66, 46, 62, 36,
-      27, 40, 59, 55, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      27, 40, 59, 55, 62, 66, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -684,7 +684,7 @@
       "stadium": "opium.png"
     },
     "points": [64, 71, 35, 63, 49, 29, 62, 81, 73, 54, 55, 27, 62, 75, 76, 52, 65, 57, 68,
-      83, 50, 88, 72, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      83, 50, 88, 72, 53, 49, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2012-2013", "2014-2015", "2015-2016", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -726,7 +726,7 @@
       "stadium": "opium.png"
     },
     "points": [54, 62, 75, 64, 62, 30, 71, 63, 84, 49, 64, 60, 68, 67, 82, 38, 67, 71, 62,
-      96, 60, 77, 68, 41, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      96, 60, 77, 68, 41, 53, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -768,7 +768,7 @@
       "stadium": "opium.png"
     },
     "points": [53, 68, 49, 88, 63, 56, 58, 72, 79, 69, 64, 29, 69, 79, 79, 60, 66, 59, 69,
-      104, 63, 89, 74, 42, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      104, 63, 89, 74, 42, 51, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -810,7 +810,7 @@
       "stadium": "opium.png"
     },
     "points": [48, 72, 75, 74, 52, 34, 61, 54, 87, 59, 79, 27, 58, 87, 80, 41, 75, 77, 59,
-      90, 55, 80, 47, 67, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      90, 55, 80, 47, 67, 72, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -852,7 +852,7 @@
       "stadium": "opium.png"
     },
     "points": [58, 78, 32, 70, 55, 33, 30, 68, 78, 62, 70, 38, 53, 63, 31, 42, 62, 67, 34,
-      68, 55, 60, 61, 59, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      68, 55, 60, 61, 59, 47, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -894,7 +894,7 @@
       "stadium": "opium.png"
     },
     "points": [41, 30, 59, 64, 34, 41, 26, 37, 65, 32, 32, 20, 35, 48, 22, 39, 29, 27, 39,
-      38, 36, 49, 15, 35, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      38, 36, 49, 15, 35, 34, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -936,7 +936,7 @@
       "stadium": "opium.png"
     },
     "points": [55, 68, 79, 64, 68, 36, 51, 78, 51, 69, 62, 43, 61, 95, 86, 49, 76, 69, 62,
-      99, 64, 68, 77, 58, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      99, 64, 68, 77, 58, 53, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2011-2012", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -978,7 +978,7 @@
       "stadium": "opium.png"
     },
     "points": [26, 51, 79, 66, 44, 38, 48, 71, 6, 40, 60, 25, 65, 74, 79, 42, 60, 79, 67,
-      101, 44, 84, 73, 70, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      101, 44, 84, 73, 70, 58, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -1020,7 +1020,7 @@
       "stadium": "opium.png"
     },
     "points": [38, 47, 64, 36, 51, 30, 56, 76, 42, 56, 50, 57, 53, 79, 69, 45, 51, 29, 64,
-      79, 57, 47, 67, 57, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      79, 57, 47, 67, 57, 47, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -1062,7 +1062,7 @@
       "stadium": "opium.png"
     },
     "points": [43, 62, 67, 76, 73, 26, 71, 67, 56, 59, 56, 49, 97, 80, 72, 62, 66, 60, 35,
-      102, 62, 68, 60, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      102, 62, 68, 60, 62, 41, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -1104,7 +1104,7 @@
       "stadium": "opium.png"
     },
     "points": [50, 76, 56, 46, 60, 56, 69, 56, 45, 54, 32, 61, 51, 61, 69, 58, 60, 43, 29,
-      93, 43, 76, 58, 60, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      93, 43, 76, 58, 60, 48, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1146,7 +1146,7 @@
       "stadium": "opium.png"
     },
     "points": [63, 54, 61, 73, 59, 42, 76, 65, 84, 63, 63, 46, 62, 97, 80, 66, 74, 70, 67,
-      102, 63, 91, 57, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      102, 63, 91, 57, 53, 53, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
     "trophies": {
@@ -1188,7 +1188,7 @@
       "stadium": "opium.png"
     },
     "points": [46, 66, 92, 59, 68, 34, 66, 72, 78, 59, 74, 40, 58, 73, 56, 67, 72, 80, 81,
-      74, 84, 86, 72, 62, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      74, 84, 86, 72, 62, 50, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
     "trophies": {
@@ -1230,7 +1230,7 @@
       "stadium": "opium.png"
     },
     "points": [45, 58, 21, 48, 56, 62, 56, 61, 48, 45, 57, 56, 58, 71, 51, 39, 73, 44, 44,
-      80, 52, 57, 67, 61, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      80, 52, 57, 67, 61, 51, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1272,7 +1272,7 @@
       "stadium": "opium.png"
     },
     "points": [46, 52, 33, 34, 82, 48, 50, 41, 25, 40, 33, 42, 51, 44, 46, 41, 73, 47, 52,
-      75, 66, 50, 55, 50, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      75, 66, 50, 55, 50, 52, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2011-2012", "2012-2013", "2020-2021"],
     "trophies": {
@@ -1314,7 +1314,7 @@
       "stadium": "opium.png"
     },
     "points": [42, 56, 71, 73, 45, 51, 66, 53, 78, 49, 64, 44, 51, 79, 75, 58, 68, 61, 63,
-      86, 73, 74, 46, 54, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      86, 73, 74, 46, 54, 54, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2010-2011", "2012-2013", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1356,7 +1356,7 @@
       "stadium": "opium.png"
     },
     "points": [59, 57, 48, 67, 48, 39, 48, 46, 45, 38, 48, 28, 54, 63, 80, 58, 54, 65, 98,
-      92, 74, 65, 40, 40, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      92, 74, 65, 40, 40, 52, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1398,7 +1398,7 @@
       "stadium": "opium.png"
     },
     "points": [53, 53, 62, 65, 49, 33, 50, 69, 70, 40, 61, 51, 88, 79, 70, 56, 53, 57, 40,
-      91, 64, 81, 44, 40, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      91, 64, 81, 44, 40, 54, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1440,7 +1440,7 @@
       "stadium": "opium.png"
     },
     "points": [0, 0, 0, 50, 52, 48, 57, 57, 43, 47, 26, 38, 22, 35, 26, 52, 33, 38, 25,
-      47, 54, 36, 22, 41, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      47, 54, 36, 22, 41, 46, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1482,7 +1482,7 @@
       "stadium": "opium.png"
     },
     "points": [46, 38, 38, 57, 59, 38, 53, 39, 35, 48, 38, 31, 25, 57, 37, 41, 39, 54, 34,
-      24, 36, 48, 27, 63, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      24, 36, 48, 27, 63, 43, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1524,7 +1524,7 @@
       "stadium": "opium.png"
     },
     "points": [29, 49, 49, 56, 54, 27, 32, 54, 32, 23, 22, 45, 31, 14, 23, 9, 27, 3, 21,
-      44, 37, 19, 34, 33, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      44, 37, 19, 34, 33, 23, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2009-2010", "2011-2012", "2012-2013", "2015-2016", "2017-2018", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1566,7 +1566,7 @@
       "stadium": "opium.png"
     },
     "points": [42, 62, 31, 70, 31, 39, 43, 58, 32, 28, 32, 31, 56, 49, 54, 62, 50, 60, 41,
-      67, 61, 63, 43, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      67, 61, 63, 43, 65, 57, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
     "trophies": {
@@ -1608,7 +1608,7 @@
       "stadium": "opium.png"
     },
     "points": [58, 63, 37, 73, 57, 26, 51, 89, 75, 56, 68, 54, 63, 78, 74, 63, 74, 65, 45,
-      102, 62, 94, 61, 50, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      102, 62, 94, 61, 50, 47, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2019-2020", "2020-2021"],
     "trophies": {
@@ -1650,7 +1650,7 @@
       "stadium": "opium.png"
     },
     "points": [39, 55, 69, 45, 40, 20, 39, 72, 86, 38, 68, 25, 78, 80, 55, 67, 59, 67, 67,
-      83, 66, 66, 79, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      83, 66, 66, 79, 65, 48, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2012-2013", "2014-2015", "2015-2016", "2016-2017", "2017-2018", "2018-2019", "2020-2021"],
     "trophies": {
@@ -1692,7 +1692,7 @@
       "stadium": "opium.png"
     },
     "points": [37, 58, 30, 31, 39, 24, 72, 81, 39, 39, 45, 54, 91, 78, 72, 53, 57, 51, 65,
-      94, 56, 71, 73, 64, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      94, 56, 71, 73, 64, 45, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
     "trophies": {
@@ -1734,7 +1734,7 @@
       "stadium": "opium.png"
     },
     "points": [52, 45, 29, 63, 55, 54, 65, 42, 46, 66, 68, 27, 51, 53, 56, 45, 66, 69, 49,
-      66, 55, 64, 43, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      66, 55, 64, 43, 53, 49, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2016-2017", "2020-2021"],
     "trophies": {
@@ -1775,7 +1775,7 @@
       "stadium": "opium.png"
     },
     "points": [42, 78, 48, 72, 49, 19, 72, 72, 71, 47, 60, 41, 68, 73, 77, 45, 100, 79, 44,
-      84, 56, 89, 95, 69, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      84, 56, 89, 95, 69, 54, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1816,7 +1816,7 @@
       "stadium": "opium.png"
     },
     "points": [33, 54, 75, 76, 81, 43, 45, 59, 65, 63, 72, 36, 62, 68, 77, 50, 74, 85, 53,
-      90, 60, 83, 69, 65, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      90, 60, 83, 69, 65, 59, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2015-2016", "2016-2017", "2017-2018", "2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
@@ -1857,7 +1857,7 @@
       "stadium": "opium.png"
     },
     "points": [42, 60, 60, 84, 50, 21, 51, 52, 59, 39, 62, 30, 38, 62, 65, 51, 65, 13, 63,
-      70, 70, 62, 45, 47, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      70, 70, 62, 45, 47, 57, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2020-2021"],
     "trophies": {
@@ -1898,7 +1898,7 @@
       "stadium": "opium.png"
     },
     "points": [48, 42, 41, 46, 32, 28, 28, 42, 74, 49, 65, 41, 57, 43, 48, 37, 48, 64, 63,
-      58, 53, 67, 41, 53, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+      58, 53, 67, 41, 53, 52, null, null, null, null, null, null, null, null, null, null, null, null, null
     ],
     "seasons": ["2018-2019", "2019-2020", "2020-2021"],
     "trophies": {
