@@ -57,23 +57,24 @@ img.table-shield {
   width: 100%;
   table-layout: fixed;
 }
-  .cup-table .equipo {
-    width: 40%;
-    vertical-align: middle;
-    padding: 0.25rem 0.50rem 0.25rem 0.25rem;
-  }
 
-  .cup-table .resultado {
-    width: 20%;
-    vertical-align: middle;
-    padding: 0;
-  }
+.cup-table .equipo {
+  width: 40%;
+  vertical-align: middle;
+  padding: 0.25rem 0.50rem 0.25rem 0.25rem;
+}
 
-  .cup-table th {
-    text-align: left !important;
-    background-color: rgba(255, 192, 0, 0.9);
-    color: #FFFFFF;
-  }
+.cup-table .resultado {
+  width: 20%;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.cup-table th {
+  text-align: left !important;
+  background-color: rgba(255, 192, 0, 0.9);
+  color: #FFFFFF;
+}
 
 .cup-difference {
   font-size: 0.8rem;
