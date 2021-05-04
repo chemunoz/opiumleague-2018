@@ -181,14 +181,14 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" id="tab-cruce-B" data-toggle="tab" href="#cruce-B" role="tab" aria-controls="cruce-B" aria-selected="true">
+        <a class="nav-link" id="tab-cruce-B" data-toggle="tab" href="#cruce-B" role="tab" aria-controls="cruce-B" aria-selected="true">
           <span><i class="fas fa-expand-arrows-alt"></i></span>
           <span class="d-none d-md-inline"> CUARTOS</span>
           <span class="d-sm-inline d-md-none"> 4º</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="tab-cruce-C" data-toggle="tab" href="#cruce-C" role="tab" aria-controls="cruce-C" aria-selected="true">
+        <a class="nav-link active" id="tab-cruce-C" data-toggle="tab" href="#cruce-C" role="tab" aria-controls="cruce-C" aria-selected="true">
           <span><i class="fas fa-expand-arrows-alt"></i></span>
           <span class="d-none d-md-inline"> SEMIFINALES</span>
           <span class="d-sm-inline d-md-none"> SE</span>
@@ -368,7 +368,7 @@
       </div>
 
       <!-- CUARTOS -->
-      <div class="tab-pane fade show active" id="cruce-B" role="tabpanel" aria-labelledby="cruce-B">
+      <div class="tab-pane fade" id="cruce-B" role="tabpanel" aria-labelledby="cruce-B">
         <!-- Resultados -->
         <table class="table">
           <tr>
@@ -383,14 +383,14 @@
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 44]"><img src="/assets/img/shields/150/vicente2.png" class="table-shield" alt="DamageKKing"> <div>DamageKKing</div></a></td>
             <td class="text-center resultado cup-win-pre"><div class="cup-score">59</div><small class="cup-difference">(+7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">59</div><small class="cup-difference">(+7)</small></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">69</div><small class="cup-difference">(+5)</small></td>
+            <td class="text-center resultado bg-success text-white"><div class="cup-score">128</div><small class="cup-difference">(+12)</small></td>
           </tr>
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 41]"><img src="/assets/img/shields/150/ramon_peredo.png" class="table-shield" alt="Montaña Porrúa"> <div>Montaña Porrúa</div></a></td>
             <td class="text-center resultado cup-lose-pre"><div class="cup-score">52</div><small class="cup-difference">(-7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">52</div><small class="cup-difference">(-7)</small></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">64</div><small class="cup-difference">(-5)</small></td>
+            <td class="text-center resultado bg-danger text-white"><div class="cup-score">116</div><small class="cup-difference">(-12)</small></td>
           </tr>
 
           <tr>
@@ -402,14 +402,14 @@
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 31]"><img src="/assets/img/shields/150/javichu.png" class="table-shield" alt="Racing Hoznayo"> <div>Racing Hoznayo</div></a></td>
             <td class="text-center resultado cup-lose-pre"><div class="cup-score">48</div><small class="cup-difference">(-7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">48</div><small class="cup-difference">(-7)</small></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">88</div><small class="cup-difference">(+16)</small></td>
+            <td class="text-center resultado bg-success text-white"><div class="cup-score">136</div><small class="cup-difference">(+9)</small></td>
           </tr>
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 20]"><img src="/assets/img/shields/150/felipe.png" class="table-shield" alt="Old Tikis"> <div>Old Tikis</div></a></td>
             <td class="text-center resultado cup-win-pre"><div class="cup-score">55</div><small class="cup-difference">(+7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">55</div><small class="cup-difference">(+7)</small></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">72</div><small class="cup-difference">(-16)</small></td>
+            <td class="text-center resultado bg-danger text-white"><div class="cup-score">127</div><small class="cup-difference">(-9)</small></td>
           </tr>
 
           <tr>
@@ -421,14 +421,14 @@
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 2]"><img src="/assets/img/shields/150/ortega.png" class="table-shield" alt="David Valcan"> <div>David Valcan</div></a></td>
             <td class="text-center resultado"><div class="cup-score">58</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">58</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">62</div><small class="cup-difference">(-5)</small></td>
+            <td class="text-center resultado bg-danger text-white"><div class="cup-score">120</div><small class="cup-difference">(-5)</small></td>
           </tr>
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
             <td class="text-center resultado"><div class="cup-score">58</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">58</div><small class="cup-difference">(+0)</small></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">67</div><small class="cup-difference">(+5)</small></td>
+            <td class="text-center resultado bg-success text-white"><div class="cup-score">125</div><small class="cup-difference">(+5)</small></td>
           </tr>
 
           <tr>
@@ -440,20 +440,20 @@
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 40]"><img src="/assets/img/shields/150/fernando_murube.png" class="table-shield" alt="Murube's Jr"> <div>Murube's Jr</div></a></td>
             <td class="text-center resultado cup-win-pre"><div class="cup-score">62</div><small class="cup-difference">(+7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">62</div><small class="cup-difference">(+7)</small></td>
+            <td class="text-center resultado cup-lose-pre"><div class="cup-score">73</div><small class="cup-difference">(-4)</small></td>
+            <td class="text-center resultado bg-success text-white"><div class="cup-score">135</div><small class="cup-difference">(+3)</small></td>
           </tr>
           <tr class="fila fila-impar">
             <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 38]"><img src="/assets/img/shields/150/hector.png" class="table-shield" alt="Vieja Escuela FC"> <div>Vieja Escuela FC</div></a></td>
             <td class="text-center resultado cup-lose-pre"><div class="cup-score">55</div><small class="cup-difference">(-7)</small></td>
-            <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
-            <td class="text-center resultado"><div class="cup-score">55</div><small class="cup-difference">(-7)</small></td>
+            <td class="text-center resultado cup-win-pre"><div class="cup-score">77</div><small class="cup-difference">(+4)</small></td>
+            <td class="text-center resultado bg-danger text-white"><div class="cup-score">132</div><small class="cup-difference">(-3)</small></td>
           </tr>
         </table>
       </div>
 
       <!-- SEMIS -->
-      <div class="tab-pane fade" id="cruce-C" role="tabpanel" aria-labelledby="cruce-C">
+      <div class="tab-pane fade show active" id="cruce-C" role="tabpanel" aria-labelledby="cruce-C">
         <!-- Resultados -->
         <table class="table">
           <tr>
@@ -466,13 +466,13 @@
             <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 44]"><img src="/assets/img/shields/150/vicente2.png" class="table-shield" alt="DamageKKing"> <div>DamageKKing</div></a></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 31]"><img src="/assets/img/shields/150/javichu.png" class="table-shield" alt="Racing Hoznayo"> <div>Racing Hoznayo</div></a></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
@@ -485,13 +485,13 @@
             <th class="text-center"><span class="homeaway-result">TOTAL</span></th>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 3]"><img src="/assets/img/shields/150/luis.png" class="table-shield" alt="Porrua City"> <div>Porrua City</div></a></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
           </tr>
           <tr class="fila fila-impar">
-            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 0]"><img src="/assets/img/shields/150/logo_opium_icono.png" class="table-shield" alt="-"> <div>-</div></a></td>
+            <td class="text-center equipo bg-light"><a [routerLink]="['/profile', 40]"><img src="/assets/img/shields/150/fernando_murube.png" class="table-shield" alt="Murube's Jr"> <div>Murube's Jr</div></a></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
             <td class="text-center resultado"><div class="cup-score">-</div><small class="cup-difference">(+0)</small></td>
