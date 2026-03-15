@@ -4,8 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:new": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
     "build": "ng build --prod --outputHashing=all",
+    "build:new": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod --outputHashing=all",
     "test": "ng test",
+    "test:new": "NODE_OPTIONS=--openssl-legacy-provider ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
