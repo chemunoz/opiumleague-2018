@@ -24,15 +24,15 @@
     "angular-highcharts": "^7.0.2",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
-    "highcharts": "^9.0.0",
-    "jquery": "^3.5.0",
+    "highcharts": "^6.2.0",
+    "jquery": "^3.4.0",
     "popper.js": "^1.15.0",
     "rxjs": "~6.2.0",
     "webpack-dev-server": "^3.1.14",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~14.2.9",
+    "@angular-devkit/build-angular": "~0.8.0",
     "@angular/cli": "~6.2.4",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
