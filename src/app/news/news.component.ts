@@ -14,9 +14,10 @@ export class NewsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     (<any>window).twttr = (function(d, s, id) {
-      let js, fjs = d.getElementsByTagName(s)[0],
-        t = (<any>window).twttr || {};
-      if (d.getElementById(id)) return t;
+      let js;
+      const fjs = d.getElementsByTagName(s)[0];
+      const t = (<any>window).twttr || {};
+      if (d.getElementById(id)) { return t; }
       js = d.createElement(s);
       js.id = id;
       js.src = 'https://platform.twitter.com/widgets.js';

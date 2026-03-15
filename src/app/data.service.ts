@@ -48,7 +48,9 @@ export class DataService {
         player.score_general += score || 0;
         player.score_jornada.push(player.score_general);
 
-        !calculate_jornadas[`jornada_${index + 1}`] ? calculate_jornadas[`jornada_${index + 1}`] = [] : null;
+        if (!calculate_jornadas[`jornada_${index + 1}`]) {
+          calculate_jornadas[`jornada_${index + 1}`] = [];
+        }
         calculate_jornadas[`jornada_${index + 1}`].push({
           id: player.id,
           team: player.team,
@@ -72,16 +74,16 @@ export class DataService {
       });
 
       const points_average = [];
-      calculate_jornadas[jornada].forEach((team: any, index: any) => {
+      calculate_jornadas[jornada].forEach((team: any, i: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
-        if (index > 0) {
-          if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {
-            team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada;
+        if (i > 0) {
+          if (team.score_jornada === calculate_jornadas[jornada][i - 1].score_jornada) {
+            team.position_jornada = calculate_jornadas[jornada][i - 1].position_jornada;
           } else {
-            team.position_jornada = index + 1;
+            team.position_jornada = i + 1;
           }
         } else {
-          team.position_jornada = index + 1;
+          team.position_jornada = i + 1;
         }
 
         const player = $.grep(this.playersInfo, (e) => e.id === team.id );
@@ -107,16 +109,16 @@ export class DataService {
         );
       });
 
-      calculate_jornadas[jornada].forEach((team: any, index: any) => {
+      calculate_jornadas[jornada].forEach((team: any, i: any) => {
         // Calculate POSITIONS GENERAL
-        if (index > 0) {
-          if (team.score_general === calculate_jornadas[jornada][index - 1].score_general) {
-            team.position_general = calculate_jornadas[jornada][index - 1].position_general;
+        if (i > 0) {
+          if (team.score_general === calculate_jornadas[jornada][i - 1].score_general) {
+            team.position_general = calculate_jornadas[jornada][i - 1].position_general;
           } else {
-            team.position_general = index + 1;
+            team.position_general = i + 1;
           }
         } else {
-          team.position_general = index + 1;
+          team.position_general = i + 1;
         }
 
         const player = $.grep(this.playersInfo, (e) => e.id === team.id );
@@ -132,8 +134,10 @@ export class DataService {
       player.positions_general_differences = player.positions_general.map((value: any, index: number) => {
         return (index === 0) ? 0 : player.positions_general[index - 1] - value;
       });
-      player.positions_general_differences_max = player.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, player.positions_general_differences.filter(value => !isNaN(value)));
-      player.positions_general_differences_min = player.positions_general_differences.length === 0 ? 0 : Math.abs(Math.min.apply(null, player.positions_general_differences.filter(value => !isNaN(value))));
+      player.positions_general_differences_max = player.positions_general_differences.length === 0 ? 0 :
+        Math.max.apply(null, player.positions_general_differences.filter(value => !isNaN(value)));
+      player.positions_general_differences_min = player.positions_general_differences.length === 0 ? 0 :
+        Math.abs(Math.min.apply(null, player.positions_general_differences.filter(value => !isNaN(value))));
     });
 
   }
@@ -174,7 +178,9 @@ export class DataService {
         player.score_general += score || 0;
         player.score_jornada.push(player.score_general);
 
-        !calculate_jornadas[`jornada_${index + 1}`] ? calculate_jornadas[`jornada_${index + 1}`] = [] : null;
+        if (!calculate_jornadas[`jornada_${index + 1}`]) {
+          calculate_jornadas[`jornada_${index + 1}`] = [];
+        }
         calculate_jornadas[`jornada_${index + 1}`].push({
           id: player.id,
           team: player.team,
@@ -223,16 +229,16 @@ export class DataService {
 
 
       const points_average = [];
-      calculate_jornadas[jornada].forEach((team: any, index: any) => {
+      calculate_jornadas[jornada].forEach((team: any, i: any) => {
         // Calculate position number (and if there are more than one team sharing each position)
-        if (index > 0) {
-          if (team.score_jornada === calculate_jornadas[jornada][index - 1].score_jornada) {
-            team.position_jornada = calculate_jornadas[jornada][index - 1].position_jornada;
+        if (i > 0) {
+          if (team.score_jornada === calculate_jornadas[jornada][i - 1].score_jornada) {
+            team.position_jornada = calculate_jornadas[jornada][i - 1].position_jornada;
           } else {
-            team.position_jornada = index + 1;
+            team.position_jornada = i + 1;
           }
         } else {
-          team.position_jornada = index + 1;
+          team.position_jornada = i + 1;
         }
 
         // CALCULATE BEST, WORST and AVERAGE for each JORNADA
@@ -272,16 +278,16 @@ export class DataService {
         );
       });
 
-      calculate_jornadas[jornada].forEach((team: any, index) => {
+      calculate_jornadas[jornada].forEach((team: any, i) => {
         // Calculate POSITIONS GENERAL
-        if (index > 0) {
-          if (team.score_general === calculate_jornadas[jornada][index - 1].score_general) {
-            team.position_general = calculate_jornadas[jornada][index - 1].position_general;
+        if (i > 0) {
+          if (team.score_general === calculate_jornadas[jornada][i - 1].score_general) {
+            team.position_general = calculate_jornadas[jornada][i - 1].position_general;
           } else {
-            team.position_general = index + 1;
+            team.position_general = i + 1;
           }
         } else {
-          team.position_general = index + 1;
+          team.position_general = i + 1;
         }
 
         const player = $.grep(this.playersInfo, (e) => e.id === team.id );
@@ -290,7 +296,7 @@ export class DataService {
 
         // Position Arrows
         if ((count_jornada + 1) === last_jornada) {
-          penultima[index] = {
+          penultima[i] = {
             id: team.id,
             team: team.team,
             position: team.position_general
@@ -321,9 +327,15 @@ export class DataService {
       });
 
       // CALCULATE BEST, WORST and AVERAGE for whole SEASON
-      !calculate_jornadas['score_best'] ? calculate_jornadas['score_best'] = {name: '', team: '', score: 0} : null;
-      !calculate_jornadas['score_worst'] ? calculate_jornadas['score_worst'] = {name: '', team: '', score: 1000} : null;
-      !calculate_jornadas['score_average'] ? calculate_jornadas['score_average'] = 0 : null;
+      if (!calculate_jornadas['score_best']) {
+        calculate_jornadas['score_best'] = {name: '', team: '', score: 0};
+      }
+      if (!calculate_jornadas['score_worst']) {
+        calculate_jornadas['score_worst'] = {name: '', team: '', score: 1000};
+      }
+      if (!calculate_jornadas['score_average']) {
+        calculate_jornadas['score_average'] = 0;
+      }
       if (calculate_jornadas['score_best'].score < calculate_jornadas[jornada]['score_best'].score) {
         calculate_jornadas['score_best'].name = calculate_jornadas[jornada]['score_best'].name;
         calculate_jornadas['score_best'].team = calculate_jornadas[jornada]['score_best'].team;

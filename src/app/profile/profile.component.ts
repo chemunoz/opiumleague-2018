@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from './../data.service';
-import { constructDependencies } from '@angular/core/src/di/reflective_provider';
 import { Chart } from 'angular-highcharts';
 
 @Component({
@@ -29,8 +28,10 @@ export class ProfileComponent implements OnInit {
     mijugador.positions_general_differences = mijugador.positions_general.map((value: any, index: number) => {
       return (index === 0) ? 0 : mijugador.positions_general[index - 1] - value;
     });
-    mijugador.positions_general_differences_max = mijugador.positions_general_differences.length === 0 ? 0 : Math.max.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value)));
-    mijugador.positions_general_differences_min = mijugador.positions_general_differences.length === 0 ? 0 : Math.abs(Math.min.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value))));
+    mijugador.positions_general_differences_max = mijugador.positions_general_differences.length === 0 ? 0 :
+      Math.max.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value)));
+    mijugador.positions_general_differences_min = mijugador.positions_general_differences.length === 0 ? 0 :
+      Math.abs(Math.min.apply(null, mijugador.positions_general_differences.filter(value => !isNaN(value))));
 
     const ejes = {
       XJornada: [],

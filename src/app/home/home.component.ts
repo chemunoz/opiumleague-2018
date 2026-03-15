@@ -62,8 +62,12 @@ export class HomeComponent implements OnInit {
     if (distance < 0) {
       document.getElementById('countdowns').style.display = 'none';
     } else {
-      const periodo = elemento_id === 'countdown-money' ? `<div style="font-size: 0.8rem;">PLAZO DE RENOVACIÓN: <br> HASTA EL 09 AGOSTO</div>` : `<div style="font-size: 0.8rem;">LA LIGA COMIENZA EN...</div>`;
-      document.getElementById('countdowns').innerHTML = `<div>${periodo}<i class="far ${elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt'}"></i> <span id="${elemento_id}" class="countdowns">0d 0h 0m 0s</span></div>`;
+      const icon = elemento_id === 'countdown' ? 'fa-futbol' : 'fa-money-bill-alt';
+      const periodo = elemento_id === 'countdown-money' ?
+        `<div style="font-size: 0.8rem;">PLAZO DE RENOVACIÓN: <br> HASTA EL 09 AGOSTO</div>` :
+        `<div style="font-size: 0.8rem;">LA LIGA COMIENZA EN...</div>`;
+      document.getElementById('countdowns').innerHTML =
+        `<div>${periodo}<i class="far ${icon}"></i> <span id="${elemento_id}" class="countdowns">0d 0h 0m 0s</span></div>`;
 
       // Update the count down every 1 second
       setInterval(() => {
@@ -77,7 +81,10 @@ export class HomeComponent implements OnInit {
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result
-        document.getElementById(elemento_id) ? document.getElementById(elemento_id).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s` : null;
+        const element = document.getElementById(elemento_id);
+        if (element) {
+          element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
       }, 1000);
     }
   }
