@@ -3,14 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "start:new": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
-    "build": "ng build --prod --outputHashing=all",
-    "build:new": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod --outputHashing=all",
-    "test": "ng test",
-    "test:new": "NODE_OPTIONS=--openssl-legacy-provider ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod --outputHashing=all",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider ng test",
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider ng lint",
+    "e2e": "NODE_OPTIONS=--openssl-legacy-provider ng e2e"
   },
   "private": true,
   "dependencies": {
