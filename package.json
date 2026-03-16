@@ -57,6 +57,8 @@
     "typescript": "~2.9.2"
   },
   "overrides": {
-    "ejs": ">=3.1.7"
+    "ejs": ">=3.1.7",
+    "loader-utils": "1.4.2",
+    "json5": ">=1.0.2"
   }
 }
