@@ -24,6 +24,7 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit() {
     console.log('SELECCIONADO', this.player);
+    if (!this.player) { return; }
     const mijugador = this.player;
     mijugador.positions_general_differences = mijugador.positions_general.map((value: any, index: number) => {
       return (index === 0) ? 0 : mijugador.positions_general[index - 1] - value;

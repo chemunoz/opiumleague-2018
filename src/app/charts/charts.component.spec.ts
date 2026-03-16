@@ -1,4 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ChartModule } from 'angular-highcharts';
 
 import { ChartsComponent } from './charts.component';
 
@@ -8,6 +10,7 @@ describe('ChartsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [ HttpClientTestingModule, ChartModule ],
       declarations: [ ChartsComponent ]
     })
     .compileComponents();
