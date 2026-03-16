@@ -15,7 +15,7 @@
     "@angular/animations": "6.1.10",
     "@angular/common": "21.2.4",
     "@angular/compiler": "6.1.10",
-    "@angular/core": "6.1.10",
+    "@angular/core": "19.2.20",
     "@angular/forms": "21.2.4",
     "@angular/platform-browser": "21.2.4",
     "@angular/platform-browser-dynamic": "21.2.4",
