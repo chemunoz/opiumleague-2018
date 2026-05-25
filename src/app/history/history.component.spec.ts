@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ChartModule } from 'angular-highcharts';
 
 import { HistoryComponent } from './history.component';
 
@@ -8,6 +9,7 @@ describe('HistoryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [ ChartModule ],
       declarations: [ HistoryComponent ]
     })
     .compileComponents();

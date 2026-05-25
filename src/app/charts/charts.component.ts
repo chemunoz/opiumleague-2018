@@ -110,6 +110,7 @@ export class ChartsComponent implements OnInit {
       // Jornadas GANADOR JORNADA
       if (player.positions_jornada.filter((position: any) => position === 1).length > 0) {
         position_series.jornada_winner.push({
+            type: 'column',
             name: `${player.team}`,
             data: [player.positions_jornada.filter((position: any) => position === 1).length],
             showInLegend: false,
@@ -229,6 +230,7 @@ export class ChartsComponent implements OnInit {
         }
       },
       series: [{
+        type: 'pie',
         name: 'Porcentaje',
         // colorByPoint: true,
         data: position_series.leader
@@ -268,6 +270,7 @@ export class ChartsComponent implements OnInit {
         }
       },
       series: [{
+        type: 'pie',
         name: 'Porcentaje',
         // colorByPoint: true,
         data: position_series.champions
@@ -307,6 +310,7 @@ export class ChartsComponent implements OnInit {
         }
       },
       series: [{
+        type: 'pie',
         name: 'Porcentaje',
         // colorByPoint: true,
         data: position_series.uefa
@@ -345,6 +349,7 @@ export class ChartsComponent implements OnInit {
         }
       },
       series: [{
+        type: 'pie',
         name: 'Porcentaje',
         // colorByPoint: true,
         data: position_series.intertoto
@@ -384,6 +389,7 @@ export class ChartsComponent implements OnInit {
         }
       },
       series: [{
+        type: 'pie',
         name: 'Porcentaje',
         // colorByPoint: true,
         data: position_series.descenso

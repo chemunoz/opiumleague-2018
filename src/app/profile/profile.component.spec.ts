@@ -1,4 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ChartModule } from 'angular-highcharts';
+import { ActivatedRoute } from '@angular/router';
+import { of } from 'rxjs';
 
 import { ProfileComponent } from './profile.component';
 
@@ -8,7 +13,11 @@ describe('ProfileComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ProfileComponent ]
+      imports: [ RouterTestingModule, HttpClientTestingModule, ChartModule ],
+      declarations: [ ProfileComponent ],
+      providers: [
+        { provide: ActivatedRoute, useValue: { params: of({ id: '1' }) } }
+      ]
     })
     .compileComponents();
   }));

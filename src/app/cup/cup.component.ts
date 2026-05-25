@@ -29,7 +29,7 @@ export class CupComponent implements OnInit {
       // Get todays date and time
       const now = new Date().getTime();
 
-      Competitions.length === 0 ? clearInterval(x) : null;
+      if (Competitions.length === 0) { clearInterval(x); }
       Competitions.forEach((competition, index) => {
         // Find the distance between now an the count down date
         const countDownDate = new Date(competition.deadline).getTime();
@@ -51,7 +51,7 @@ export class CupComponent implements OnInit {
         }
 
         // Output the result validating that the element exists
-        document.getElementById(competition.element) !== null ? document.getElementById(competition.element).innerHTML = text : null;
+        if (document.getElementById(competition.element) !== null) { document.getElementById(competition.element).innerHTML = text; }
       });
     }, 1000);
   }

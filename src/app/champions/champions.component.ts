@@ -31,7 +31,7 @@ export class ChampionsComponent implements OnInit {
     this.initCountDowns();
 
     this.players = this._servicioData.readPlayers();
-    this.players.sort((a, b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0))
+    this.players.sort((a, b) => (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0));
     console.log(this.players);
 
     this.championsGroups = this._servicioChampions.getGroups();
@@ -50,7 +50,7 @@ export class ChampionsComponent implements OnInit {
       if (Competitions.length === 0) {
         clearInterval(x);
       }
-      Competitions.forEach((competition, index) => {
+      Competitions.forEach((competition, i) => {
         // Find the distance between now an the count down date
         const countDownDate = new Date(competition.deadline).getTime();
         const distance = countDownDate - now;
@@ -60,7 +60,7 @@ export class ChampionsComponent implements OnInit {
         if (distance < 0) {
           // If the count down is over, write some text
           text = 'COMENZADA!!';
-          Competitions.splice(index, 1);
+          Competitions.splice(i, 1);
         } else {
           // Time calculations for days, hours, minutes and seconds
           const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -122,7 +122,7 @@ export class ChampionsComponent implements OnInit {
         const away1 = this.championsTables[group.name]['table'].find(x => x.id === partido1.away);
         const home2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.home);
         const away2 = this.championsTables[group.name]['table'].find(x => x.id === partido2.away);
-        [home1, away1, home2, away2].forEach((team: any, index: number) => {
+        [home1, away1, home2, away2].forEach((team: any, i: number) => {
           team.pj += 1;
           switch (index) {
             case 0:
@@ -237,7 +237,7 @@ export class ChampionsComponent implements OnInit {
       });
     });
 
-    console.log("CLASIFICACIONES", this.championsTables);
+    console.log('CLASIFICACIONES', this.championsTables);
   }
 
 }

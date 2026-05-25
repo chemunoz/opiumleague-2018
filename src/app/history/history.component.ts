@@ -33,6 +33,7 @@ export class HistoryComponent implements OnInit {
         enabled: false
       },
       series: [{
+        type: 'column',
         // showInLegend: false,
         name: 'Temporadas',
         data: [
