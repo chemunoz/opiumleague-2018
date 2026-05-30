@@ -7,7 +7,8 @@
     "build": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' ng build --prod --outputHashing=all",
     "test": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' ng test",
     "lint": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' ng lint",
-    "e2e": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' ng e2e"
+    "e2e": "NODE_OPTIONS='--openssl-legacy-provider --no-deprecation' ng e2e",
+    "check": "npm run lint && npm run test && npm run build"
   },
   "private": true,
   "dependencies": {
@@ -29,15 +30,18 @@
     "lodash": "^4.18.1",
     "popper.js": "^1.15.0",
     "rxjs": "^6.2.2",
-    "webpack-dev-server": "^5.2.4",
     "zone.js": "~0.8.26"
   },
+  "overrides": {
+    "webpack-dev-server": "3.11.3"
+  },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~21.2.12",
+    "@angular-devkit/build-angular": "~0.8.9",
+    "webpack-dev-server": "3.11.3",
     "@angular/cli": "~6.2.4",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
-    "@types/jasmine": "~2.8.8",
+    "@types/jasmine": "2.8.22",
     "@types/jasminewd2": "~2.0.3",
     "@types/jquery": "3.3.29",
     "@types/node": "~8.9.4",
