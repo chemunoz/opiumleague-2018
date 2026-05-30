@@ -29,7 +29,7 @@
     "lodash": "^4.18.1",
     "popper.js": "^1.15.0",
     "rxjs": "^6.2.2",
-    "webpack-dev-server": "^3.1.14",
+    "webpack-dev-server": "^5.2.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
