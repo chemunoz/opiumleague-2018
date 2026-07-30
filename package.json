@@ -36,7 +36,7 @@
     "webpack-dev-server": "3.11.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.8.9",
+    "@angular-devkit/build-angular": "~22.1.0",
     "webpack-dev-server": "3.11.3",
     "@angular/cli": "~6.2.4",
     "@angular/compiler-cli": "^6.1.0",
